@@ -5,23 +5,2751 @@
  * @source https://raw.githubusercontent.com/mrgriefs/tfr-moderator.bd/master/ATFRModerator.plugin.js
  * @updateUrl https://raw.githubusercontent.com/mrgriefs/tfr-moderator.bd/master/ATFRModerator.plugin.js
  */
- const _0xb9b6=['Unable\x20to\x20find\x20textarea','prompt','falsy','deleteRemainingResponses','Clyde','help','Amazing\x20of\x20you\x20to\x20pop\x20in,\x20{{user}}.\x20Enjoy\x20your\x20stay\x20and\x20make\x20some\x20best\x20buddies!\x20Get\x20some\x20roles\x20from\x20<#645783730559909908>\x20to\x20get\x20access\x20to\x20the\x20rest\x20of\x20the\x20server\x20:P','createdAt','stringify','getCurrentUser','anyUsage','Unknown\x20boolean\x20value.','validator','onStop','99642lNaTMu','<user>\x20[duration]\x20[reason]','58956mtnxFz','Command\x20info\x20must\x20be\x20an\x20Object.','\x5cs*)([^\x5cs]+)\x5cs([^\x5cs]+)','kick\x20','escapeStrikethrough','lastIndex','discriminator','splice','string','baseURL','findCommands','verify','701973582347108402','commands','registerType','cache','defaultHandling','length','getAuthor','setColor','editResponse','Collector\x20client\x20must\x20be\x20specified.','The\x20command\x20will\x20automatically\x20be\x20cancelled\x20in\x20','note','stop','kick','join','MessageEmbed','editCurrentResponse','first','ReactUtils','Content\x20portraying\x20any\x20type\x20of\x20sexual\x20activity\x20is\x20not\x20allowed.','patterns','inputs','style','attachments','role','0BDFDB.plugin.js','error','catch','guild_id','push','660668318142693416','[command]','label','escapeSpoiler','args','Prefix\x20for\x20local\x20commands','has','0.3.1','<user>','invitesUsed','.channelTextArea-2VhZ6z\x20textarea','`\x20command.','Who\x27s\x20there?\x20Oh,\x20it\x27s\x20just\x20you,\x20{{user}}!\x20Get\x20started\x20by\x20getting\x20some\x20freebie\x20roles\x20from\x20<#645783730559909908>.','render','Argument\x20label\x20must\x20be\x20a\x20string.','unpin','slice','red','getMember','How\x20long\x20system\x20messages\x20can\x20live\x20for','settings','No\x20message','725082357882683452','live',').\x0aCommand\x20run\x20methods\x20must\x20return\x20a\x20Promise\x20that\x20resolve\x20with\x20a\x20Message,\x20Array\x20of\x20Messages,\x20or\x20null/undefined.','Use\x20`','function','getByProps','help`.','format','multiple','oneOf','parseArgs','roles','You\x20provided\x20an\x20invalid\x20','awaitMessages','ajax','isNaN','object','emptyChecker','showConfirmationModal','clyde','disCN','Successfully\x20deleted\x20`','isEmpty','Switch','delete','SettingsUpdated','Unknown\x20Error','cleanContent','Command\x20name\x20must\x20be\x20lowercase.','isMentioned','hasPermission','method','Fixed\x20some\x20plugin\x20errors\x20that\x20stopped\x20the\x20use\x20of\x20the\x20API.','Unable\x20to\x20find\x20textarea\x20via\x20jquery','aliases','725111749648580618','prompts','Command\x20aliases\x20must\x20be\x20an\x20Array\x20of\x20strings.','patchedModules','534913vGCjBd','toLowerCase','Argument\x20wait\x20must\x20be\x20a\x20number.','Posts\x20containing,\x20portraying,\x20promoting\x20or\x20describing\x20extremely\x20sensitive\x20and/or\x20controversial\x20topics\x20are\x20not\x20allowed.','edit','examples','A\x20role\x20must\x20be\x20supplied!\x20','fetch','hasOne','TFR\x20moderator','_creationdatedate','author','warn','Please\x20download\x20it\x20from\x20[here](https://betterdiscord.net/ghdl?id=2252)\x20and\x20then\x20disable\x20and\x20reenable\x20this\x20plugin.','types','645783671978196992','answers','TextScroller','DiscordModules','Multiple\x20commands\x20found.\x20Please\x20be\x20more\x20specific.','includes','getName','guildOnly','130685AAdXUe','cancel','Argument\x20parse\x20must\x20be\x20a\x20function.','5GjXjoV','val','argsCount','buildPlugin','autoAliases','keydown','forEach','FriendlyError','patternMatches','token','https://raw.githubusercontent.com/mrgriefs/tfr-moderator.bd/master/ATFRModerator.plugin.js','origin','No\x20other\x20argument\x20may\x20come\x20after\x20an\x20infinite\x20argument.','editedAt','_getOriginInvite','wait','timestamp','SecretToken','obtain','isArray','all','mentions','Cancel','body','This\x20user\x20has\x20no\x20invite\x20history.','unmute\x20','getDescription','2dWcdUO','Whoops,\x20I\x20have\x20encountered\x20an\x20error\x20while\x20running\x20that\x20command.\x0aCheck\x20console\x20for\x20more\x20information.\x0a```','reduce','value','Collector\x20args\x20must\x20be\x20an\x20Array.','GuildStore','trim','usage','keyCode','[x]\x20','defaults','placeholder','The\x20library\x20plugin\x20needed\x20for\x20','users','createDM','role\x20','default','\x20doesn\x27t\x20have\x20a\x20validate()\x20method.','Here\x27s\x20the\x20list\x20of\x20autoreasons:\x0a','Could\x20not\x20download\x20BDFDB\x20library\x20plugin,\x20try\x20again\x20some\x20time\x20later.','pluginQueue','The\x20argument\x20client\x20must\x20be\x20specified.','guild','concat','substring','details','[too\x20long\x20to\x20show]','clearReactions','undefined','load','type','onLoad','\x5cs*)([^\x5cs]+)','Unable\x20to\x20find\x20channel\x20text\x20area\x20form','\x27s\x20run()\x20resolved\x20with\x20an\x20unknown\x20type\x0a(','folder','No\x20Message','time','Woah,\x20you\x20shouldn\x27t\x20be\x20using\x20this\x20command.','Griefs','ban\x20','help\x20command`\x20for\x20more\x20info.\x0a','ChannelTextAreaForm','Get\x20origin\x20information\x20of\x20a\x20user.','then','674411116927123476','Invisible','GET','some','channel','PluginUtils','LibraryModules','getVersion','forceAllUpdates','channel_id','code','validateInfo','embed','_getOriginJoinDate','220445cZeZCC','serverOnly','preventDefault','A\x20user\x20must\x20be\x20supplied!\x20','min','Respond\x20with\x20`cancel`\x20to\x20cancel\x20the\x20command.','setDescription','argsCollector','setTimeout','sendMessage','https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js','ZeresPluginLibrary','This.','argsSingleQuotes','\x0aExamples:\x20','validate','getGuild','truthy','Argument\x20info\x20must\x20be\x20an\x20Object.','clearResponses','query','querySelector','645783809492779052','0000','display','setState','max','promptLimit','Welcome\x20to\x20The\x20Furry\x20Refuge,\x20we\x20hope\x20you\x20have\x20a\x20great\x20stay.\x20{{user}}','assign','Invalid\x20invite','<user>\x20<number>','responseJSON','editable','Welcome\x20to\x20The\x20Furry\x20Refuge,\x20{{user}}!','Couldn\x27t\x20parse\x20value\x20\x22','escapeInlineCode','No\x20reason\x20added','>\x20originally\x20joined\x20via\x20`','indexOf','createElement','701973489329897562','cancelled','getChannel','Command\x20description\x20must\x20be\x20a\x20string.','toString','700320050422349864','replace','Debug\x20mode','content','\x5c`\x5c`\x5c`','isUsable','Command\x20examples\x20must\x20be\x20an\x20Array\x20of\x20strings.','single','Nothing\x20found.','false','<@!','escapeItalic','Show\x20invite\x20in\x20user\x20popout','true','receiveMessage','run','forceUpdateAll','prepend','enable','Argument\x20error\x20must\x20be\x20a\x20string.','yes','The\x20`','Multiple\x20','bot','injectInvite','Intentions\x20of\x20instigating,\x20manipulating\x20or\x20provoking\x20others\x27\x20emotions\x20for\x20amusement\x20or\x20purposeful\x20posts\x20of\x20inflammatory\x20and\x20digressive\x20or\x20extraneous\x20messages\x20is\x20prohibited.','NSFW\x20content\x20is\x20not\x20allowed\x20within\x20the\x20server.','Download\x20Now','<user>\x20<reason>','Deprecated','user/','createSettingsPanel','constructor','log','number','debug','started','keys','finalize','_globalEnabled','ChannelStore','sort','ban\x20@Griefs#9476\x207d\x206','DataUtils','682941933777322034','addEventListener','pinned','responsePositions','version','unknown','textValue','getSettingsPanel','obtainInfinite',':visible','Request\x20failed\x20with\x20message:\x20','size','prefix','inviteUsed','>,\x20','onStart','argsType','downloadModal','LastChannelStore','endsWith','Argument\x20key\x20must\x20be\x20a\x20string.','substr','onSettingsClosed','deserialize','deletable','You\x20do\x20not\x20have\x20the\x20correct\x20permissions\x20to\x20use\x20this\x20command.','Thanks\x20for\x20popping\x20in,\x20{{user}},\x20we\x20hope\x20you\x20have\x20a\x20great\x20time\x20in\x20The\x20Furry\x20Refuge.\x0aIn\x20the\x20meantime,\x20try\x20getting\x20some\x20roles\x20<#645783730559909908>\x20and\x20saying\x20\x22Hello\x22!','```','208871gRrCMY','avatar','success','<user>\x20[duration]\x20[reason|autoreason]','dmOnly','Depictions\x20of\x20morbid,\x20sickening,\x20unsettling\x20or\x20life-threatening\x20content\x20is\x20not\x20allowed.','system','user','.\x20Please\x20try\x20again.','reactions','preset','say','get','findOwner','responses','\x20seconds.','autowelcome','webhookID','key','revoke','pin','\x20-d\x20','`\x20command\x27s\x20accepted\x20format\x20is:\x20','username','Argument\x20must\x20have\x20either\x20\x22type\x22\x20or\x20\x22validate\x22\x20specified.','tts','direct','WebpackModules','hideUnknownCommands','data','message','important','slateTextArea','hidden','json','split','Argument\x20must\x20have\x20both\x20validate\x20and\x20parse\x20since\x20it\x20doesn\x27t\x20have\x20a\x20type.','respond','invite/','TextInput','client','editedTimestamp','values','force','Command\x20not\x20found.','.autocomplete-1vrmpx','plain','map','Targeted\x20harassment\x20towards\x20specific\x20groups\x20or\x20individuals\x20is\x20prohibited.','_awaiting','infinite','reply','SettingsSaveItem','parser','add','embeds','BDFDB_Global','PatchUtils','disabled','description','createdTimestamp','SlateUtils','yellow','attachHandler','userinfodate','\x20No\x20reason\x20provided.','Harassment\x20of\x20individuals,\x20organisations,\x20certain\x20groups\x20and\x20other\x20entities\x20is\x20not\x20tolerated.','state','dispatcher','exec','argsPromptLimit','argString','createBotMessage','reason','257417PwKzZN','MessageActions','A\x20number\x20must\x20be\x20supplied!\x20','Unable\x20to\x20find\x20user\x20data.','\x20Unmute','You\x20have\x20been\x20removed\x20from\x20the\x20server\x20due\x20to\x20suspicious\x20activity.','escapeUnderline','LibraryComponents','UserStore','toUpperCase','parse','System','1qqXqbM','\x20found,\x20please\x20be\x20more\x20specific:\x20','send','text','alert','edits','replyEmbed','disCNS','escapeMarkdown','help\x20','registry','command','getChannelId','amounts','/revoke','This\x20is\x20not\x20a\x20hook-up\x20server.','member','info','GuildMemberStore','Argument\x20validate\x20must\x20be\x20a\x20function.','name','nonce','loggingName','retry_after','Unknown\x20argsType\x20\x22','Required\x20arguments\x20may\x20not\x20come\x20after\x20optional\x20arguments.','request','boolean','#chat-messages-','react','loaded','Welcome\x20{{user}},\x20make\x20sure\x20to\x20select\x20some\x20roles\x20from\x20<#645783730559909908>\x20and\x20read\x20the\x20<#725856136065974322>\x20for\x20more\x20information.','editCode','members','findByTag','Command\x20not\x20found.\x20Try\x20`','`\x20at\x20','Command\x20name\x20must\x20be\x20a\x20string.','Library\x20Missing','round'];const _0x29bd=function(_0x3e85fa,_0x56a9d5){_0x3e85fa=_0x3e85fa-0x12a;let _0xb9b6c6=_0xb9b6[_0x3e85fa];return _0xb9b6c6;};const _0x3666cb=_0x29bd;(function(_0x3e5088,_0x1bf6d2){const _0x372ead=_0x29bd;while(!![]){try{const _0x16e8d6=parseInt(_0x372ead(0x19a))*parseInt(_0x372ead(0x21b))+-parseInt(_0x372ead(0x156))+parseInt(_0x372ead(0x218))+-parseInt(_0x372ead(0x201))*-parseInt(_0x372ead(0x162))+-parseInt(_0x372ead(0x236))*parseInt(_0x372ead(0x271))+-parseInt(_0x372ead(0x198))+parseInt(_0x372ead(0x2e7));if(_0x16e8d6===_0x1bf6d2)break;else _0x3e5088['push'](_0x3e5088['shift']());}catch(_0x5afd89){_0x3e5088['push'](_0x3e5088['shift']());}}}(_0xb9b6,0x5aa64));let serverId='368557500884189186',cmdsCId=_0x3666cb(0x2cb),huCmdsCId='761186029033619476',permRoles={'*':_0x3666cb(0x1da),'F':_0x3666cb(0x1fd),'E':_0x3666cb(0x210),'D':_0x3666cb(0x1c4),'C':_0x3666cb(0x29a),'B':_0x3666cb(0x1a6),'A':_0x3666cb(0x29f),'1':'670383526100860938','0':_0x3666cb(0x263)};var autowelcomeMessages=[_0x3666cb(0x293),'Welcome\x20to\x20The\x20Furry\x20Refuge,\x20we\x20hope\x20you\x20have\x20a\x20great\x20stay.\x20{{user}}',_0x3666cb(0x181),_0x3666cb(0x2e5),_0x3666cb(0x1d0),_0x3666cb(0x190)],autosanctionMessages=[_0x3666cb(0x13c),_0x3666cb(0x2b8),_0x3666cb(0x15b),_0x3666cb(0x171),'Offensive\x20or\x20racist\x20language\x20or\x20content,\x20discriminatory\x20jokes\x20and\x20hate\x20speech\x20is\x20prohibited.',_0x3666cb(0x2ec),_0x3666cb(0x2b9),_0x3666cb(0x14e),_0x3666cb(0x204),_0x3666cb(0x1b9)];const APIFunctions={'_getOriginJoinDate':function(_0x86e8fb){const _0x3d8d3f=_0x3666cb;if(_0x86e8fb===Object)_0x86e8fb=Object['values'](_0x86e8fb);if(!Array[_0x3d8d3f(0x22e)](_0x86e8fb))throw new Error(_0x3d8d3f(0x28f));if(_0x86e8fb[_0x3d8d3f(0x1ab)]==0x0)return null;return _0x86e8fb[_0x3d8d3f(0x2c8)]((_0x4624f2,_0x1d858f)=>_0x4624f2[_0x3d8d3f(0x226)][_0x3d8d3f(0x22b)]-_0x1d858f[_0x3d8d3f(0x226)][_0x3d8d3f(0x22b)]),new Date(_0x86e8fb[0x0][_0x3d8d3f(0x226)]['timestamp']);},'_getOriginInvite':function(_0x5ccffb){const _0x33d29b=_0x3666cb;if(_0x5ccffb===Object)_0x5ccffb=Object[_0x33d29b(0x136)](_0x5ccffb);if(!Array['isArray'](_0x5ccffb))throw new Error(_0x33d29b(0x28f));if(_0x5ccffb[_0x33d29b(0x1ab)]==0x0)return null;return _0x5ccffb['sort']((_0x4cd8f8,_0x3ba678)=>_0x4cd8f8[_0x33d29b(0x226)]['timestamp']-_0x3ba678[_0x33d29b(0x226)][_0x33d29b(0x22b)]),_0x5ccffb[0x0];}};function disambiguation(_0x414d72,_0x2e6670,_0x2fbd5a=_0x3666cb(0x176)){const _0x54046f=_0x3666cb,_0x543b6c=_0x414d72[_0x54046f(0x13b)](_0x562d24=>'`'+(_0x2fbd5a?_0x562d24[_0x2fbd5a]:_0x562d24)[_0x54046f(0x2a0)](/ /g,'\u00a0')+'`')[_0x54046f(0x1b4)](',\x20');return _0x54046f(0x2b5)+_0x2e6670+_0x54046f(0x163)+_0x543b6c;}function escapeMarkdown(_0x3015ed,{codeBlock:codeBlock=!![],inlineCode:inlineCode=!![],bold:bold=!![],italic:italic=!![],underline:underline=!![],strikethrough:strikethrough=!![],spoiler:spoiler=!![],codeBlockContent:codeBlockContent=!![],inlineCodeContent:inlineCodeContent=!![]}={}){const _0x5e7d04=_0x3666cb;if(!codeBlockContent)return _0x3015ed[_0x5e7d04(0x12f)]('```')[_0x5e7d04(0x13b)]((_0x9d01e,_0x7d3878,_0x7863e4)=>{const _0x15aaf2=_0x5e7d04;if(_0x7d3878%0x2&&_0x7d3878!==_0x7863e4['length']-0x1)return _0x9d01e;return Util[_0x15aaf2(0x16a)](_0x9d01e,{'inlineCode':inlineCode,'bold':bold,'italic':italic,'underline':underline,'strikethrough':strikethrough,'spoiler':spoiler,'inlineCodeContent':inlineCodeContent});})['join'](codeBlock?_0x5e7d04(0x2a3):'```');if(!inlineCodeContent)return _0x3015ed[_0x5e7d04(0x12f)](/(?<=^|[^`])`(?=[^`]|$)/g)[_0x5e7d04(0x13b)]((_0x32452c,_0x58519c,_0x44e9f5)=>{const _0x5a4dc0=_0x5e7d04;if(_0x58519c%0x2&&_0x58519c!==_0x44e9f5[_0x5a4dc0(0x1ab)]-0x1)return _0x32452c;return Util[_0x5a4dc0(0x16a)](_0x32452c,{'codeBlock':codeBlock,'bold':bold,'italic':italic,'underline':underline,'strikethrough':strikethrough,'spoiler':spoiler});})['join'](inlineCode?'\x5c`':'`');if(inlineCode)_0x3015ed=Util[_0x5e7d04(0x295)](_0x3015ed);if(codeBlock)_0x3015ed=Util['escapeCodeBlock'](_0x3015ed);if(italic)_0x3015ed=Util[_0x5e7d04(0x2aa)](_0x3015ed);if(bold)_0x3015ed=Util['escapeBold'](_0x3015ed);if(underline)_0x3015ed=Util[_0x5e7d04(0x15c)](_0x3015ed);if(strikethrough)_0x3015ed=Util[_0x5e7d04(0x19e)](_0x3015ed);if(spoiler)_0x3015ed=Util[_0x5e7d04(0x1c7)](_0x3015ed);return _0x3015ed;}module['exports']=(_0x2310c2=>{const _0x69ba47=_0x3666cb,_0x1ad50d={'info':{'name':'ATFRModerator','author':_0x69ba47(0x25d),'version':_0x69ba47(0x1cb),'description':_0x69ba47(0x20a)},'rawUrl':_0x69ba47(0x225),'changeLog':{'added':{},'fixed':{'API\x20Errors':_0x69ba47(0x1fa)}}};return!window[_0x69ba47(0x144)]||!window[_0x69ba47(0x144)][_0x69ba47(0x180)]&&!window[_0x69ba47(0x144)][_0x69ba47(0x2c3)]?class{[_0x69ba47(0x216)](){const _0x813e22=_0x69ba47;return _0x1ad50d[_0x813e22(0x173)][_0x813e22(0x176)];}[_0x69ba47(0x1ac)](){const _0x2a20c1=_0x69ba47;return _0x1ad50d['info'][_0x2a20c1(0x20c)];}[_0x69ba47(0x26a)](){const _0x5a8764=_0x69ba47;return _0x1ad50d['info'][_0x5a8764(0x2cf)];}[_0x69ba47(0x235)](){const _0x593420=_0x69ba47;return _0x1ad50d[_0x593420(0x173)]['description'];}['load'](){const _0x18b8a5=_0x69ba47;if(!global[_0x18b8a5(0x27c)])return BdApi['alert']('Local\x20version\x20of\x20ZeresPluginLibrary\x20required','For\x20this\x20plugin\x20to\x20work\x20you\x20need\x20to\x20have\x20the\x20ZeresPluginLibrary\x20plugin\x20installed.\x20'+_0x18b8a5(0x20e));if(!window[_0x18b8a5(0x144)]||!Array[_0x18b8a5(0x22e)](window['BDFDB_Global']['pluginQueue']))window[_0x18b8a5(0x144)]=Object[_0x18b8a5(0x28e)]({},window['BDFDB_Global'],{'pluginQueue':[]});!window[_0x18b8a5(0x144)][_0x18b8a5(0x2dc)]&&(window[_0x18b8a5(0x144)]['downloadModal']=!![],BdApi[_0x18b8a5(0x1ec)](_0x18b8a5(0x188),_0x18b8a5(0x242)+_0x1ad50d[_0x18b8a5(0x173)]['name']+'\x20is\x20missing.\x20Please\x20click\x20\x22Download\x20Now\x22\x20to\x20install\x20it.',{'confirmText':_0x18b8a5(0x2ba),'cancelText':_0x18b8a5(0x231),'onCancel':_0x384789=>{const _0x51f624=_0x18b8a5;delete window[_0x51f624(0x144)]['downloadModal'];},'onConfirm':_0x2543da=>{const _0x437c7c=_0x18b8a5;delete window[_0x437c7c(0x144)][_0x437c7c(0x2dc)],require(_0x437c7c(0x17c))[_0x437c7c(0x2f3)](_0x437c7c(0x27b),(_0x467c29,_0x3abeaf,_0x11e305)=>{const _0x493ac0=_0x437c7c;if(!_0x467c29&&_0x11e305&&_0x11e305[_0x493ac0(0x298)]('*\x20@name\x20BDFDB')>-0x1)require('fs')['writeFile'](require('path')[_0x493ac0(0x1b4)](BdApi['Plugins'][_0x493ac0(0x259)],_0x493ac0(0x1bf)),_0x11e305,_0x1eaadc=>{});else BdApi['alert']('Error',_0x493ac0(0x249));});}}));if(!window[_0x18b8a5(0x144)][_0x18b8a5(0x24a)][_0x18b8a5(0x215)](_0x1ad50d[_0x18b8a5(0x173)][_0x18b8a5(0x176)]))window['BDFDB_Global']['pluginQueue'][_0x18b8a5(0x1c3)](_0x1ad50d[_0x18b8a5(0x173)][_0x18b8a5(0x176)]);}['start'](){const _0x1e3649=_0x69ba47;this[_0x1e3649(0x253)]();}[_0x69ba47(0x1b2)](){}}:(([_0x5cdffe,_0x2ee32e])=>{const _0x5d3816=_0x69ba47;let _0x5b59e7=()=>{const _0x2794f5=_0x29bd;class _0x248c22{constructor(_0x45383d,_0x34e967={},_0x2b3880={'baseURL':baseURL,'token':token}){const _0x100a67=_0x29bd;let _0x4a71f8={'query':_0x34e967[_0x100a67(0x285)]||{},'baseURL':_0x34e967[_0x100a67(0x1a3)]||_0x2b3880[_0x100a67(0x1a3)],'version':_0x34e967['version']||'v1','method':_0x34e967[_0x100a67(0x1f9)]||_0x100a67(0x265),'token':_0x34e967[_0x100a67(0x224)]||_0x2b3880[_0x100a67(0x224)]},{baseURL:baseURL,version:_0x134ce7,query:_0x5167d3,method:_0x4b7632,token:token}=_0x4a71f8;if(!token)throw new Error('No\x20token\x20provided');if(baseURL[baseURL[_0x100a67(0x1ab)]-0x1]==='/')baseURL=baseURL['slice'](0x0,baseURL['length']-0x1);return new Promise((_0x4f423f,_0xf80ef1)=>{const _0xe44407=_0x100a67;this[_0xe44407(0x17c)]=$[_0xe44407(0x1e8)]({'url':baseURL+('/'+_0x134ce7+'/')+_0x45383d,'data':_0x5167d3,'dataType':_0xe44407(0x12e),'type':_0x4b7632,'headers':{'authorization':token}})[_0xe44407(0x2e9)]((_0x22f087,_0x3d1a59,_0x322416)=>{const _0x4354bd=_0xe44407;this[_0x4354bd(0x304)]=_0x322416[_0x4354bd(0x291)],_0x4f423f(this);})['error'](_0x59c760=>{const _0x454d77=_0xe44407;this['data']=_0x59c760[_0x454d77(0x291)],_0x4f423f(this);});});}}class _0x65823a extends Error{constructor(_0x559fbc){const _0x3a0d0f=_0x29bd;super(_0x559fbc),this[_0x3a0d0f(0x176)]=_0x3a0d0f(0x222);}}class _0x3eca93 extends _0x65823a{constructor(_0x52e58b){const _0x462d77=_0x29bd;super('Invalid\x20command\x20usage.\x20The\x20`'+_0x52e58b[_0x462d77(0x16d)][_0x462d77(0x176)]+_0x462d77(0x2fd)+_0x52e58b['usage'](_0x52e58b['command'][_0x462d77(0x1e1)])+'.\x20Use\x20'+_0x52e58b[_0x462d77(0x194)](_0x462d77(0x16b)+_0x52e58b['command']['name'])+'\x20for\x20more\x20information.'),this['name']='CommandFormatError';}}class _0x12dd12{static['resolveString'](_0x4c5af9){const _0x1902eb=_0x29bd;if(typeof _0x4c5af9===_0x1902eb(0x1a2))return _0x4c5af9;if(Array[_0x1902eb(0x22e)](_0x4c5af9))return _0x4c5af9[_0x1902eb(0x1b4)]('\x0a');return String(_0x4c5af9);}}class _0x387975{constructor(_0x450883,_0x58e560,_0x136bb1={}){const _0x388471=_0x29bd;_0x58e560 instanceof Object?_0x136bb1=_0x58e560:_0x136bb1[_0x388471(0x2a2)]=_0x58e560;let _0x2ca89a=()=>ZLibrary[_0x388471(0x213)][_0x388471(0x157)][_0x388471(0x27a)](_0x450883 instanceof Object?_0x450883['id']:_0x450883,_0x136bb1)[_0x388471(0x262)](_0x19dc1d=>{const _0x57c8e1=_0x388471;if(result['status']==0x1ad){let _0x2ae759=result[_0x57c8e1(0x232)][_0x57c8e1(0x179)];if(!_0x2ae759)_0x2ae759=0x3e8;console[_0x57c8e1(0x2c0)]('Rate\x20limited,\x20retrying\x20in\x20'+_0x2ae759+'ms'),window[_0x57c8e1(0x279)](()=>{_0x2ca89a();},_0x2ae759);}});return _0x2ca89a();}}class _0x42dca6{constructor(_0xf38042,_0x55f767,_0x12f9c0={}){const _0x1e2d86=_0x29bd;this[_0x1e2d86(0x12a)]=ZLibrary[_0x1e2d86(0x302)][_0x1e2d86(0x1df)]('createBotMessage')[_0x1e2d86(0x154)](_0xf38042 instanceof Object?_0xf38042['id']:_0xf38042,_0x55f767,_0x12f9c0['embeds'],_0x12f9c0[_0x1e2d86(0x178)]),this[_0x1e2d86(0x2f1)][_0x1e2d86(0x264)]();if(_0x12f9c0[_0x1e2d86(0x1bd)])this['message'][_0x1e2d86(0x1bd)]=_0x12f9c0[_0x1e2d86(0x1bd)];if(_0x12f9c0[_0x1e2d86(0x300)])this[_0x1e2d86(0x12a)][_0x1e2d86(0x300)]=Boolean(_0x12f9c0[_0x1e2d86(0x300)]);if(_0x12f9c0[_0x1e2d86(0x20c)])for(var _0x1327f7 in _0x12f9c0[_0x1e2d86(0x20c)]){this['message'][_0x1e2d86(0x20c)][_0x1327f7]=_0x12f9c0[_0x1e2d86(0x20c)][_0x1327f7];}return this['channel']=ZLibrary[_0x1e2d86(0x213)][_0x1e2d86(0x2c7)]['getChannel'](this[_0x1e2d86(0x12a)][_0x1e2d86(0x26c)]),this[_0x1e2d86(0x2ee)]=ZLibrary['DiscordModules'][_0x1e2d86(0x15e)]['getUser'](this[_0x1e2d86(0x12a)][_0x1e2d86(0x20c)]['id']),this['guild']=this[_0x1e2d86(0x267)]&&_0x1e2d86(0x1c2)in this[_0x1e2d86(0x267)]?ZLibrary[_0x1e2d86(0x213)][_0x1e2d86(0x23b)][_0x1e2d86(0x281)](this[_0x1e2d86(0x267)]['guild_id']):null,this['member']=this[_0x1e2d86(0x24c)]&&'id'in this[_0x1e2d86(0x24c)]&&this[_0x1e2d86(0x2ee)]&&'id'in this['user']?ZLibrary[_0x1e2d86(0x213)][_0x1e2d86(0x174)][_0x1e2d86(0x1d6)](this[_0x1e2d86(0x24c)]['id'],this[_0x1e2d86(0x2ee)]['id']):null,this;}[_0x2794f5(0x164)](){const _0x23880d=_0x2794f5;return ZLibrary[_0x23880d(0x213)][_0x23880d(0x157)][_0x23880d(0x2ad)](this[_0x23880d(0x26c)],this[_0x23880d(0x12a)]);}get[_0x2794f5(0x29c)](){const _0x488740=_0x2794f5;let _0x1bd25d=ZLibrary['DiscordModules'][_0x488740(0x2c7)][_0x488740(0x29c)](this[_0x488740(0x12a)]['channel_id']);if(_0x1bd25d)this[_0x488740(0x267)]=_0x1bd25d;return _0x1bd25d;}get[_0x2794f5(0x1ac)](){const _0x34dedb=_0x2794f5;let _0x261636=ZLibrary[_0x34dedb(0x213)][_0x34dedb(0x15e)]['getUser'](this[_0x34dedb(0x12a)][_0x34dedb(0x20c)]['id']);if(_0x261636)this['user']=_0x261636;return _0x261636;}get[_0x2794f5(0x281)](){const _0x164d7d=_0x2794f5;let _0x560e01=this[_0x164d7d(0x267)]&&_0x164d7d(0x1c2)in this[_0x164d7d(0x267)]?ZLibrary[_0x164d7d(0x213)][_0x164d7d(0x23b)][_0x164d7d(0x281)](this['channel'][_0x164d7d(0x1c2)]):null;if(_0x560e01)this['guild']=_0x560e01;return _0x560e01;}get[_0x2794f5(0x2f1)](){return{'Clyde':()=>{const _0x3155d8=_0x29bd;return this[_0x3155d8(0x12a)][_0x3155d8(0x20c)][_0x3155d8(0x2fe)]=_0x3155d8(0x18e),this[_0x3155d8(0x12a)][_0x3155d8(0x20c)]['id']=0x1,this['message']['author'][_0x3155d8(0x1a0)]='0000',this[_0x3155d8(0x12a)][_0x3155d8(0x20c)][_0x3155d8(0x2e8)]=_0x3155d8(0x1ed),this['message'][_0x3155d8(0x20c)][_0x3155d8(0x2b6)]=!0x0,this;},'System':()=>{const _0x3d771c=_0x29bd;return this[_0x3d771c(0x12a)][_0x3d771c(0x20c)]['username']=_0x3d771c(0x161),this[_0x3d771c(0x12a)]['author']['id']=0x1,this[_0x3d771c(0x12a)][_0x3d771c(0x20c)]['discriminator']=_0x3d771c(0x288),this['message'][_0x3d771c(0x20c)][_0x3d771c(0x2e8)]=_0x3d771c(0x1ed),this[_0x3d771c(0x12a)][_0x3d771c(0x20c)][_0x3d771c(0x2b6)]=!0x0,this;},'Invisible':()=>{const _0x196685=_0x29bd;return this[_0x196685(0x12a)][_0x196685(0x20c)][_0x196685(0x2fe)]='\u200a',this[_0x196685(0x12a)]['author']['id']=0x1,this[_0x196685(0x12a)]['author'][_0x196685(0x1a0)]=_0x196685(0x288),this['message']['author'][_0x196685(0x2e8)]=_0x196685(0x1ed),this[_0x196685(0x12a)][_0x196685(0x20c)][_0x196685(0x2b6)]=!0x0,this;}};}get[_0x2794f5(0x26c)](){const _0x2ef267=_0x2794f5;return this[_0x2ef267(0x12a)]['channel_id'];}get['author'](){return this['user'];}}class _0x297d4e{constructor(_0x472208){const _0x2c49f7=_0x2794f5;if(typeof _0x472208!==_0x2c49f7(0x1a2))throw new Error('Argument\x20type\x20ID\x20must\x20be\x20a\x20string.');if(_0x472208!==_0x472208[_0x2c49f7(0x202)]())throw new Error('Argument\x20type\x20ID\x20must\x20be\x20lowercase.');this['id']=_0x472208;}[_0x2794f5(0x280)](_0x505d2e,_0x55d493,_0x3f78b7){const _0x459397=_0x2794f5;throw new Error(this[_0x459397(0x2bf)]['name']+_0x459397(0x247));}['parse'](_0x351540,_0x9c521f,_0x347739){const _0x3ae279=_0x2794f5;throw new Error(this[_0x3ae279(0x2bf)]['name']+'\x20doesn\x27t\x20have\x20a\x20parse()\x20method.');}[_0x2794f5(0x1f0)](_0x338c90,_0x16f70d,_0x4ffd9d){return!_0x338c90;}}class _0x346d66 extends _0x297d4e{constructor(_0x439009){const _0x3fdb4f=_0x2794f5;super(_0x439009),this[_0x3fdb4f(0x20f)]=[];const _0x183dbd=_0x439009[_0x3fdb4f(0x12f)]('|');for(const _0x119e85 of _0x183dbd){const _0x2ceb9d=_0x5df6f4[_0x3fdb4f(0x20f)][_0x3fdb4f(0x2f3)](_0x119e85);if(!_0x2ceb9d)throw new Error('Argument\x20type\x20\x22'+_0x119e85+'\x22\x20is\x20not\x20registered.');this[_0x3fdb4f(0x20f)][_0x3fdb4f(0x1c3)](_0x2ceb9d);}}async[_0x2794f5(0x280)](_0x30bb48,_0x394bcf,_0x1f95c4){const _0x2d08e4=_0x2794f5;let _0x4e89ee=this[_0x2d08e4(0x20f)][_0x2d08e4(0x13b)](_0x382009=>!_0x382009[_0x2d08e4(0x1f0)](_0x30bb48,_0x394bcf,_0x1f95c4)?_0x382009[_0x2d08e4(0x280)](_0x30bb48,_0x394bcf,_0x1f95c4):![]);_0x4e89ee=await Promise[_0x2d08e4(0x22f)](_0x4e89ee);if(_0x4e89ee[_0x2d08e4(0x266)](_0x32ef11=>_0x32ef11&&typeof _0x32ef11!==_0x2d08e4(0x1a2)))return!![];const _0x3c0574=_0x4e89ee['filter'](_0x88e9ca=>typeof _0x88e9ca===_0x2d08e4(0x1a2));if(_0x3c0574['length']>0x0)return _0x3c0574[_0x2d08e4(0x1b4)]('\x0a');return![];}async['parse'](_0xf611ab,_0x4eea12,_0x432951){const _0x576c23=_0x2794f5;let _0x4b3e4d=this[_0x576c23(0x20f)]['map'](_0x361ee9=>!_0x361ee9[_0x576c23(0x1f0)](_0xf611ab,_0x4eea12,_0x432951)?_0x361ee9[_0x576c23(0x280)](_0xf611ab,_0x4eea12,_0x432951):![]);_0x4b3e4d=await Promise[_0x576c23(0x22f)](_0x4b3e4d);for(let _0x1ebdaa=0x0;_0x1ebdaa<_0x4b3e4d['length'];_0x1ebdaa++){if(_0x4b3e4d[_0x1ebdaa]&&typeof _0x4b3e4d[_0x1ebdaa]!=='string')return this['types'][_0x1ebdaa]['parse'](_0xf611ab,_0x4eea12,_0x432951);}throw new Error(_0x576c23(0x294)+_0xf611ab+'\x22\x20with\x20union\x20type\x20'+this['id']+'.');}[_0x2794f5(0x1f0)](_0x5e3fcf,_0x10a0d8,_0x4fe603){const _0x47a090=_0x2794f5;return!this[_0x47a090(0x20f)][_0x47a090(0x266)](_0x376027=>!_0x376027['isEmpty'](_0x5e3fcf,_0x10a0d8,_0x4fe603));}}class _0x149621{constructor(_0xb04e4b,_0x409291){const _0x5a1e6b=_0x2794f5;this[_0x5a1e6b(0x2bf)]['validateInfo'](_0xb04e4b,_0x409291),this[_0x5a1e6b(0x2f9)]=_0x409291[_0x5a1e6b(0x2f9)],this[_0x5a1e6b(0x1c6)]=_0x409291[_0x5a1e6b(0x1c6)]||_0x409291['key'],this['prompt']=_0x409291[_0x5a1e6b(0x18b)],this['error']=_0x409291[_0x5a1e6b(0x1c0)]||null,this[_0x5a1e6b(0x254)]=this['constructor']['determineType'](_0xb04e4b,_0x409291[_0x5a1e6b(0x254)]),this[_0x5a1e6b(0x28b)]=typeof _0x409291[_0x5a1e6b(0x28b)]!=='undefined'?_0x409291['max']:null,this[_0x5a1e6b(0x275)]=typeof _0x409291[_0x5a1e6b(0x275)]!=='undefined'?_0x409291[_0x5a1e6b(0x275)]:null,this[_0x5a1e6b(0x246)]=typeof _0x409291[_0x5a1e6b(0x246)]!==_0x5a1e6b(0x252)?_0x409291[_0x5a1e6b(0x246)]:null,this[_0x5a1e6b(0x1e3)]=typeof _0x409291['oneOf']!==_0x5a1e6b(0x252)?_0x409291['oneOf']:null,this[_0x5a1e6b(0x13e)]=Boolean(_0x409291[_0x5a1e6b(0x13e)]),this['validator']=_0x409291['validate']||null,this[_0x5a1e6b(0x141)]=_0x409291[_0x5a1e6b(0x160)]||null,this[_0x5a1e6b(0x1eb)]=_0x409291[_0x5a1e6b(0x1f0)]||null,this['wait']=typeof _0x409291[_0x5a1e6b(0x22a)]!=='undefined'?_0x409291[_0x5a1e6b(0x22a)]:0x1e,this[_0x5a1e6b(0x2b0)]=typeof _0x409291[_0x5a1e6b(0x2b0)]===_0x5a1e6b(0x1a2)?_0x409291['prepend']:null,this[_0x5a1e6b(0x2eb)]=typeof _0x409291['dmOnly']!=='undefined'?_0x409291[_0x5a1e6b(0x2eb)]:![];}async['obtain'](_0x50bcd6,_0x49e491,_0x3dbed3=Infinity){const _0x133260=_0x2794f5;let _0x318360=this['isEmpty'](_0x49e491,_0x50bcd6);if(_0x318360&&this['default']!==null)return{'value':typeof this[_0x133260(0x246)]==='function'?await this[_0x133260(0x246)](_0x50bcd6,this):this['default'],'cancelled':null,'prompts':[],'answers':[]};if(this[_0x133260(0x13e)])return this[_0x133260(0x2d3)](_0x50bcd6,_0x49e491,_0x3dbed3);const _0x41aaf0=this[_0x133260(0x22a)]>0x0&&this['wait']!==Infinity?this[_0x133260(0x22a)]*0x3e8:undefined,_0x19446f=[],_0x117120=[];let _0x9b3716=!_0x318360?await this[_0x133260(0x280)](_0x49e491,_0x50bcd6):![];while(!_0x9b3716||typeof _0x9b3716===_0x133260(0x1a2)){if(_0x19446f[_0x133260(0x1ab)]>=_0x3dbed3)return{'value':null,'cancelled':_0x133260(0x28c),'prompts':_0x19446f,'answers':_0x117120};let _0x563d41=new Disocrd[(_0x133260(0x1b5))]()[_0x133260(0x277)](stripIndents`
-                        ${stripIndents`${_0x318360?this[_0x133260(0x18b)]:_0x9b3716?_0x9b3716:_0x133260(0x1e6)+this['label']+_0x133260(0x2ef)}`}
-                        ${oneLine`${this[_0x133260(0x2b0)]?this[_0x133260(0x2b0)]:_0x133260(0x276)}`}
-                        `);if(!_0x9b3716)_0x563d41['setColor'](colour[_0x133260(0x14a)]);else _0x563d41[_0x133260(0x1ad)](colour[_0x133260(0x1d5)]);_0x19446f[_0x133260(0x1c3)](this[_0x133260(0x2eb)]?await _0x50bcd6[_0x133260(0x301)](_0x563d41):await _0x50bcd6[_0x133260(0x13f)](_0x563d41));const _0x33e644=await(this['dmOnly']?await _0x50bcd6[_0x133260(0x20c)][_0x133260(0x244)]():_0x50bcd6[_0x133260(0x267)])['awaitMessages'](_0x3e375f=>_0x3e375f[_0x133260(0x20c)]['id']===_0x50bcd6['author']['id'],{'max':0x1,'time':_0x41aaf0});if(_0x33e644&&_0x33e644['size']===0x1)_0x117120[_0x133260(0x1c3)](_0x33e644['first']()),_0x49e491=_0x117120[_0x117120[_0x133260(0x1ab)]-0x1][_0x133260(0x2a2)];else return{'value':null,'cancelled':_0x133260(0x25b),'prompts':_0x19446f,'answers':_0x117120};if(_0x49e491[_0x133260(0x202)]()===_0x133260(0x219))return{'value':null,'cancelled':_0x133260(0x2ee),'prompts':_0x19446f,'answers':_0x117120};_0x318360=this['isEmpty'](_0x49e491,_0x50bcd6),_0x9b3716=await this[_0x133260(0x280)](_0x49e491,_0x50bcd6);}return{'value':await this[_0x133260(0x160)](_0x49e491,_0x50bcd6),'cancelled':null,'prompts':_0x19446f,'answers':_0x117120};}async['obtainInfinite'](_0x4fba93,_0x43c9a3,_0x46f398=Infinity){const _0x5b77a2=_0x2794f5,_0x59281f=this[_0x5b77a2(0x22a)]>0x0&&this[_0x5b77a2(0x22a)]!==Infinity?this[_0x5b77a2(0x22a)]*0x3e8:undefined,_0x503290=[],_0x4a0894=[],_0xbfde77=[];let _0x4c73ce=0x0;while(!![]){let _0x3fc0d1=_0x43c9a3&&_0x43c9a3[_0x4c73ce]?_0x43c9a3[_0x4c73ce]:null,_0x43650e=_0x3fc0d1?await this['validate'](_0x3fc0d1,_0x4fba93):![],_0x1285cf=0x0;while(!_0x43650e||typeof _0x43650e===_0x5b77a2(0x1a2)){_0x1285cf++;if(_0x1285cf>_0x46f398)return{'value':null,'cancelled':'promptLimit','prompts':_0x4a0894,'answers':_0xbfde77};if(_0x3fc0d1){const _0x1308db=escapeMarkdown(_0x3fc0d1)[_0x5b77a2(0x2a0)](/@/g,'@​');_0x4a0894[_0x5b77a2(0x1c3)](await _0x4fba93['reply'](stripIndents`
-                                    ${_0x43650e?_0x43650e:oneLine`
-                                        You provided an invalid ${this[_0x5b77a2(0x1c6)]},
-                                        "${_0x1308db[_0x5b77a2(0x1ab)]<0x73a?_0x1308db:_0x5b77a2(0x250)}".
+let serverId = '368557500884189186';
+let cmdsCId = '682941933777322034';
+let huCmdsCId = '761186029033619476';
+let permRoles = {
+    '*': '725082357882683452',
+    'F': '725111749648580618',
+    'E': '645783671978196992',
+    'D': '660668318142693416',
+    'C': '701973489329897562',
+    'B': '701973582347108402',
+    'A': '700320050422349864',
+    '1': '670383526100860938',
+    '0': '674411116927123476'
+};
+var autowelcomeMessages = [
+    'Welcome to The Furry Refuge, {{user}}!',
+    'Welcome to The Furry Refuge, we hope you have a great stay. {{user}}',
+    'Welcome {{user}}, make sure to select some roles from <#645783730559909908> and read the <#725856136065974322> for more information.',
+    'Thanks for popping in, {{user}}, we hope you have a great time in The Furry Refuge.\nIn the meantime, try getting some roles <#645783730559909908> and saying "Hello"!',
+    'Who\'s there? Oh, it\'s just you, {{user}}! Get started by getting some freebie roles from <#645783730559909908>.',
+    'Amazing of you to pop in, {{user}}. Enjoy your stay and make some best buddies! Get some roles from <#645783730559909908> to get access to the rest of the server :P'
+];
+var autosanctionMessages = [
+    'Targeted harassment towards specific groups or individuals is prohibited.',
+    'Intentions of instigating, manipulating or provoking others\' emotions for amusement or purposeful posts of inflammatory and digressive or extraneous messages is prohibited.',
+	'You have been removed from the server due to suspicious activity.',
+    'This is not a hook-up server.',
+    'Offensive or racist language or content, discriminatory jokes and hate speech is prohibited.',
+    'Depictions of morbid, sickening, unsettling or life-threatening content is not allowed.',
+    'NSFW content is not allowed within the server.',
+    'Harassment of individuals, organisations, certain groups and other entities is not tolerated.',
+    'Posts containing, portraying, promoting or describing extremely sensitive and/or controversial topics are not allowed.',
+    'Content portraying any type of sexual activity is not allowed.',
+];
+const APIFunctions = {
+    _getOriginJoinDate:function(invites){
+        if (invites === Object) invites = Object.values(invites);
+        if (!Array.isArray(invites)) throw new Error('Invalid invite');
+        if (invites.length == 0) return null;
+        invites.sort((a, b) => a.origin.timestamp - b.origin.timestamp);
+        return new Date(invites[0].origin.timestamp);
+    },
+    _getOriginInvite:function(invites){
+        if (invites === Object) invites = Object.values(invites);
+        if (!Array.isArray(invites)) throw new Error('Invalid invite');
+        if (invites.length == 0) return null;
+        invites.sort((a, b) => a.origin.timestamp - b.origin.timestamp);
+        return invites[0];
+    }
+};
+function disambiguation(items, label, property = 'name') {
+	const itemList = items.map(item => `\`${(property ? item[property] : item).replace(/ /g, '\xa0')}\``).join(', ');
+	return `Multiple ${label} found, please be more specific: ${itemList}`;
+}
+
+function escapeMarkdown(
+    text,
+    {
+      codeBlock = true,
+      inlineCode = true,
+      bold = true,
+      italic = true,
+      underline = true,
+      strikethrough = true,
+      spoiler = true,
+      codeBlockContent = true,
+      inlineCodeContent = true,
+    } = {},
+  ) {
+    if (!codeBlockContent) {
+      return text
+        .split('```')
+        .map((subString, index, array) => {
+          if (index % 2 && index !== array.length - 1) return subString;
+          return Util.escapeMarkdown(subString, {
+            inlineCode,
+            bold,
+            italic,
+            underline,
+            strikethrough,
+            spoiler,
+            inlineCodeContent,
+          });
+        })
+        .join(codeBlock ? '\\`\\`\\`' : '```');
+    }
+    if (!inlineCodeContent) {
+      return text
+        .split(/(?<=^|[^`])`(?=[^`]|$)/g)
+        .map((subString, index, array) => {
+          if (index % 2 && index !== array.length - 1) return subString;
+          return Util.escapeMarkdown(subString, {
+            codeBlock,
+            bold,
+            italic,
+            underline,
+            strikethrough,
+            spoiler,
+          });
+        })
+        .join(inlineCode ? '\\`' : '`');
+    }
+    if (inlineCode) text = Util.escapeInlineCode(text);
+    if (codeBlock) text = Util.escapeCodeBlock(text);
+    if (italic) text = Util.escapeItalic(text);
+    if (bold) text = Util.escapeBold(text);
+    if (underline) text = Util.escapeUnderline(text);
+    if (strikethrough) text = Util.escapeStrikethrough(text);
+    if (spoiler) text = Util.escapeSpoiler(text);
+    return text;
+  }
+
+module.exports = (_ => {
+	const config = {
+		"info": {
+			"name": "ATFRModerator",
+			// "displayName": "0TFRModerator",
+			"author": "Griefs",
+			"version": "0.3.1",
+			"description": "TFR moderator"
+        },
+        "rawUrl": "https://raw.githubusercontent.com/mrgriefs/tfr-moderator.bd/master/ATFRModerator.plugin.js",
+		"changeLog": {
+            // "deprecated": {
+            //     "Invite In User Modal": "Invites in user modals has been deprecated due to optimisations flaws."
+            // },
+			"added": {
+                // "Auto Welcome": "You can now welcome new members by using presets via the `.aw <user> <number>` command. You can view all auto welcome messages via `.help autowelcome`",
+                // "Auto Reason": "You can now add reasons to your sanctions (.ban, .mute, .kick, .warn) simply by using the number of the auto reason. View all autoreasons by using `.help ban` or `.help mute`, etc",
+                // "API Functionality": "Yes! You can now interact with the api.paw.bot API via commands (.revoke, .origin). Make sure to add your token in settings!",
+                // "Invite In User Modal": "The invite a user used will now appear when clicking on a user, so now you can just click on a user to see where they were invited from. This can be disabled any time in settings."
+			},
+			"fixed": {
+            //     "\"Library Missing\"": "The 'Library Missing' appearing when starting Discord even with the library installed and enabled has been fixed."
+				"API Errors": "Fixed some plugin errors that stopped the use of the API."
+			}
+		}
+	};
+
+	return !window.BDFDB_Global || (!window.BDFDB_Global.loaded && !window.BDFDB_Global.started) ? class {
+		getName () {return config.info.name;}
+		getAuthor () {return config.info.author;}
+		getVersion () {return config.info.version;}
+		getDescription () {return config.info.description;}
+		
+		load() {
+            // console.log(config.info.name, 'Main load')
+            if (!global.ZeresPluginLibrary) return BdApi.alert("Local version of ZeresPluginLibrary required", "For this plugin to work you need to have the ZeresPluginLibrary plugin installed. " +
+            "Please download it from [here](https://betterdiscord.net/ghdl?id=2252) and then disable and reenable this plugin.");
+			if (!window.BDFDB_Global || !Array.isArray(window.BDFDB_Global.pluginQueue)) window.BDFDB_Global = Object.assign({}, window.BDFDB_Global, {pluginQueue: []});
+			if (!window.BDFDB_Global.downloadModal) {
+				window.BDFDB_Global.downloadModal = true;
+				BdApi.showConfirmationModal("Library Missing", `The library plugin needed for ${config.info.name} is missing. Please click "Download Now" to install it.`, {
+					confirmText: "Download Now",
+					cancelText: "Cancel",
+					onCancel: _ => {delete window.BDFDB_Global.downloadModal;},
+					onConfirm: _ => {
+						delete window.BDFDB_Global.downloadModal;
+						require("request").get("https://mwittrien.github.io/BetterDiscordAddons/Library/0BDFDB.plugin.js", (e, r, b) => {
+							if (!e && b && b.indexOf(`* @name BDFDB`) > -1) require("fs").writeFile(require("path").join(BdApi.Plugins.folder, "0BDFDB.plugin.js"), b, _ => {});
+							else BdApi.alert("Error", "Could not download BDFDB library plugin, try again some time later.");
+						});
+					}
+				});
+			}
+			if (!window.BDFDB_Global.pluginQueue.includes(config.info.name)) window.BDFDB_Global.pluginQueue.push(config.info.name);
+		}
+		start() {
+			// console.log(config.info.name, 'Main start')
+			this.load();
+		}
+		stop() {}
+	} : (([Plugin, BDFDB]) => {
+        let LoadClasses = () => {
+            // console.log(config.info.name, 'Loading classes...')
+            class APIRequest {
+                constructor(endpoint, ops = {}, p = {baseURL: baseURL, token: token}) {
+                    let options = {
+                        query: ops.query || {},
+                        baseURL: (ops.baseURL || p.baseURL),
+                        version: ops.version || 'v1',
+                        method: ops.method || 'GET',
+                        token: ops.token || p.token,
+                    };
+                    let { baseURL, version, query, method, token } = options;
+                    if (!token) throw new Error('No token provided');
+                    if (baseURL[baseURL.length - 1] === '/') baseURL = baseURL.slice(0, baseURL.length - 1);
+                    return new Promise((r, e) => {
+                        this.request = $.ajax({
+                            url: baseURL + `/${version}/` + endpoint,
+                            data: query,
+                            dataType: 'json',
+                            type: method,
+                            headers: {
+                                authorization: token,
+                            },
+                        })
+                        .success((e, t, n) => {
+                            this.data = n.responseJSON;
+                            r(this);
+                        })
+                        .error((n) => {
+                            this.data = n.responseJSON;
+                            r(this);
+                        })
+                    })
+                }
+            }
+
+            /**
+             * Has a message that can be considered user-friendly
+             * @extends {Error}
+             */
+            class FriendlyError extends Error {
+                /** @param {string} message - The error message */
+                constructor(message) {
+                    super(message);
+                    this.name = 'FriendlyError';
+                }
+            }
+            
+            /**
+             * Has a descriptive message for a command not having proper format
+             * @extends {FriendlyError}
+             */
+            class CommandFormatError extends FriendlyError {
+                /**
+                 * @param {CommandMessage} msg - The command message the error is for
+                 */
+                constructor(msg) {
+                    super(
+                        `Invalid command usage. The \`${msg.command.name}\` command's accepted format is: ${msg.usage(
+                            msg.command.format
+                        )}. Use ${msg.anyUsage(
+                            `help ${msg.command.name}`
+                        )} for more information.`
+                    );
+                    this.name = 'CommandFormatError';
+                }
+            }
+            
+            class Util {
+                /**
+                 * Resolves a StringResolvable to a string.
+                 * @param {StringResolvable} data The string resolvable to resolve
+                 * @returns {string}
+                 */
+                static resolveString(data) {
+                    if (typeof data === 'string') return data;
+                    if (Array.isArray(data)) return data.join('\n');
+                    return String(data);
+                }
+            }
+
+            class Message {
+                constructor(channel, content, options = {}) {
+                    if (content instanceof Object) {
+                        options = content;
+                    } else {
+                        options.content = content;
+                    }
+                    let send = () => ZLibrary.DiscordModules.MessageActions.sendMessage(channel instanceof Object ? channel.id : channel, options).then(r => {
+                        if(result.status == 429){
+                            let wait = result.body.retry_after;
+                            if(!wait) wait = 1000;
+                            console.log("Rate limited, retrying in " + wait + "ms");
+                            window.setTimeout(()=>{send();},wait);
+                        }
+                    });
+                    return send();
+                }
+            }
+            
+            /** A container for virtualised messages */
+            class VirtualMessage {
+                constructor(channel, content, options = {}) {
+                    this.message = ZLibrary.WebpackModules.getByProps('createBotMessage').createBotMessage(channel instanceof Object ? channel.id : channel, content, options.embeds, options.loggingName);
+                    this.preset.Invisible();
+                    if (options.attachments) this.message.attachments = options.attachments;
+                    if (options.tts) this.message.tts = Boolean(options.tts);
+                    if (options.author) for (var i in options.author) {
+                        this.message.author[i] = options.author[i];
+                    }
+                    this.channel = ZLibrary.DiscordModules.ChannelStore.getChannel(this.message.channel_id);
+                    this.user = ZLibrary.DiscordModules.UserStore.getUser(this.message.author.id);
+                    this.guild = this.channel && 'guild_id' in this.channel ? ZLibrary.DiscordModules.GuildStore.getGuild(this.channel.guild_id) : null;
+                    this.member = this.guild && 'id' in this.guild && this.user && 'id' in this.user ? ZLibrary.DiscordModules.GuildMemberStore.getMember(this.guild.id, this.user.id) : null;
+                    return this;
+                };
+                send() {
+                    return ZLibrary.DiscordModules.MessageActions.receiveMessage(this.channel_id, this.message);
+                };
+                get getChannel() {
+                    let r = ZLibrary.DiscordModules.ChannelStore.getChannel(this.message.channel_id);
+                    if (r) this.channel = r;
+                    return r;
+                };
+                get getAuthor() {
+                    let r = ZLibrary.DiscordModules.UserStore.getUser(this.message.author.id);
+                    if (r) this.user = r;
+                    return r;
+                };
+                get getGuild() {
+                    let r = this.channel && 'guild_id' in this.channel ? ZLibrary.DiscordModules.GuildStore.getGuild(this.channel.guild_id) : null;
+                    if (r) this.guild = r;
+                    return r;
+                }
+            
+                get preset() {
+                    return {
+                        'Clyde': () => {
+                            this.message.author.username = "Clyde";
+                            this.message.author.id = 1;
+                            this.message.author.discriminator = '0000';
+                            this.message.author.avatar = 'clyde';
+                            this.message.author.bot = !0;
+                            return this;
+                        },
+                        'System': () => {
+                            this.message.author.username = "System";
+                            this.message.author.id = 1;
+                            this.message.author.discriminator = '0000';
+                            this.message.author.avatar = 'clyde';
+                            this.message.author.bot = !0;
+                            return this;
+                        },
+                        'Invisible': () => {
+                            this.message.author.username = "\u200A";
+                            this.message.author.id = 1;
+                            this.message.author.discriminator = '0000';
+                            this.message.author.avatar = 'clyde';
+                            this.message.author.bot = !0;
+                            return this;
+                        },
+                    }
+                };
+            
+                /**
+                 * Shortcut to `this.message.channel_id`
+                 * @type {string}
+                 * @readonly
+                 */
+                get channel_id() {
+                    return this.message.channel_id;
+                };
+            
+                /**
+                 * Alternative to `this.user`
+                 * @type {Object}
+                 * @readonly
+                 */
+                get author() {
+                    return this.user;
+                };
+            }
+            
+            
+            
+            
+            /** A type for command arguments */
+            class ArgumentType {
+                /**
+                 * @param {string} id - The argument type ID (this is what you specify in {@link ArgumentInfo#type})
+                 */
+                constructor(id) {
+                    if(typeof id !== 'string') throw new Error('Argument type ID must be a string.');
+                    if(id !== id.toLowerCase()) throw new Error('Argument type ID must be lowercase.');
+            
+                    /**
+                     * ID of this argument type (this is what you specify in {@link ArgumentInfo#type})
+                     * @type {string}
+                     */
+                    this.id = id;
+                }
+            
+                // eslint-disable-next-line valid-jsdoc
+                /**
+                 * Validates a value string against the type
+                 * @param {string} value - Value to validate
+                 * @param {CommandMessage} msg - Message the value was obtained from
+                 * @param {Argument} arg - Argument the value was obtained from
+                 * @return {boolean|string|Promise<boolean|string>} Whether the value is valid, or an error message
+                 * @abstract
+                 */
+                validate(value, msg, arg) { // eslint-disable-line no-unused-vars
+                    throw new Error(`${this.constructor.name} doesn't have a validate() method.`);
+                }
+            
+                // eslint-disable-next-line valid-jsdoc
+                /**
+                 * Parses the raw value string into a usable value
+                 * @param {string} value - Value to parse
+                 * @param {CommandMessage} msg - Message the value was obtained from
+                 * @param {Argument} arg - Argument the value was obtained from
+                 * @return {*|Promise<*>} Usable value
+                 * @abstract
+                 */
+                parse(value, msg, arg) { // eslint-disable-line no-unused-vars
+                    throw new Error(`${this.constructor.name} doesn't have a parse() method.`);
+                }
+            
+                /**
+                 * Checks whether a value is considered to be empty. This determines whether the default value for an argument
+                 * should be used and changes the response to the user under certain circumstances.
+                 * @param {string} value - Value to check for emptiness
+                 * @param {CommandMessage} msg - Message the value was obtained from
+                 * @param {Argument} arg - Argument the value was obtained from
+                 * @return {boolean} Whether the value is empty
+                 */
+                isEmpty(value, msg, arg) { // eslint-disable-line no-unused-vars
+                    return !value;
+                }
+            }
+            
+            /**
+             * A type for command arguments that handles multiple other types
+             * @extends {ArgumentType}
+             */
+            class ArgumentUnionType extends ArgumentType {
+                constructor(id) {
+                    super(id);
+            
+                    /**
+                     * Types to handle, in order of priority
+                     * @type {ArgumentType[]}
+                     */
+                    this.types = [];
+                    const typeIDs = id.split('|');
+                    for(const typeID of typeIDs) {
+                        const type = registry.types.get(typeID);
+                        if(!type) throw new Error(`Argument type "${typeID}" is not registered.`);
+                        this.types.push(type);
+                    }
+                }
+            
+                async validate(value, msg, arg) {
+                    let results = this.types.map(type => !type.isEmpty(value, msg, arg) ? type.validate(value, msg, arg) : false);
+                    results = await Promise.all(results);
+                    if(results.some(valid => valid && typeof valid !== 'string')) return true;
+                    const errors = results.filter(valid => typeof valid === 'string');
+                    if(errors.length > 0) return errors.join('\n');
+                    return false;
+                }
+            
+                async parse(value, msg, arg) {
+                    let results = this.types.map(type => !type.isEmpty(value, msg, arg) ? type.validate(value, msg, arg) : false);
+                    results = await Promise.all(results);
+                    for(let i = 0; i < results.length; i++) {
+                        if(results[i] && typeof results[i] !== 'string') return this.types[i].parse(value, msg, arg);
+                    }
+                    throw new Error(`Couldn't parse value "${value}" with union type ${this.id}.`);
+                }
+            
+                isEmpty(value, msg, arg) {
+                    return !this.types.some(type => !type.isEmpty(value, msg, arg));
+                }
+            }
+            
+            
+            /** A fancy argument */
+            class Argument {
+                /**
+                 * @typedef {Object} ArgumentInfo
+                 * @property {string} key - Key for the argument
+                 * @property {string} [label=key] - Label for the argument
+                 * @property {string} prompt - First prompt for the argument when it wasn't specified
+                 * @property {string} [error] - Predefined error message to output for the argument when it isn't valid
+                 * @property {string} [type] - Type of the argument (must be the ID of one of the registered argument types
+                 * or multiple IDs in order of priority separated by `|` for a union type - see
+                 * {@link CommandRegistry#registerDefaultTypes} for the built-in types)
+                 * @property {number} [max] - If type is `integer` or `float`, this is the maximum value of the number.
+                 * If type is `string`, this is the maximum length of the string.
+                 * @property {number} [min] - If type is `integer` or `float`, this is the minimum value of the number.
+                 * If type is `string`, this is the minimum length of the string.
+                 * @property {ArgumentDefault} [default] - Default value for the argument (makes the arg optional - cannot be `null`)
+                 * @property {string[]} [oneOf] - An array of values that are allowed to be used
+                 * @property {boolean} [infinite=false] - Whether the argument accepts infinite values
+                 * @property {Function} [validate] - Validator function for the argument (see {@link ArgumentType#validate})
+                 * @property {Function} [parse] - Parser function for the argument (see {@link ArgumentType#parse})
+                 * @property {Function} [isEmpty] - Empty checker for the argument (see {@link ArgumentType#isEmpty})
+                 * @property {number} [wait=30] - How long to wait for input (in seconds)
+                 */
+            
+                /**
+                 * Either a value or a function that returns a value. The function is passed the CommandMessage and the Argument.
+                 * @typedef {*|Function} ArgumentDefault
+                 */
+            
+                /**
+                 * @param {CommandoClient} client - Client the argument is for
+                 * @param {ArgumentInfo} info - Information for the command argument
+                 */
+                constructor(client, info) {
+                    this.constructor.validateInfo(client, info);
+            
+                    /**
+                     * Key for the argument
+                     * @type {string}
+                     */
+                    this.key = info.key;
+            
+                    /**
+                     * Label for the argument
+                     * @type {string}
+                     */
+                    this.label = info.label || info.key;
+            
+                    /**
+                     * Question prompt for the argument
+                     * @type {string}
+                     */
+                    this.prompt = info.prompt;
+            
+                    /**
+                     * Error message for when a value is invalid
+                     * @type {?string}
+                     */
+                    this.error = info.error || null;
+            
+                    /**
+                     * Type of the argument
+                     * @type {?ArgumentType}
+                     */
+                    this.type = this.constructor.determineType(client, info.type);
+            
+                    /**
+                     * If type is `integer` or `float`, this is the maximum value of the number.
+                     * If type is `string`, this is the maximum length of the string.
+                     * @type {?number}
+                     */
+                    this.max = typeof info.max !== 'undefined' ? info.max : null;
+            
+                    /**
+                     * If type is `integer` or `float`, this is the minimum value of the number.
+                     * If type is `string`, this is the minimum length of the string.
+                     * @type {?number}
+                     */
+                    this.min = typeof info.min !== 'undefined' ? info.min : null;
+            
+                    /**
+                     * The default value for the argument
+                     * @type {?ArgumentDefault}
+                     */
+                    this.default = typeof info.default !== 'undefined' ? info.default : null;
+            
+                    /**
+                     * Values the user can choose from
+                     * If type is `string`, this will be case-insensitive
+                     * If type is `channel`, `member`, `role`, or `user`, this will be the IDs.
+                     * @type {?string[]}
+                     */
+                    this.oneOf = typeof info.oneOf !== 'undefined' ? info.oneOf : null;
+            
+                    /**
+                     * Whether the argument accepts an infinite number of values
+                     * @type {boolean}
+                     */
+                    this.infinite = Boolean(info.infinite);
+            
+                    /**
+                     * Validator function for validating a value for the argument
+                     * @type {?Function}
+                     * @see {@link ArgumentType#validate}
+                     */
+                    this.validator = info.validate || null;
+            
+                    /**
+                     * Parser function for parsing a value for the argument
+                     * @type {?Function}
+                     * @see {@link ArgumentType#parse}
+                     */
+                    this.parser = info.parse || null;
+            
+                    /**
+                     * Function to check whether a raw value is considered empty
+                     * @type {?Function}
+                     * @see {@link ArgumentType#isEmpty}
+                     */
+                    this.emptyChecker = info.isEmpty || null;
+            
+                    /**
+                     * How long to wait for input (in seconds)
+                     * @type {number}
+                     */
+                    this.wait = typeof info.wait !== 'undefined' ? info.wait : 30;
+            
+                    /**
+                     * The prepend
+                     * @type {string}
+                     */
+                    this.prepend = typeof info.prepend === 'string' ? info.prepend : null;
+            
+                    /**
+                     * Whether to DM the user or not
+                     * @type {boolean}
+                     */
+                    this.dmOnly = typeof info.dmOnly !== 'undefined' ? info.dmOnly : false;
+                }
+            
+                /**
+                 * Result object from obtaining a single {@link Argument}'s value(s)
+                 * @typedef {Object} ArgumentResult
+                 * @property {?*|?Array<*>} value - Final value(s) for the argument
+                 * @property {?string} cancelled - One of:
+                 * - `user` (user cancelled)
+                 * - `time` (wait time exceeded)
+                 * - `promptLimit` (prompt limit exceeded)
+                 * @property {Message[]} prompts - All messages that were sent to prompt the user
+                 * @property {Message[]} answers - All of the user's messages that answered a prompt
+                 */
+            
+                /**
+                 * Prompts the user and obtains the value for the argument
+                 * @param {CommandMessage} msg - Message that triggered the command
+                 * @param {string} [value] - Pre-provided value for the argument
+                 * @param {number} [promptLimit=Infinity] - Maximum number of times to prompt for the argument
+                 * @return {Promise<ArgumentResult>}
+                 */
+                async obtain(msg, value, promptLimit = Infinity) {
+                    let empty = this.isEmpty(value, msg);
+                    if (empty && this.default !== null) {
+                        return {
+                            value: typeof this.default === 'function' ? await this.default(msg, this) : this.default,
+                            cancelled: null,
+                            prompts: [],
+                            answers: []
+                        };
+                    }
+                    if (this.infinite) return this.obtainInfinite(msg, value, promptLimit);
+            
+                    const wait = this.wait > 0 && this.wait !== Infinity ? this.wait * 1000 : undefined;
+                    const prompts = [];
+                    const answers = [];
+                    let valid = !empty ? await this.validate(value, msg) : false;
+            
+                    while (!valid || typeof valid === 'string') {
+                        /* eslint-disable no-await-in-loop */
+                        if (prompts.length >= promptLimit) {
+                            return {
+                                value: null,
+                                cancelled: 'promptLimit',
+                                prompts,
+                                answers
+                            };
+                        }
+            
+                        // Prompt the user for a new value
+                        let embed = new Disocrd.MessageEmbed()
+                        .setDescription(stripIndents`
+                        ${stripIndents`${empty ? this.prompt : valid ? valid : `You provided an invalid ${this.label}. Please try again.`}`}
+                        ${oneLine`${this.prepend ? this.prepend : `Respond with \`cancel\` to cancel the command.`}`}
+                        `)
+                        if (!valid) embed.setColor(colour.yellow);
+                        else embed.setColor(colour.red)
+                        prompts.push(this.dmOnly ? (await msg.direct(embed)) : (await msg.reply(embed)));
+            
+                        //${wait ? `The command will automatically be cancelled in ${this.wait} seconds.` : ''}
+            
+                        // Get the user's response
+                        const responses = await (this.dmOnly ? (await msg.author.createDM()) : msg.channel).awaitMessages(msg2 => msg2.author.id === msg.author.id, {
+                            max: 1,
+                            time: wait
+                        });
+            
+                        // Make sure they actually answered
+                        if (responses && responses.size === 1) {
+                            answers.push(responses.first());
+                            value = answers[answers.length - 1].content;
+                        } else {
+                            return {
+                                value: null,
+                                cancelled: 'time',
+                                prompts,
+                                answers
+                            };
+                        }
+            
+                        // See if they want to cancel
+                        if (value.toLowerCase() === 'cancel') {
+                            return {
+                                value: null,
+                                cancelled: 'user',
+                                prompts,
+                                answers
+                            };
+                        }
+            
+                        empty = this.isEmpty(value, msg);
+                        valid = await this.validate(value, msg);
+                        /* eslint-enable no-await-in-loop */
+                    }
+            
+                    return {
+                        value: await this.parse(value, msg),
+                        cancelled: null,
+                        prompts,
+                        answers
+                    };
+                }
+            
+                /**
+                 * Prompts the user and obtains multiple values for the argument
+                 * @param {CommandMessage} msg - Message that triggered the command
+                 * @param {string[]} [values] - Pre-provided values for the argument
+                 * @param {number} [promptLimit=Infinity] - Maximum number of times to prompt for the argument
+                 * @return {Promise<ArgumentResult>}
+                 * @private
+                 */
+                async obtainInfinite(msg, values, promptLimit = Infinity) { // eslint-disable-line complexity
+                    const wait = this.wait > 0 && this.wait !== Infinity ? this.wait * 1000 : undefined;
+                    const results = [];
+                    const prompts = [];
+                    const answers = [];
+                    let currentVal = 0;
+            
+                    while (true) { // eslint-disable-line no-constant-condition
+                        /* eslint-disable no-await-in-loop */
+                        let value = values && values[currentVal] ? values[currentVal] : null;
+                        let valid = value ? await this.validate(value, msg) : false;
+                        let attempts = 0;
+            
+                        while (!valid || typeof valid === 'string') {
+                            attempts++;
+                            if (attempts > promptLimit) {
+                                return {
+                                    value: null,
+                                    cancelled: 'promptLimit',
+                                    prompts,
+                                    answers
+                                };
+                            }
+            
+                            // Prompt the user for a new value
+                            if (value) {
+                                const escaped = escapeMarkdown(value).replace(/@/g, '@\u200b');
+                                prompts.push(await msg.reply(stripIndents`
+                                    ${valid ? valid : oneLine`
+                                        You provided an invalid ${this.label},
+                                        "${escaped.length < 1850 ? escaped : '[too long to show]'}".
                                         Please try again.
                                     `}
                                     ${oneLine`
                                         Respond with \`cancel\` to cancel the command, or \`finish\` to finish entry up to this point.
-                                        ${_0x59281f?_0x5b77a2(0x1b0)+this[_0x5b77a2(0x22a)]+_0x5b77a2(0x2f6):''}
+                                        ${wait ? `The command will automatically be cancelled in ${this.wait} seconds.` : ''}
                                     `}
-                                `));}else _0x503290[_0x5b77a2(0x1ab)]===0x0&&_0x4a0894[_0x5b77a2(0x1c3)](await _0x4fba93[_0x5b77a2(0x13f)](stripIndents`
-                                    ${this[_0x5b77a2(0x18b)]}
+                                `));
+                            } else if (results.length === 0) {
+                                prompts.push(await msg.reply(stripIndents`
+                                    ${this.prompt}
                                     ${oneLine`
                                         Respond with \`cancel\` to cancel the command, or \`finish\` to finish entry.
-                                        ${_0x59281f?_0x5b77a2(0x1b0)+this[_0x5b77a2(0x22a)]+'\x20seconds,\x20unless\x20you\x20respond.':''}
+                                        ${wait ? `The command will automatically be cancelled in ${this.wait} seconds, unless you respond.` : ''}
                                     `}
-                                `));const _0x4e447e=await _0x4fba93['channel'][_0x5b77a2(0x1e7)](_0x3d00c4=>_0x3d00c4['author']['id']===_0x4fba93[_0x5b77a2(0x20c)]['id'],{'max':0x1,'time':_0x59281f});if(_0x4e447e&&_0x4e447e[_0x5b77a2(0x2d6)]===0x1)_0xbfde77['push'](_0x4e447e[_0x5b77a2(0x1b7)]()),_0x3fc0d1=_0xbfde77[_0xbfde77[_0x5b77a2(0x1ab)]-0x1][_0x5b77a2(0x2a2)];else return{'value':null,'cancelled':'time','prompts':_0x4a0894,'answers':_0xbfde77};const _0x42bde0=_0x3fc0d1[_0x5b77a2(0x202)]();if(_0x42bde0==='finish')return{'value':_0x503290[_0x5b77a2(0x1ab)]>0x0?_0x503290:null,'cancelled':_0x503290[_0x5b77a2(0x1ab)]>0x0?null:_0x5b77a2(0x2ee),'prompts':_0x4a0894,'answers':_0xbfde77};if(_0x42bde0===_0x5b77a2(0x219))return{'value':null,'cancelled':_0x5b77a2(0x2ee),'prompts':_0x4a0894,'answers':_0xbfde77};_0x43650e=await this[_0x5b77a2(0x280)](_0x3fc0d1,_0x4fba93);}_0x503290[_0x5b77a2(0x1c3)](await this['parse'](_0x3fc0d1,_0x4fba93));if(_0x43c9a3){_0x4c73ce++;if(_0x4c73ce===_0x43c9a3[_0x5b77a2(0x1ab)])return{'value':_0x503290,'cancelled':null,'prompts':_0x4a0894,'answers':_0xbfde77};}}}[_0x2794f5(0x280)](_0x3d6668,_0x3ebf0a){const _0x4231ce=_0x2794f5,_0x4317b6=this[_0x4231ce(0x196)]?this[_0x4231ce(0x196)](_0x3d6668,_0x3ebf0a,this):this['type']['validate'](_0x3d6668,_0x3ebf0a,this);if(!_0x4317b6||typeof _0x4317b6===_0x4231ce(0x1a2))return this[_0x4231ce(0x1c0)]||_0x4317b6;if(_0x4317b6 instanceof Promise)return _0x4317b6[_0x4231ce(0x262)](_0x539b13=>!_0x539b13||typeof _0x539b13===_0x4231ce(0x1a2)?this[_0x4231ce(0x1c0)]||_0x539b13:_0x539b13);return _0x4317b6;}['parse'](_0x12f998,_0x494987){const _0x5b90ec=_0x2794f5;if(this['parser'])return this[_0x5b90ec(0x141)](_0x12f998,_0x494987,this);return this[_0x5b90ec(0x254)][_0x5b90ec(0x160)](_0x12f998,_0x494987,this);}[_0x2794f5(0x1f0)](_0x4f1883,_0x4c7fa0){const _0xc19fe9=_0x2794f5;if(this[_0xc19fe9(0x1eb)])return this[_0xc19fe9(0x1eb)](_0x4f1883,_0x4c7fa0,this);if(this[_0xc19fe9(0x254)])return this[_0xc19fe9(0x254)][_0xc19fe9(0x1f0)](_0x4f1883,_0x4c7fa0,this);return!_0x4f1883;}static[_0x2794f5(0x26e)](_0xb08177,_0x3eb41b){const _0x3fc320=_0x2794f5;if(!_0xb08177)throw new Error(_0x3fc320(0x24b));if(typeof _0x3eb41b!=='object')throw new TypeError(_0x3fc320(0x283));if(typeof _0x3eb41b[_0x3fc320(0x2f9)]!==_0x3fc320(0x1a2))throw new TypeError(_0x3fc320(0x2df));if(_0x3eb41b['label']&&typeof _0x3eb41b['label']!==_0x3fc320(0x1a2))throw new TypeError(_0x3fc320(0x1d2));if(typeof _0x3eb41b[_0x3fc320(0x18b)]!==_0x3fc320(0x1a2))throw new TypeError('Argument\x20prompt\x20must\x20be\x20a\x20string.');if(_0x3eb41b['error']&&typeof _0x3eb41b[_0x3fc320(0x1c0)]!=='string')throw new TypeError(_0x3fc320(0x2b2));if(_0x3eb41b[_0x3fc320(0x254)]&&typeof _0x3eb41b[_0x3fc320(0x254)]!=='string')throw new TypeError('Argument\x20type\x20must\x20be\x20a\x20string.');if(_0x3eb41b[_0x3fc320(0x254)]&&!_0x3eb41b[_0x3fc320(0x254)]['includes']('|')&&!_0xb08177[_0x3fc320(0x16c)]['types'][_0x3fc320(0x1ca)](_0x3eb41b[_0x3fc320(0x254)]))throw new RangeError('Argument\x20type\x20\x22'+_0x3eb41b['type']+'\x22\x20isn\x27t\x20registered.');if(!_0x3eb41b[_0x3fc320(0x254)]&&!_0x3eb41b['validate'])throw new Error(_0x3fc320(0x2ff));if(_0x3eb41b[_0x3fc320(0x280)]&&typeof _0x3eb41b[_0x3fc320(0x280)]!=='function')throw new TypeError(_0x3fc320(0x175));if(_0x3eb41b[_0x3fc320(0x160)]&&typeof _0x3eb41b[_0x3fc320(0x160)]!==_0x3fc320(0x1de))throw new TypeError(_0x3fc320(0x21a));if(!_0x3eb41b[_0x3fc320(0x254)]&&(!_0x3eb41b[_0x3fc320(0x280)]||!_0x3eb41b[_0x3fc320(0x160)]))throw new Error(_0x3fc320(0x130));if(typeof _0x3eb41b['wait']!=='undefined'&&(typeof _0x3eb41b['wait']!==_0x3fc320(0x2c1)||Number[_0x3fc320(0x1e9)](_0x3eb41b['wait'])))throw new TypeError(_0x3fc320(0x203));}static['determineType'](_0x786528,_0x5c1463){const _0x1d5cf4=_0x2794f5;if(!_0x5c1463)return null;if(!_0x5c1463[_0x1d5cf4(0x215)]('|'))return _0x786528[_0x1d5cf4(0x16c)][_0x1d5cf4(0x20f)][_0x1d5cf4(0x2f3)](_0x5c1463);let _0xf00e6=_0x786528[_0x1d5cf4(0x16c)][_0x1d5cf4(0x20f)][_0x1d5cf4(0x2f3)](_0x5c1463);if(_0xf00e6)return _0xf00e6;return _0xf00e6=new _0x346d66(_0x786528,_0x5c1463),_0x786528[_0x1d5cf4(0x16c)][_0x1d5cf4(0x1a8)](_0xf00e6),_0xf00e6;}}class _0x3792ab{constructor(_0x387e06,_0x208950,_0x44d078=Infinity){const _0x18f03c=_0x2794f5;if(!_0x387e06)throw new TypeError(_0x18f03c(0x1af));if(!_0x208950||!Array[_0x18f03c(0x22e)](_0x208950))throw new TypeError(_0x18f03c(0x23a));if(_0x44d078===null)_0x44d078=Infinity;Object['defineProperty'](this,_0x18f03c(0x134),{'value':_0x387e06}),this['args']=new Array(_0x208950[_0x18f03c(0x1ab)]);let _0xeb9c95=![],_0x19c3dc=![];for(let _0x5f42a1=0x0;_0x5f42a1<_0x208950[_0x18f03c(0x1ab)];_0x5f42a1++){if(_0xeb9c95)throw new Error(_0x18f03c(0x227));if(_0x208950[_0x5f42a1]['default']!==null)_0x19c3dc=!![];else{if(_0x19c3dc)throw new Error(_0x18f03c(0x17b));}this[_0x18f03c(0x1c8)][_0x5f42a1]=new _0x149621(this[_0x18f03c(0x134)],_0x208950[_0x5f42a1]);if(this[_0x18f03c(0x1c8)][_0x5f42a1][_0x18f03c(0x13e)])_0xeb9c95=!![];}this[_0x18f03c(0x28c)]=_0x44d078;}async[_0x2794f5(0x22d)](_0x332851,_0x18af84=[],_0x519246=this[_0x2794f5(0x28c)]){const _0x29db41=_0x2794f5;this[_0x29db41(0x134)]['dispatcher'][_0x29db41(0x13d)][_0x29db41(0x142)](_0x332851[_0x29db41(0x12a)][_0x29db41(0x20c)]['id']+_0x332851['message'][_0x29db41(0x267)]['id']);const _0x54fcc7={},_0x14079d=[];try{for(let _0x473487=0x0;_0x473487<this[_0x29db41(0x1c8)][_0x29db41(0x1ab)];_0x473487++){const _0x465cc7=this['args'][_0x473487],_0x6f914a=await _0x465cc7['obtain'](_0x332851,_0x465cc7[_0x29db41(0x13e)]?_0x18af84[_0x29db41(0x1d4)](_0x473487):_0x18af84[_0x473487],_0x519246);_0x14079d[_0x29db41(0x1c3)](_0x6f914a);if(_0x6f914a[_0x29db41(0x29b)])return this[_0x29db41(0x134)]['dispatcher'][_0x29db41(0x13d)][_0x29db41(0x1f2)](_0x332851[_0x29db41(0x12a)][_0x29db41(0x20c)]['id']+_0x332851[_0x29db41(0x12a)][_0x29db41(0x267)]['id']),{'values':null,'cancelled':_0x6f914a[_0x29db41(0x29b)],'prompts':[][_0x29db41(0x24d)](..._0x14079d['map'](_0x2d33db=>_0x2d33db[_0x29db41(0x1fe)])),'answers':[][_0x29db41(0x24d)](..._0x14079d['map'](_0x16a6f6=>_0x16a6f6['answers']))};_0x54fcc7[_0x465cc7[_0x29db41(0x2f9)]]=_0x6f914a['value'];}}catch(_0x14a4b8){this['client'][_0x29db41(0x150)]['_awaiting'][_0x29db41(0x1f2)](_0x332851[_0x29db41(0x12a)][_0x29db41(0x20c)]['id']+_0x332851['message']['channel']['id']);throw _0x14a4b8;}return this[_0x29db41(0x134)][_0x29db41(0x150)][_0x29db41(0x13d)][_0x29db41(0x1f2)](_0x332851[_0x29db41(0x12a)][_0x29db41(0x20c)]['id']+_0x332851[_0x29db41(0x12a)][_0x29db41(0x267)]['id']),{'values':_0x54fcc7,'cancelled':null,'prompts':[][_0x29db41(0x24d)](..._0x14079d['map'](_0x321678=>_0x321678[_0x29db41(0x1fe)])),'answers':[][_0x29db41(0x24d)](..._0x14079d[_0x29db41(0x13b)](_0x455ebd=>_0x455ebd[_0x29db41(0x211)]))};}}class _0x1043e0{constructor(_0x337768){const _0x155cbe=_0x2794f5;this[_0x155cbe(0x2bf)][_0x155cbe(0x26e)](_0x337768),this[_0x155cbe(0x176)]=_0x337768['name'],this[_0x155cbe(0x1fc)]=_0x337768['aliases']||[];if(typeof _0x337768[_0x155cbe(0x21f)]===_0x155cbe(0x252)||_0x337768['autoAliases']){if(this[_0x155cbe(0x176)][_0x155cbe(0x215)]('-'))this[_0x155cbe(0x1fc)][_0x155cbe(0x1c3)](this['name']['replace'](/-/g,''));for(const _0xf6fc1 of this['aliases']){if(_0xf6fc1[_0x155cbe(0x215)]('-'))this[_0x155cbe(0x1fc)]['push'](_0xf6fc1[_0x155cbe(0x2a0)](/-/g,''));}}this[_0x155cbe(0x147)]=_0x337768['description'],this[_0x155cbe(0x1e1)]=_0x337768[_0x155cbe(0x1e1)]||null,this[_0x155cbe(0x24f)]=_0x337768['details']||null,this[_0x155cbe(0x206)]=_0x337768[_0x155cbe(0x206)]||null,this[_0x155cbe(0x209)]=_0x337768[_0x155cbe(0x209)]||null,this[_0x155cbe(0x217)]=Boolean(_0x337768[_0x155cbe(0x217)]),this[_0x155cbe(0x272)]=Boolean(_0x337768['serverOnly']),this[_0x155cbe(0x12d)]=Boolean(_0x337768['hidden']),this[_0x155cbe(0x1aa)]='defaultHandling'in _0x337768?_0x337768[_0x155cbe(0x1aa)]:!![],this[_0x155cbe(0x278)]=_0x337768[_0x155cbe(0x1c8)]?new _0x3792ab(client,_0x337768[_0x155cbe(0x1c8)],_0x337768[_0x155cbe(0x152)]):null,this[_0x155cbe(0x278)]&&typeof _0x337768[_0x155cbe(0x1e1)]===_0x155cbe(0x252)&&(this['format']=this[_0x155cbe(0x278)]['args'][_0x155cbe(0x238)]((_0x168094,_0x20c3f4)=>{const _0x3c54e0=_0x155cbe,_0xd6b8ca=_0x20c3f4['default']!==null?'[':'<',_0x19c564=_0x20c3f4[_0x3c54e0(0x246)]!==null?']':'>';return''+_0x168094+(_0x168094?'\x20':'')+_0xd6b8ca+_0x20c3f4['label']+(_0x20c3f4[_0x3c54e0(0x13e)]?'...':'')+_0x19c564;},'')),this[_0x155cbe(0x2db)]=_0x337768[_0x155cbe(0x2db)]||_0x155cbe(0x2a6),this[_0x155cbe(0x21d)]=_0x337768[_0x155cbe(0x21d)]||0x0,this['argsSingleQuotes']='argsSingleQuotes'in _0x337768?_0x337768[_0x155cbe(0x27e)]:!![],this['patterns']=_0x337768[_0x155cbe(0x1ba)]||null;}[_0x2794f5(0x1f8)](_0x4118b0){const _0x36a248=_0x2794f5;if(this[_0x36a248(0x209)]&&_0x4118b0[_0x36a248(0x172)]){var _0x2b01e8=![];for(var _0x1ccf95 in this[_0x36a248(0x209)]){if(_0x4118b0[_0x36a248(0x172)][_0x36a248(0x1e5)][_0x36a248(0x215)](this[_0x36a248(0x209)][_0x1ccf95])){_0x2b01e8=!![];break;};};if(!_0x2b01e8)return _0x36a248(0x2e4);}return!![];}async[_0x2794f5(0x2ae)](_0x5488a4,_0x56642f){const _0x36d8fb=_0x2794f5;throw new Error(this[_0x36d8fb(0x2bf)][_0x36d8fb(0x176)]+'\x20doesn\x27t\x20have\x20a\x20run()\x20method.');}[_0x2794f5(0x2a4)](_0x58be9a=null){const _0x6ecd16=_0x2794f5;if(!_0x58be9a)return this[_0x6ecd16(0x2c6)];if(this[_0x6ecd16(0x217)]&&_0x58be9a&&!_0x58be9a[_0x6ecd16(0x24c)])return![];if(this[_0x6ecd16(0x272)]&&_0x58be9a&&(!_0x58be9a[_0x6ecd16(0x24c)]||_0x58be9a[_0x6ecd16(0x24c)]&&!(_0x58be9a[_0x6ecd16(0x24c)]['id']===serverId)))return![];let _0x336076=this[_0x6ecd16(0x1f8)](_0x58be9a);if(typeof _0x336076===_0x6ecd16(0x1a2))_0x336076=![];return _0x336076;}static[_0x2794f5(0x26e)](_0x2a947f){const _0x291618=_0x2794f5;if(typeof _0x2a947f!=='object')throw new TypeError(_0x291618(0x19b));if(typeof _0x2a947f['name']!==_0x291618(0x1a2))throw new TypeError(_0x291618(0x187));if(_0x2a947f[_0x291618(0x176)]!==_0x2a947f[_0x291618(0x176)][_0x291618(0x202)]())throw new Error(_0x291618(0x1f6));if(_0x2a947f['aliases']&&(!Array[_0x291618(0x22e)](_0x2a947f['aliases'])||_0x2a947f['aliases'][_0x291618(0x266)](_0x4168f3=>typeof _0x4168f3!==_0x291618(0x1a2))))throw new TypeError(_0x291618(0x1ff));if(_0x2a947f[_0x291618(0x1fc)]&&_0x2a947f[_0x291618(0x1fc)][_0x291618(0x266)](_0x344134=>_0x344134!==_0x344134[_0x291618(0x202)]()))throw new Error('Command\x20aliases\x20must\x20be\x20lowercase.');if(_0x291618(0x147)in _0x2a947f&&typeof _0x2a947f[_0x291618(0x147)]!==_0x291618(0x1a2))throw new TypeError(_0x291618(0x29d));if(_0x291618(0x1e1)in _0x2a947f&&typeof _0x2a947f[_0x291618(0x1e1)]!==_0x291618(0x1a2))throw new TypeError('Command\x20format\x20must\x20be\x20a\x20string.');if(_0x2a947f['examples']&&(!Array[_0x291618(0x22e)](_0x2a947f[_0x291618(0x206)])||_0x2a947f[_0x291618(0x206)][_0x291618(0x266)](_0x2748b4=>typeof _0x2748b4!==_0x291618(0x1a2))))throw new TypeError(_0x291618(0x2a5));}['usage'](_0x536502,_0x5c6993=_0x5c6993){const _0x1cd61b=_0x2794f5;return this[_0x1cd61b(0x2bf)][_0x1cd61b(0x23d)](''+this['name']+(_0x536502?'\x20'+_0x536502:''),_0x5c6993);}static['usage'](_0xd0c346,_0x37f31b=null){const _0x431a10=_0x2794f5,_0x5d6c39=_0xd0c346[_0x431a10(0x2a0)](/ /g,'\u00a0');if(!_0x37f31b)return'`'+_0x5d6c39+'`';let _0x27f3aa;if(_0x37f31b){if(_0x37f31b['length']>0x1&&!_0x37f31b[_0x431a10(0x2de)]('\x20'))_0x37f31b+='';_0x37f31b=_0x37f31b[_0x431a10(0x2a0)](/ /g,'\u00a0'),_0x27f3aa='`'+_0x37f31b+_0x5d6c39+'`';}return''+(_0x27f3aa||'');}}class _0x45e0f0{constructor(_0x43972f,_0x490e93=null,_0x26d9e4=null,_0x9ccf60=null){const _0x178c50=_0x2794f5;this[_0x178c50(0x12a)]=_0x43972f,this['command']=_0x490e93,this[_0x178c50(0x153)]=_0x26d9e4,this[_0x178c50(0x223)]=_0x9ccf60,this['responses']=null,this[_0x178c50(0x2ce)]=null;}['usage'](_0x91890a,_0x6f7f2a=_0x6f7f2a){const _0x1b5a24=_0x2794f5;return this['command'][_0x1b5a24(0x23d)](_0x91890a,_0x6f7f2a);}[_0x2794f5(0x194)](_0x5c6114,_0x5d3302=_0x5d3302){const _0x283d44=_0x2794f5;return _0x1043e0[_0x283d44(0x23d)](_0x5c6114,_0x5d3302);}['parseArgs'](){const _0x1428ea=_0x2794f5;switch(this[_0x1428ea(0x16d)][_0x1428ea(0x2db)]){case _0x1428ea(0x2a6):return this['argString'][_0x1428ea(0x23c)]()[_0x1428ea(0x2a0)](this['command'][_0x1428ea(0x27e)]?/^("|')([^]*)\1$/g:/^(")([^]*)"$/g,'$2');case _0x1428ea(0x1e2):return this[_0x1428ea(0x2bf)][_0x1428ea(0x1e4)](this[_0x1428ea(0x153)],this[_0x1428ea(0x16d)][_0x1428ea(0x21d)],this['command'][_0x1428ea(0x27e)]);default:throw new RangeError(_0x1428ea(0x17a)+this['argsType']+'\x22.');}}static async[_0x2794f5(0x284)](){return null;}async[_0x2794f5(0x2ae)](){const _0x5d5736=_0x2794f5;this[_0x5d5736(0x12a)][_0x5d5736(0x267)][_0x5d5736(0x254)]===_0x5d5736(0x165)&&!this[_0x5d5736(0x12a)][_0x5d5736(0x24c)]['members'][_0x5d5736(0x1a9)][_0x5d5736(0x1ca)](this['message'][_0x5d5736(0x20c)]['id'])&&!this[_0x5d5736(0x12a)][_0x5d5736(0x2f8)]&&(this[_0x5d5736(0x12a)][_0x5d5736(0x172)]=await this[_0x5d5736(0x12a)][_0x5d5736(0x24c)][_0x5d5736(0x183)][_0x5d5736(0x208)](this[_0x5d5736(0x12a)]['author']));if(this[_0x5d5736(0x16d)][_0x5d5736(0x217)]&&!this[_0x5d5736(0x12a)][_0x5d5736(0x24c)])return this[_0x5d5736(0x13f)](_0x5d5736(0x2b4)+this['command'][_0x5d5736(0x176)]+'`\x20command\x20must\x20be\x20used\x20in\x20a\x20server\x20channel.');if(this[_0x5d5736(0x16d)][_0x5d5736(0x272)]&&!(this[_0x5d5736(0x12a)][_0x5d5736(0x24c)]['id']===serverId))return this[_0x5d5736(0x13f)](_0x5d5736(0x2b4)+this[_0x5d5736(0x16d)][_0x5d5736(0x176)]+'`\x20command\x20can\x20only\x20be\x20used\x20in\x20the\x20server.');if(this[_0x5d5736(0x16d)][_0x5d5736(0x209)]&&this[_0x5d5736(0x12a)]['member']){var _0x32de96=![];for(var _0x153dc0 in this[_0x5d5736(0x16d)][_0x5d5736(0x209)]){if(this[_0x5d5736(0x12a)][_0x5d5736(0x172)][_0x5d5736(0x1e5)]['includes'](this[_0x5d5736(0x16d)][_0x5d5736(0x209)][_0x153dc0])){_0x32de96=!![];break;};};if(!_0x32de96)return this['reply']('You\x20do\x20not\x20have\x20the\x20required\x20roles\x20to\x20use\x20the\x20`'+this[_0x5d5736(0x16d)][_0x5d5736(0x176)]+_0x5d5736(0x1cf));}let _0x279fd1=this['patternMatches'],_0x64ff2b=null;if(!_0x279fd1&&this[_0x5d5736(0x16d)]['argsCollector']){const _0x4f8396=this[_0x5d5736(0x16d)][_0x5d5736(0x278)][_0x5d5736(0x1c8)],_0x202cc5=_0x4f8396[_0x4f8396['length']-0x1][_0x5d5736(0x13e)]?Infinity:_0x4f8396[_0x5d5736(0x1ab)],_0x243adf=this[_0x5d5736(0x2bf)]['parseArgs'](this[_0x5d5736(0x153)][_0x5d5736(0x23c)](),_0x202cc5,this[_0x5d5736(0x16d)][_0x5d5736(0x27e)]),_0xdceff7=await this[_0x5d5736(0x16d)][_0x5d5736(0x278)][_0x5d5736(0x22d)](this,_0x243adf);if(_0xdceff7['cancelled']){if(_0xdceff7[_0x5d5736(0x1fe)]['length']===0x0){const _0x119d08=new _0x3eca93(this);return this['reply'](_0x119d08[_0x5d5736(0x12a)]);}return this[_0x5d5736(0x13f)]('Cancelled\x20command.');}_0x279fd1=_0xdceff7[_0x5d5736(0x136)],_0x64ff2b=_0xdceff7;}if(!_0x279fd1)_0x279fd1=this[_0x5d5736(0x1e4)]();const _0x5a4ddb=Boolean(this[_0x5d5736(0x223)]);try{await this['constructor'][_0x5d5736(0x284)]();const _0x2cece0=this['command'][_0x5d5736(0x2ae)](this,_0x279fd1,{'fromPattern':_0x5a4ddb,'result':_0x64ff2b}),_0x58882e=await _0x2cece0;if(!(_0x58882e instanceof _0x42dca6||_0x58882e instanceof _0x387975||_0x58882e instanceof Array||_0x58882e===null||_0x58882e===undefined))throw new TypeError('Command\x20'+this[_0x5d5736(0x16d)][_0x5d5736(0x176)]+_0x5d5736(0x258)+(_0x58882e!==null?_0x58882e&&_0x58882e[_0x5d5736(0x2bf)]?_0x58882e[_0x5d5736(0x2bf)][_0x5d5736(0x176)]:typeof _0x58882e:null)+_0x5d5736(0x1dc));return _0x58882e;}catch(_0x3a9a96){if(_0x3a9a96 instanceof _0x65823a)return this[_0x5d5736(0x2f2)](_0x3a9a96[_0x5d5736(0x12a)]);else this[_0x5d5736(0x2f2)](_0x5d5736(0x237)+(_0x3a9a96['name']||_0x5d5736(0x1f4))+':\x20'+(_0x3a9a96[_0x5d5736(0x12a)]||_0x5d5736(0x25a))+_0x5d5736(0x2e6)),console[_0x5d5736(0x1c0)](_0x1ad50d['info'][_0x5d5736(0x176)],_0x3a9a96);}}[_0x2794f5(0x131)]({type:type=_0x2794f5(0x13f),content:_0x54adfa,options:_0x4d2457,lang:_0x4f885c,fromEdit:fromEdit=![]}){const _0x37a8a8=_0x2794f5;if(type===_0x37a8a8(0x13f)&&this['message'][_0x37a8a8(0x267)]['type']==='dm')type=_0x37a8a8(0x13a);_0x54adfa=_0x12dd12['resolveString'](_0x54adfa);switch(type){case _0x37a8a8(0x13a):let _0x3b8e28=new _0x42dca6(this[_0x37a8a8(0x12a)][_0x37a8a8(0x267)],_0x54adfa,_0x4d2457);_0x3b8e28[_0x37a8a8(0x164)]();let _0x1876e6=document[_0x37a8a8(0x286)](_0x37a8a8(0x17e)+_0x3b8e28[_0x37a8a8(0x12a)]['id']);if(_0x1876e6&&_0x5ca772['live']!==0x0&&(!_0x4d2457||!_0x4d2457[_0x37a8a8(0x12b)]))setTimeout(()=>{const _0x4ae57d=_0x37a8a8;_0x1876e6[_0x4ae57d(0x1bc)][_0x4ae57d(0x289)]='none';},_0x5ca772[_0x37a8a8(0x1db)]*0x3e8);return _0x3b8e28;case'reply':return _0x54adfa===undefined||_0x54adfa===''?new _0x42dca6(this[_0x37a8a8(0x12a)]['channel'],_0x37a8a8(0x2a9)+this[_0x37a8a8(0x12a)][_0x37a8a8(0x20c)]['id']+'>',_0x4d2457)[_0x37a8a8(0x164)]():new _0x42dca6(this[_0x37a8a8(0x12a)][_0x37a8a8(0x267)],_0x37a8a8(0x2a9)+this['message'][_0x37a8a8(0x20c)]['id']+_0x37a8a8(0x2d9)+_0x54adfa,_0x4d2457)[_0x37a8a8(0x164)]();case _0x37a8a8(0x301):return;case _0x37a8a8(0x26d):return new _0x42dca6(this[_0x37a8a8(0x12a)][_0x37a8a8(0x267)],_0x54adfa,_0x4d2457)['send']();default:throw new RangeError('Unknown\x20response\x20type\x20\x22'+type+'\x22.');}}[_0x2794f5(0x1ae)](_0x360d4b,{type:_0x3ed235,content:_0x197931,options:_0x1e7cdb}){const _0x571fb3=_0x2794f5;if(!_0x360d4b)return this[_0x571fb3(0x131)]({'type':_0x3ed235,'content':_0x197931,'options':_0x1e7cdb,'fromEdit':!![]});if(_0x1e7cdb&&_0x1e7cdb['split'])_0x197931=discord['splitMessage'](_0x197931,_0x1e7cdb['split']);let _0x221c3e='';if(_0x3ed235==='reply')_0x221c3e=this['message'][_0x571fb3(0x20c)]+',\x20';if(_0x197931 instanceof Array){const _0x226fe8=[];if(_0x360d4b instanceof Array)for(let _0x4aec8f=0x0;_0x4aec8f<_0x197931[_0x571fb3(0x1ab)];_0x4aec8f++){if(_0x360d4b['length']>_0x4aec8f)_0x226fe8[_0x571fb3(0x1c3)](_0x360d4b[_0x4aec8f][_0x571fb3(0x205)](''+_0x221c3e+_0x197931[_0x4aec8f],_0x1e7cdb));else _0x226fe8[_0x571fb3(0x1c3)](_0x360d4b[0x0][_0x571fb3(0x267)]['send'](''+_0x221c3e+_0x197931[_0x4aec8f]));}else{_0x226fe8[_0x571fb3(0x1c3)](_0x360d4b[_0x571fb3(0x205)](''+_0x221c3e+_0x197931[0x0],_0x1e7cdb));for(let _0x4ae985=0x1;_0x4ae985<_0x197931[_0x571fb3(0x1ab)];_0x4ae985++){_0x226fe8[_0x571fb3(0x1c3)](_0x360d4b[_0x571fb3(0x267)][_0x571fb3(0x164)](''+_0x221c3e+_0x197931[_0x4ae985]));}}return Promise[_0x571fb3(0x22f)](_0x226fe8);}else{if(_0x360d4b instanceof Array){for(let _0x22a7c7=_0x360d4b[_0x571fb3(0x1ab)]-0x1;_0x22a7c7>0x0;_0x22a7c7--)_0x360d4b[_0x22a7c7][_0x571fb3(0x1f2)]();return _0x360d4b[0x0][_0x571fb3(0x205)](''+_0x221c3e+_0x197931,_0x1e7cdb);}else return _0x360d4b['edit'](''+_0x221c3e+_0x197931,_0x1e7cdb);}}[_0x2794f5(0x1b6)](_0x63adaa,_0x44e972){const _0x43f67d=_0x2794f5;if(typeof this['responses'][_0x63adaa]===_0x43f67d(0x252))this['responses'][_0x63adaa]=[];if(typeof this[_0x43f67d(0x2ce)][_0x63adaa]===_0x43f67d(0x252))this['responsePositions'][_0x63adaa]=-0x1;return this[_0x43f67d(0x2ce)][_0x63adaa]++,this[_0x43f67d(0x1ae)](this['responses'][_0x63adaa][this[_0x43f67d(0x2ce)][_0x63adaa]],_0x44e972);}['force'](_0xc59f00=this[_0x2794f5(0x12a)]['channel'],_0x5d189e,_0x365398){return new _0x387975(_0xc59f00,_0x5d189e,_0x365398);}[_0x2794f5(0x2f2)](_0x5e9745,_0x91931f){const _0x12af22=_0x2794f5;return!_0x91931f&&typeof _0x5e9745===_0x12af22(0x1ea)&&!(_0x5e9745 instanceof Array)&&(_0x91931f=_0x5e9745,_0x5e9745=''),this[_0x12af22(0x131)]({'type':_0x12af22(0x13a),'content':_0x5e9745,'options':_0x91931f});}['reply'](_0x548ccf,_0x1fe7ca){const _0x26f7bc=_0x2794f5;return!_0x1fe7ca&&typeof _0x548ccf===_0x26f7bc(0x1ea)&&!(_0x548ccf instanceof Array)&&(_0x1fe7ca=_0x548ccf,_0x548ccf=''),this[_0x26f7bc(0x131)]({'type':_0x26f7bc(0x13f),'content':_0x548ccf,'options':_0x1fe7ca});}['direct'](_0x6c5863,_0x2d2877){const _0x286a52=_0x2794f5;return!_0x2d2877&&typeof _0x6c5863===_0x286a52(0x1ea)&&!(_0x6c5863 instanceof Array)&&(_0x2d2877=_0x6c5863,_0x6c5863=''),this[_0x286a52(0x131)]({'type':_0x286a52(0x301),'content':_0x6c5863,'options':_0x2d2877});}['code'](_0x42e542,_0x591e7a,_0x298e62){const _0xc2da32=_0x2794f5;!_0x298e62&&typeof _0x591e7a===_0xc2da32(0x1ea)&&!(_0x591e7a instanceof Array)&&(_0x298e62=_0x591e7a,_0x591e7a='');if(typeof _0x298e62!=='object')_0x298e62={};return _0x298e62[_0xc2da32(0x26d)]=_0x42e542,this['respond']({'type':_0xc2da32(0x26d),'content':_0x591e7a,'options':_0x298e62});}[_0x2794f5(0x26f)](_0x1eb33a,_0x4e07a9='',_0x1bd08f){const _0x3503d7=_0x2794f5;if(typeof _0x1bd08f!=='object')_0x1bd08f={};return _0x1bd08f[_0x3503d7(0x26f)]=_0x1eb33a,this['respond']({'type':_0x3503d7(0x13a),'content':_0x4e07a9,'options':_0x1bd08f});}[_0x2794f5(0x168)](_0x2ab0a4,_0x9fa1c0='',_0x3cfcfa){const _0x423414=_0x2794f5;if(typeof _0x3cfcfa!=='object')_0x3cfcfa={};return _0x3cfcfa[_0x423414(0x26f)]=_0x2ab0a4,this[_0x423414(0x131)]({'type':_0x423414(0x13f),'content':_0x9fa1c0,'options':_0x3cfcfa});}[_0x2794f5(0x2c5)](_0x1ca3e1){const _0x84c3d3=_0x2794f5;if(this['responses'])this[_0x84c3d3(0x18d)]();this[_0x84c3d3(0x2f5)]={},this[_0x84c3d3(0x2ce)]={};if(_0x1ca3e1 instanceof Array)for(const _0x51b575 of _0x1ca3e1){const _0xe16e59=(_0x51b575 instanceof Array?_0x51b575[0x0]:_0x51b575)['channel'],_0x105729=channelIDOrDM(_0xe16e59);!this[_0x84c3d3(0x2f5)][_0x105729]&&(this[_0x84c3d3(0x2f5)][_0x105729]=[],this['responsePositions'][_0x105729]=-0x1),this[_0x84c3d3(0x2f5)][_0x105729][_0x84c3d3(0x1c3)](_0x51b575);}else{if(_0x1ca3e1&&_0x1ca3e1[_0x84c3d3(0x267)]){const _0x2a789e=channelIDOrDM(_0x1ca3e1[_0x84c3d3(0x267)]);this['responses'][_0x2a789e]=[_0x1ca3e1],this['responsePositions'][_0x2a789e]=-0x1;}}}[_0x2794f5(0x18d)](){const _0x2cb6fa=_0x2794f5;for(const _0x284bb0 of Object[_0x2cb6fa(0x2c4)](this[_0x2cb6fa(0x2f5)])){const _0x1e9f03=this['responses'][_0x284bb0];for(let _0x3e5275=this[_0x2cb6fa(0x2ce)][_0x284bb0]+0x1;_0x3e5275<_0x1e9f03[_0x2cb6fa(0x1ab)];_0x3e5275++){const _0x361a68=_0x1e9f03[_0x3e5275];if(_0x361a68 instanceof Array){for(const _0x35b50f of _0x361a68)_0x35b50f[_0x2cb6fa(0x1f2)]();}else _0x361a68[_0x2cb6fa(0x1f2)]();}}}static[_0x2794f5(0x1e4)](_0x2e1737,_0x1bdf02,_0x163c54=!![]){const _0x4929c8=_0x2794f5,_0x19b8b2=_0x163c54?/\s*(?:("|')([^]*?)\1|(\S+))\s*/g:/\s*(?:(")([^]*?)"|(\S+))\s*/g,_0x49fd5a=[];let _0x29a62e=[];_0x1bdf02=_0x1bdf02||_0x2e1737['length'];while(--_0x1bdf02&&(_0x29a62e=_0x19b8b2['exec'](_0x2e1737)))_0x49fd5a[_0x4929c8(0x1c3)](_0x29a62e[0x2]||_0x29a62e[0x3]);if(_0x29a62e&&_0x19b8b2[_0x4929c8(0x19f)]<_0x2e1737[_0x4929c8(0x1ab)]){const _0x37e9c5=_0x163c54?/^("|')([^]*)\1$/g:/^(")([^]*)"$/g;_0x49fd5a[_0x4929c8(0x1c3)](_0x2e1737[_0x4929c8(0x2e0)](_0x19b8b2[_0x4929c8(0x19f)])[_0x4929c8(0x2a0)](_0x37e9c5,'$2'));}return _0x49fd5a;}get['id'](){const _0x9951c6=_0x2794f5;return this[_0x9951c6(0x12a)]['id'];}get[_0x2794f5(0x2a2)](){const _0x159f49=_0x2794f5;return this[_0x159f49(0x12a)]['content'];}get['author'](){const _0x206d11=_0x2794f5;return this['message'][_0x206d11(0x20c)];}get['channel'](){const _0x49dfd8=_0x2794f5;return this[_0x49dfd8(0x12a)][_0x49dfd8(0x267)];}get[_0x2794f5(0x24c)](){const _0x5eb3fe=_0x2794f5;return this[_0x5eb3fe(0x12a)][_0x5eb3fe(0x24c)];}get[_0x2794f5(0x172)](){const _0x5a5034=_0x2794f5;return this[_0x5a5034(0x12a)][_0x5a5034(0x172)];}get['pinned'](){const _0x2a51fe=_0x2794f5;return this[_0x2a51fe(0x12a)][_0x2a51fe(0x2cd)];}get[_0x2794f5(0x300)](){const _0x3f12c7=_0x2794f5;return this[_0x3f12c7(0x12a)][_0x3f12c7(0x300)];}get[_0x2794f5(0x177)](){const _0x549960=_0x2794f5;return this[_0x549960(0x12a)]['nonce'];}get[_0x2794f5(0x2ed)](){const _0x473b51=_0x2794f5;return this['message'][_0x473b51(0x2ed)];}get[_0x2794f5(0x143)](){const _0x123440=_0x2794f5;return this[_0x123440(0x12a)][_0x123440(0x143)];}get[_0x2794f5(0x1bd)](){const _0x39c98a=_0x2794f5;return this[_0x39c98a(0x12a)][_0x39c98a(0x1bd)];}get['reactions'](){const _0x45a966=_0x2794f5;return this[_0x45a966(0x12a)][_0x45a966(0x2f0)];}get[_0x2794f5(0x148)](){const _0x2ff701=_0x2794f5;return this[_0x2ff701(0x12a)][_0x2ff701(0x148)];}get[_0x2794f5(0x191)](){const _0x41a64b=_0x2794f5;return this[_0x41a64b(0x12a)][_0x41a64b(0x191)];}get[_0x2794f5(0x135)](){const _0x499fc5=_0x2794f5;return this[_0x499fc5(0x12a)][_0x499fc5(0x135)];}get['editedAt'](){const _0x399077=_0x2794f5;return this['message'][_0x399077(0x228)];}get[_0x2794f5(0x230)](){const _0x2b748c=_0x2794f5;return this['message'][_0x2b748c(0x230)];}get['webhookID'](){const _0x1b5f76=_0x2794f5;return this[_0x1b5f76(0x12a)][_0x1b5f76(0x2f8)];}get['cleanContent'](){const _0x46bb4e=_0x2794f5;return this[_0x46bb4e(0x12a)][_0x46bb4e(0x1f5)];}get['edits'](){const _0x470528=_0x2794f5;return this['message'][_0x470528(0x167)];}get[_0x2794f5(0x292)](){const _0x1b528a=_0x2794f5;return this[_0x1b528a(0x12a)]['editable'];}get[_0x2794f5(0x2e3)](){const _0x17b69b=_0x2794f5;return this[_0x17b69b(0x12a)][_0x17b69b(0x2e3)];}get['pinnable'](){return this['message']['pinnable'];}[_0x2794f5(0x1f7)](_0x3be051){const _0x63052d=_0x2794f5;return this['message'][_0x63052d(0x230)][_0x63052d(0x1ca)](_0x3be051);}['isMemberMentioned'](_0x2e1aac){const _0x1f1b47=_0x2794f5;return this[_0x1f1b47(0x12a)][_0x1f1b47(0x230)][_0x1f1b47(0x1ca)](_0x2e1aac);}[_0x2794f5(0x205)](_0x524906,_0x144247){const _0x57526b=_0x2794f5;return this[_0x57526b(0x12a)]['edit'](_0x524906,_0x144247);}[_0x2794f5(0x182)](_0x1fb918,_0x4ff772){const _0x10fca1=_0x2794f5;return this['message'][_0x10fca1(0x182)](_0x1fb918,_0x4ff772);}[_0x2794f5(0x17f)](_0x51c7aa){const _0xdef8b3=_0x2794f5;return this[_0xdef8b3(0x12a)][_0xdef8b3(0x17f)](_0x51c7aa);}[_0x2794f5(0x251)](){const _0x17d804=_0x2794f5;return this[_0x17d804(0x12a)][_0x17d804(0x251)]();}[_0x2794f5(0x2fb)](){return this['message']['pin']();}[_0x2794f5(0x1d3)](){const _0x56ec9e=_0x2794f5;return this[_0x56ec9e(0x12a)]['unpin']();}[_0x2794f5(0x1f2)](_0x1b8e39){const _0x1bc630=_0x2794f5;return this[_0x1bc630(0x12a)][_0x1bc630(0x1f2)](_0x1b8e39);}}const _0x5df6f4={'types':{},'commands':{}};let _0x1c3fa5=[class _0x3c7c87 extends _0x297d4e{constructor(){const _0x268472=_0x2794f5;super(_0x268472(0x17d)),this[_0x268472(0x282)]=new Set([_0x268472(0x2ac),'t',_0x268472(0x2b3),'y','on',_0x268472(0x2b1),'enabled','1','+']),this['falsy']=new Set([_0x268472(0x2a8),'f','no','n','off','disable','disabled','0','-']);}['validate'](_0xe6bb7e){const _0x1e27f6=_0x2794f5,_0x477688=_0xe6bb7e['toLowerCase']();return this[_0x1e27f6(0x282)]['has'](_0x477688)||this['falsy'][_0x1e27f6(0x1ca)](_0x477688);}[_0x2794f5(0x160)](_0x359cd6){const _0x12f49b=_0x2794f5,_0x5e7c9b=_0x359cd6[_0x12f49b(0x202)]();if(this[_0x12f49b(0x282)][_0x12f49b(0x1ca)](_0x5e7c9b))return!![];if(this[_0x12f49b(0x18c)][_0x12f49b(0x1ca)](_0x5e7c9b))return![];throw new RangeError(_0x12f49b(0x195));}},class _0x48e376 extends _0x297d4e{constructor(){const _0x354adb=_0x2794f5;super(_0x354adb(0x16d));}[_0x2794f5(0x280)](_0x448091){const _0x5cfbdb=_0x2794f5,_0x236212=[];for(var _0x3d9ba5 in _0x5df6f4['commands']){let _0x3da1f2=_0x5df6f4['commands'][_0x3d9ba5];if(_0x3da1f2[_0x5cfbdb(0x176)]['includes'](_0x448091))_0x236212[_0x5cfbdb(0x1c3)](_0x3da1f2);}if(_0x236212[_0x5cfbdb(0x1ab)]===0x1)return!![];if(_0x236212[_0x5cfbdb(0x1ab)]===0x0)return![];return _0x236212[_0x5cfbdb(0x1ab)]<=0xf?disambiguation(_0x236212[_0x5cfbdb(0x13b)](_0x347387=>escapeMarkdown(_0x347387[_0x5cfbdb(0x176)])),_0x5cfbdb(0x1a7),null)+'\x0a':_0x5cfbdb(0x214);}['parse'](_0x210346){const _0x33737b=_0x2794f5;return this[_0x33737b(0x134)][_0x33737b(0x16c)][_0x33737b(0x1a4)](_0x210346)[0x0];}}],_0x47babe=[class _0x45c31a extends _0x1043e0{constructor(){const _0x56fd3a=_0x2794f5;super({'name':'ban','format':_0x56fd3a(0x2ea),'examples':[_0x56fd3a(0x2c9)],'hasOne':[permRoles['E'],permRoles['F'],permRoles['*']],'details':_0x56fd3a(0x248)+autosanctionMessages['map']((_0xbdf6f2,_0x19c3c0)=>_0x19c3c0+0x1+':\x20'+_0xbdf6f2)['join']('\x0a\x0a')});}[_0x2794f5(0x2ae)](_0x226c5b,_0x393a20){const _0x2718a0=_0x2794f5;let _0x2d2bbd=_0x393a20[_0x2718a0(0x12f)]('\x20');var _0x22a344=_0x2d2bbd[0x0],_0x563a7d,_0xc3d575;let _0x1ffd57=new RegExp(/@([\S\s]{2,32})#(\d{4})/)[_0x2718a0(0x151)](_0x393a20);if(_0x1ffd57){_0x393a20=_0x393a20[_0x2718a0(0x2a0)](_0x1ffd57[0x0],'')[_0x2718a0(0x23c)]();let _0x5fc33f=ZLibrary['DiscordModules'][_0x2718a0(0x15e)][_0x2718a0(0x184)](_0x1ffd57[0x1],_0x1ffd57[0x2]);if(_0x5fc33f)_0x22a344=_0x5fc33f['id'];}else _0x393a20=_0x393a20[_0x2718a0(0x2a0)](_0x22a344,'')[_0x2718a0(0x23c)]();if(_0x22a344[_0x2718a0(0x1ab)]===0x0||_0x22a344[_0x2718a0(0x2a0)](/\D*/g,'')[_0x2718a0(0x1ab)]!==_0x22a344[_0x2718a0(0x1ab)])return _0x226c5b[_0x2718a0(0x2f2)](_0x2718a0(0x274)+(''+_0x2a3615+this[_0x2718a0(0x176)]+'\x20'+this[_0x2718a0(0x1e1)]));let _0x3787de=new RegExp(/(\d{1,4}[hdmy])/i)['exec'](_0x393a20);return _0x3787de&&_0x393a20[_0x2718a0(0x1d4)](0x0,_0x3787de[0x0][_0x2718a0(0x1ab)])===_0x3787de[0x0]&&(_0x393a20=_0x393a20[_0x2718a0(0x2a0)](_0x3787de[0x0],'')[_0x2718a0(0x23c)](),_0x563a7d=_0x3787de[0x1]),_0xc3d575=_0x393a20[0x0]?Number(_0x393a20)[_0x2718a0(0x29e)]()[_0x2718a0(0x1ab)]===_0x393a20['length']?autosanctionMessages[Number(_0x393a20)-0x1]:_0x393a20[0x0]['toUpperCase']()+_0x393a20[_0x2718a0(0x1d4)](0x1):null,_0x226c5b[_0x2718a0(0x137)](cmdsCId,(_0xac8a52?'':'-')+_0x2718a0(0x25e)+_0x22a344+(_0x563a7d?_0x2718a0(0x2fc)+_0x563a7d:'')+(_0xc3d575?'\x20'+_0xc3d575:_0x2718a0(0x14d)));}},class _0x1d8232 extends _0x1043e0{constructor(){const _0x57254e=_0x2794f5;super({'name':_0x57254e(0x1b3),'format':_0x57254e(0x2bb),'hasOne':[permRoles['D'],permRoles['E'],permRoles['F'],permRoles['*']],'details':_0x57254e(0x248)+autosanctionMessages[_0x57254e(0x13b)]((_0x5bebc3,_0x31b0d9)=>_0x31b0d9+0x1+':\x20'+_0x5bebc3)['join']('\x0a\x0a')});}[_0x2794f5(0x2ae)](_0x37e2b6,_0x5932b7){const _0x47f687=_0x2794f5;var _0x1105e4=_0x5932b7[_0x47f687(0x12f)]('\x20')[0x0],_0xa243a8;let _0x2f56a2=new RegExp(/@([\S\s]{2,32})#(\d{4})/)[_0x47f687(0x151)](_0x5932b7);if(_0x2f56a2){_0x5932b7=_0x5932b7['replace'](_0x2f56a2[0x0],'')[_0x47f687(0x23c)]();let _0x2717d5=ZLibrary['DiscordModules'][_0x47f687(0x15e)][_0x47f687(0x184)](_0x2f56a2[0x1],_0x2f56a2[0x2]);if(_0x2717d5)_0x1105e4=_0x2717d5['id'];}else _0x5932b7=_0x5932b7['replace'](_0x1105e4,'')[_0x47f687(0x23c)]();if(_0x1105e4[_0x47f687(0x1ab)]===0x0||_0x1105e4[_0x47f687(0x2a0)](/\D*/g,'')['length']!==_0x1105e4[_0x47f687(0x1ab)])return _0x37e2b6[_0x47f687(0x2f2)](_0x47f687(0x274)+(''+_0x2a3615+this[_0x47f687(0x176)]+'\x20'+this[_0x47f687(0x1e1)]));_0xa243a8=_0x5932b7[0x0]?Number(_0x5932b7)[_0x47f687(0x29e)]()[_0x47f687(0x1ab)]===_0x5932b7[_0x47f687(0x1ab)]?autosanctionMessages[Number(_0x5932b7)-0x1]:_0x5932b7[0x0][_0x47f687(0x15f)]()+_0x5932b7[_0x47f687(0x1d4)](0x1):null;if(!_0xa243a8)return _0x37e2b6[_0x47f687(0x2f2)]('A\x20reason\x20must\x20be\x20supplied!\x20'+(''+_0x2a3615+this[_0x47f687(0x176)]+'\x20'+this[_0x47f687(0x1e1)]));return _0x37e2b6['force'](cmdsCId,(_0xac8a52?'':'-')+_0x47f687(0x19d)+_0x1105e4+(_0xa243a8?'\x20'+_0xa243a8:_0x47f687(0x14d)));}},class _0x9eed3f extends _0x1043e0{constructor(){const _0x428ef1=_0x2794f5;super({'name':'mute','format':_0x428ef1(0x199),'details':_0x428ef1(0x248)+autosanctionMessages['map']((_0x27b93b,_0x5e8693)=>_0x5e8693+0x1+':\x20'+_0x27b93b)[_0x428ef1(0x1b4)]('\x0a\x0a'),'hasOne':[permRoles['C'],permRoles['D'],permRoles['E'],permRoles['F'],permRoles['*']]});}[_0x2794f5(0x2ae)](_0x299d0f,_0x48e1e7){const _0x52178d=_0x2794f5;let _0x1e2318=_0x48e1e7[_0x52178d(0x12f)]('\x20');var _0xd01533=_0x1e2318[0x0],_0x46d284,_0x33c0aa;let _0x2eadfa=new RegExp(/@([\S\s]{2,32})#(\d{4})/)[_0x52178d(0x151)](_0x48e1e7);if(_0x2eadfa){_0x48e1e7=_0x48e1e7['replace'](_0x2eadfa[0x0],'')[_0x52178d(0x23c)]();let _0x6ccf49=ZLibrary[_0x52178d(0x213)][_0x52178d(0x15e)]['findByTag'](_0x2eadfa[0x1],_0x2eadfa[0x2]);if(_0x6ccf49)_0xd01533=_0x6ccf49['id'];}else _0x48e1e7=_0x48e1e7[_0x52178d(0x2a0)](_0xd01533,'')[_0x52178d(0x23c)]();if(_0xd01533[_0x52178d(0x1ab)]===0x0||_0xd01533[_0x52178d(0x2a0)](/\D*/g,'')[_0x52178d(0x1ab)]!==_0xd01533['length'])return _0x299d0f['say']('A\x20user\x20must\x20be\x20supplied!\x20'+(''+_0x2a3615+this['name']+'\x20'+this[_0x52178d(0x1e1)]));let _0x6c25fe=new RegExp(/(\d{1,4}[hdmy])/i)[_0x52178d(0x151)](_0x48e1e7);return _0x6c25fe&&_0x48e1e7[_0x52178d(0x1d4)](0x0,_0x6c25fe[0x0][_0x52178d(0x1ab)])===_0x6c25fe[0x0]&&(_0x48e1e7=_0x48e1e7[_0x52178d(0x2a0)](_0x6c25fe[0x0],'')[_0x52178d(0x23c)](),_0x46d284=_0x6c25fe[0x1]),_0x33c0aa=_0x48e1e7[0x0]?Number(_0x48e1e7)['toString']()['length']===_0x48e1e7[_0x52178d(0x1ab)]?autosanctionMessages[Number(_0x48e1e7)-0x1]:_0x48e1e7[0x0]['toUpperCase']()+_0x48e1e7['slice'](0x1):null,_0x299d0f[_0x52178d(0x137)](cmdsCId,(_0xac8a52?'':'-')+'mute\x20'+_0xd01533+(_0x46d284?'\x20'+_0x46d284:'')+(_0x33c0aa?'\x20'+_0x33c0aa:_0x52178d(0x14d)));}},class _0x5c8e4f extends _0x1043e0{constructor(){const _0x24f8be=_0x2794f5;super({'name':'unmute','format':_0x24f8be(0x2bb),'hasOne':[permRoles['C'],permRoles['D'],permRoles['E'],permRoles['F'],permRoles['*']]});}[_0x2794f5(0x2ae)](_0xb38699,_0x2867ba){const _0x4b21b7=_0x2794f5;var _0x21edc4=_0x2867ba[_0x4b21b7(0x12f)]('\x20')[0x0],_0x372ede;let _0x43d391=new RegExp(/@([\S\s]{2,32})#(\d{4})/)[_0x4b21b7(0x151)](_0x2867ba);if(_0x43d391){_0x2867ba=_0x2867ba[_0x4b21b7(0x2a0)](_0x43d391[0x0],'')['trim']();let _0x1b7b53=ZLibrary[_0x4b21b7(0x213)][_0x4b21b7(0x15e)][_0x4b21b7(0x184)](_0x43d391[0x1],_0x43d391[0x2]);if(_0x1b7b53)_0x21edc4=_0x1b7b53['id'];}else _0x2867ba=_0x2867ba[_0x4b21b7(0x2a0)](_0x21edc4,'')[_0x4b21b7(0x23c)]();if(_0x21edc4[_0x4b21b7(0x1ab)]===0x0||_0x21edc4[_0x4b21b7(0x2a0)](/\D*/g,'')[_0x4b21b7(0x1ab)]!==_0x21edc4[_0x4b21b7(0x1ab)])return _0xb38699[_0x4b21b7(0x2f2)](_0x4b21b7(0x274)+(''+_0x2a3615+this['name']+'\x20'+this[_0x4b21b7(0x1e1)]));_0x372ede=_0x2867ba[0x0]?_0x2867ba[0x0][_0x4b21b7(0x15f)]()+_0x2867ba[_0x4b21b7(0x1d4)](0x1):null;if(!_0x372ede)return _0xb38699[_0x4b21b7(0x2f2)]('A\x20reason\x20must\x20be\x20supplied!\x20'+(''+_0x2a3615+this[_0x4b21b7(0x176)]+'\x20'+this['format']));return _0xb38699[_0x4b21b7(0x137)](cmdsCId,(_0xac8a52?'':'-')+_0x4b21b7(0x234)+_0x21edc4+(_0x372ede?'\x20'+_0x372ede:_0x4b21b7(0x15a)));}},class _0x2842af extends _0x1043e0{constructor(){const _0x386772=_0x2794f5;super({'name':_0x386772(0x20d),'format':_0x386772(0x2bb),'details':_0x386772(0x248)+autosanctionMessages[_0x386772(0x13b)]((_0xddd7a5,_0x3822ce)=>_0x3822ce+0x1+':\x20'+_0xddd7a5)[_0x386772(0x1b4)]('\x0a\x0a'),'hasOne':[permRoles['B'],permRoles['C'],permRoles['D'],permRoles['E'],permRoles['F'],permRoles['*']]});}[_0x2794f5(0x2ae)](_0x563329,_0x33a425){const _0x13aff9=_0x2794f5;var _0x2aa44b=_0x33a425[_0x13aff9(0x12f)]('\x20')[0x0],_0x71d3c1;let _0x8a22c5=new RegExp(/@([\S\s]{2,32})#(\d{4})/)['exec'](_0x33a425);if(_0x8a22c5){_0x33a425=_0x33a425['replace'](_0x8a22c5[0x0],'')['trim']();let _0x41299a=ZLibrary[_0x13aff9(0x213)]['UserStore'][_0x13aff9(0x184)](_0x8a22c5[0x1],_0x8a22c5[0x2]);if(_0x41299a)_0x2aa44b=_0x41299a['id'];}else _0x33a425=_0x33a425[_0x13aff9(0x2a0)](_0x2aa44b,'')[_0x13aff9(0x23c)]();if(_0x2aa44b[_0x13aff9(0x1ab)]===0x0||_0x2aa44b[_0x13aff9(0x2a0)](/\D*/g,'')['length']!==_0x2aa44b[_0x13aff9(0x1ab)])return _0x563329['say']('A\x20user\x20must\x20be\x20supplied!\x20'+(''+_0x2a3615+this['name']+'\x20'+this[_0x13aff9(0x1e1)]));_0x71d3c1=_0x33a425[0x0]?Number(_0x33a425)[_0x13aff9(0x29e)]()[_0x13aff9(0x1ab)]===_0x33a425[_0x13aff9(0x1ab)]?autosanctionMessages[Number(_0x33a425)-0x1]:_0x33a425[0x0]['toUpperCase']()+_0x33a425[_0x13aff9(0x1d4)](0x1):null;if(!_0x71d3c1)return _0x563329['say']('A\x20reason\x20must\x20be\x20supplied!\x20'+(''+_0x2a3615+this['name']+'\x20'+this[_0x13aff9(0x1e1)]));return _0x563329[_0x13aff9(0x137)](cmdsCId,(_0xac8a52?'':'-')+'warn\x20'+_0x2aa44b+(_0x71d3c1?'\x20'+_0x71d3c1:_0x13aff9(0x14d)));}},class _0x556081 extends _0x1043e0{constructor(){const _0xcaa18d=_0x2794f5;super({'name':_0xcaa18d(0x1a5),'format':_0xcaa18d(0x1cc),'aliases':['v']});}[_0x2794f5(0x2ae)](_0x393885,_0xf88e51){const _0x257335=_0x2794f5;var _0x3295a1=_0xf88e51[_0x257335(0x12f)]('\x20')[0x0];let _0x2b5ed3=new RegExp(/@([\S\s]{2,32})#(\d{4})/)['exec'](_0xf88e51);if(_0x2b5ed3){_0xf88e51=_0xf88e51[_0x257335(0x2a0)](_0x2b5ed3[0x0],'')[_0x257335(0x23c)]();let _0x494bcf=ZLibrary[_0x257335(0x213)][_0x257335(0x15e)][_0x257335(0x184)](_0x2b5ed3[0x1],_0x2b5ed3[0x2]);if(_0x494bcf)_0x3295a1=_0x494bcf['id'];}else _0xf88e51=_0xf88e51['replace'](_0x3295a1,'')['trim']();if(_0x3295a1[_0x257335(0x1ab)]===0x0||_0x3295a1[_0x257335(0x2a0)](/\D*/g,'')['length']!==_0x3295a1[_0x257335(0x1ab)])return _0x393885[_0x257335(0x2f2)](_0x257335(0x274)+(''+_0x2a3615+this[_0x257335(0x176)]+'\x20'+this['format']));return _0x393885['force'](cmdsCId,(_0xac8a52?'':'!')+'v\x20'+_0x3295a1);}},class _0x16e032 extends _0x1043e0{constructor(){super({'name':'eval','format':'<script>','hidden':!![]});}['run'](_0x1b82d1,_0x3482db){const _0x517c0b=_0x2794f5;if(!_0xac8a52)return _0x1b82d1['say'](_0x517c0b(0x25c));let _0x283581=_0x3482db;try{let _0x425bf0=eval(_0x283581);BdApi[_0x517c0b(0x166)](JSON[_0x517c0b(0x192)](_0x425bf0));}catch(_0x4d0fc7){BdApi[_0x517c0b(0x166)]('Error',_0x4d0fc7[_0x517c0b(0x176)]+':\x20'+_0x4d0fc7['message']);}return null;}},class _0x47efea extends _0x1043e0{constructor(){const _0x407ba1=_0x2794f5;super({'name':_0x407ba1(0x18f),'format':_0x407ba1(0x1c5),'description':_0x407ba1(0x27d)});}[_0x2794f5(0x2ae)](_0x57f274,_0x236030){const _0xde3f88=_0x2794f5;let _0x396b31=_0x236030[_0xde3f88(0x202)](),_0x5963fa=_0x5df6f4[_0xde3f88(0x1a7)];if(_0x396b31){let _0x3fba17=function(){const _0x59c668=_0xde3f88;let _0x5898f4=[];for(var _0x521e00 in _0x5963fa){let _0x1bf4b3=_0x5963fa[_0x521e00];if(_0x521e00===_0x1bf4b3[_0x59c668(0x176)]&&0x0==_0x1bf4b3[_0x59c668(0x12d)]&&_0x521e00[_0x59c668(0x215)](_0x396b31))_0x5898f4[_0x59c668(0x1c3)](_0x1bf4b3);};if(_0x5898f4[_0x59c668(0x1ab)]===0x0)return null;if(_0x5898f4[_0x59c668(0x1ab)]===0x1)return _0x5898f4[0x0];let _0xff3c33=_0x5963fa[_0x396b31];if(_0xff3c33)return _0xff3c33;if(_0x5898f4[_0x59c668(0x1ab)]>0x1)return'Multiple\x20commands\x20found.\x20Please\x20be\x20more\x20specific.';else return null;}();if(typeof _0x3fba17===_0xde3f88(0x1a2))return _0x57f274[_0xde3f88(0x2f2)](_0x3fba17);if(!(_0x3fba17 instanceof _0x1043e0))return _0x57f274[_0xde3f88(0x2f2)](_0xde3f88(0x138));return _0x57f274[_0xde3f88(0x2f2)]('`'+_0x2a3615+_0x3fba17[_0xde3f88(0x176)]+(_0x3fba17[_0xde3f88(0x1e1)]?'\x20'+_0x3fba17[_0xde3f88(0x1e1)]:'')+'`'+(_0x3fba17['description']?'\x0a'+_0x3fba17[_0xde3f88(0x147)]:'')+(_0x3fba17['aliases']?'\x0aAliases:\x20'+_0x3fba17[_0xde3f88(0x1fc)][_0xde3f88(0x13b)](_0x46ca1a=>'`'+_0x46ca1a+'`'):'')+(_0x3fba17[_0xde3f88(0x206)]?_0xde3f88(0x27f)+_0x3fba17[_0xde3f88(0x206)]['map'](_0x4b8567=>'`'+_0x4b8567+'`')[_0xde3f88(0x1b4)](',\x20'):'')+(_0x3fba17[_0xde3f88(0x24f)]?'\x0a```'+_0x3fba17[_0xde3f88(0x24f)]+_0xde3f88(0x2e6):''));}else{let _0x32d187=[];for(var _0x1c4a20 in _0x5963fa){let _0x46a31c=_0x5963fa[_0x1c4a20];if(_0x1c4a20===_0x46a31c[_0xde3f88(0x176)]&&0x0==_0x46a31c[_0xde3f88(0x12d)])_0x32d187[_0xde3f88(0x1c3)](_0x46a31c);};return _0x32d187[_0xde3f88(0x2c8)](_0x21ffe2=>_0x21ffe2['name']),_0x57f274[_0xde3f88(0x2f2)](_0xde3f88(0x1dd)+_0x2a3615+_0xde3f88(0x25f)+_0x32d187[_0xde3f88(0x13b)](_0x56cc57=>'`'+(_0x56cc57[_0xde3f88(0x2a4)](_0x57f274)?'':_0xde3f88(0x23f))+_0x56cc57[_0xde3f88(0x176)]+'`')[_0xde3f88(0x1b4)]('\x0a'));};}},class _0x11bfa4 extends _0x1043e0{constructor(){const _0x3e9e96=_0x2794f5;super({'name':_0x3e9e96(0x226),'format':_0x3e9e96(0x1cc),'description':_0x3e9e96(0x261)});}async[_0x2794f5(0x2ae)](_0x47146b,_0x50773e){const _0x2724cb=_0x2794f5;var _0x2cc9fd=_0x50773e[_0x2724cb(0x12f)]('\x20')[0x0];let _0x458bf0=new RegExp(/@([\S\s]{2,32})#(\d{4})/)['exec'](_0x50773e);if(_0x458bf0){_0x50773e=_0x50773e['replace'](_0x458bf0[0x0],'')['trim']();let _0x32b8e2=ZLibrary[_0x2724cb(0x213)][_0x2724cb(0x15e)]['findByTag'](_0x458bf0[0x1],_0x458bf0[0x2]);if(_0x32b8e2)_0x2cc9fd=_0x32b8e2['id'];}else _0x50773e=_0x50773e['replace'](_0x2cc9fd,'')[_0x2724cb(0x23c)]();if(_0x2cc9fd['length']===0x0||_0x2cc9fd[_0x2724cb(0x2a0)](/\D*/g,'')[_0x2724cb(0x1ab)]!==_0x2cc9fd[_0x2724cb(0x1ab)])return _0x47146b[_0x2724cb(0x2f2)](_0x2724cb(0x274)+(''+_0x2a3615+this[_0x2724cb(0x176)]+'\x20'+this['format']));let _0x1d92f9=(await new _0x248c22('user/'+_0x2cc9fd))[_0x2724cb(0x304)]['data'];console['log'](_0x1d92f9);if(!_0x1d92f9)return _0x47146b[_0x2724cb(0x2f2)](_0x2724cb(0x159));if(!_0x1d92f9[_0x2724cb(0x1cd)])return _0x47146b[_0x2724cb(0x2f2)](_0x2724cb(0x233));let _0x2507d0=[];for(var _0x5c120c in _0x1d92f9[_0x2724cb(0x1cd)]){let _0x18a7eb=_0x1d92f9[_0x2724cb(0x1cd)][_0x5c120c];_0x18a7eb[_0x2724cb(0x26d)]=_0x5c120c,_0x2507d0[_0x2724cb(0x1c3)](_0x18a7eb);};let _0x4ed852=APIFunctions[_0x2724cb(0x229)](_0x2507d0),_0x1af94b=APIFunctions[_0x2724cb(0x270)](_0x2507d0),_0xd3672e=[_0x2724cb(0x2a9)+_0x2cc9fd+_0x2724cb(0x297)+(_0x4ed852?_0x4ed852[_0x2724cb(0x26d)]:_0x2724cb(0x2d0))+_0x2724cb(0x186)+(_0x1af94b?new Date(_0x1af94b):'unknown')+'.'];return _0x47146b[_0x2724cb(0x2f2)](_0xd3672e[_0x2724cb(0x1b4)]('\x0a')||_0x2724cb(0x2a7));}},class _0x24e62e extends _0x1043e0{constructor(){const _0x1571dc=_0x2794f5;super({'name':_0x1571dc(0x2fa),'format':'<invite>\x20[reason]','description':'Revokes\x20an\x20invite.','hasOne':[permRoles['*']]});}async['run'](_0x5e9f7e,_0x35656f){const _0x36ad25=_0x2794f5;var _0x4a6020=_0x35656f[_0x36ad25(0x12f)]('\x20')[0x0][_0x36ad25(0x2a0)](/[\\\/]/g,'');_0x35656f=_0x35656f[_0x36ad25(0x2a0)](_0x4a6020,'')[_0x36ad25(0x23c)]();var _0x471137=_0x35656f[0x0]?_0x35656f[0x0]['toUpperCase']()+_0x35656f[_0x36ad25(0x1d4)](0x1):null;let _0x1ef963=(await new _0x248c22(_0x36ad25(0x132)+_0x4a6020+_0x36ad25(0x170),{'query':{'reason':_0x471137}}))['data'];if(!_0x1ef963[_0x36ad25(0x2e9)]||!_0x1ef963[_0x36ad25(0x304)]){if(_0x1ef963['message'])return _0x5e9f7e[_0x36ad25(0x2f2)](_0x36ad25(0x2d5)+_0x1ef963[_0x36ad25(0x12a)]);return _0x5e9f7e['say']('Request\x20failed\x20of\x20unknown\x20origin.');};return console[_0x36ad25(0x2c0)](_0x1ef963),_0x5e9f7e['say'](_0x36ad25(0x1ef)+_0x1ef963[_0x36ad25(0x304)]['code']+'`\x20for\x20```'+(_0x1ef963[_0x36ad25(0x304)][_0x36ad25(0x155)]||_0x36ad25(0x296))+_0x36ad25(0x2e6));}},class _0x3f0a30 extends _0x1043e0{constructor(){const _0x48d3fd=_0x2794f5;super({'name':_0x48d3fd(0x1be),'format':'<user>\x20<role>','hasOne':[permRoles['F'],permRoles['*']]});}['run'](_0x433c48,_0x2fc2b0){const _0x2c8a6e=_0x2794f5;var _0x157760=_0x2fc2b0[_0x2c8a6e(0x12f)]('\x20')[0x0];let _0x2a8a7d=new RegExp(/@([\S\s]{2,32})#(\d{4})/)[_0x2c8a6e(0x151)](_0x2fc2b0);if(_0x2a8a7d){_0x2fc2b0=_0x2fc2b0[_0x2c8a6e(0x2a0)](_0x2a8a7d[0x0],'')['trim']();let _0x4c9d80=ZLibrary[_0x2c8a6e(0x213)][_0x2c8a6e(0x15e)][_0x2c8a6e(0x184)](_0x2a8a7d[0x1],_0x2a8a7d[0x2]);if(_0x4c9d80)_0x157760=_0x4c9d80['id'];}else _0x2fc2b0=_0x2fc2b0[_0x2c8a6e(0x2a0)](_0x157760,'')['trim']();if(_0x157760[_0x2c8a6e(0x1ab)]===0x0||_0x157760[_0x2c8a6e(0x2a0)](/\D*/g,'')[_0x2c8a6e(0x1ab)]!==_0x157760[_0x2c8a6e(0x1ab)])return _0x433c48[_0x2c8a6e(0x2f2)](_0x2c8a6e(0x274)+(''+_0x2a3615+this[_0x2c8a6e(0x176)]+'\x20'+this[_0x2c8a6e(0x1e1)]));var _0x13630c=_0x2fc2b0;if(_0x13630c[_0x2c8a6e(0x1ab)]===0x0)return _0x433c48[_0x2c8a6e(0x2f2)](_0x2c8a6e(0x207)+(''+_0x2a3615+this[_0x2c8a6e(0x176)]+'\x20'+this['format']));return _0x433c48[_0x2c8a6e(0x137)](huCmdsCId,(_0xac8a52?'':'!')+_0x2c8a6e(0x245)+_0x157760+'\x20'+_0x13630c);}},class _0xf3b549 extends _0x1043e0{constructor(){const _0x17f710=_0x2794f5;super({'name':_0x17f710(0x2f7),'format':_0x17f710(0x290),'aliases':['aw'],'formats':[_0x17f710(0x293),_0x17f710(0x28d),'Welcome\x20{{user}},\x20make\x20sure\x20to\x20select\x20some\x20roles\x20from\x20<#645783730559909908>\x20and\x20read\x20the\x20<#725856136065974322>\x20for\x20more\x20information.','Thanks\x20for\x20popping\x20in,\x20{{user}},\x20we\x20hope\x20you\x20have\x20a\x20great\x20time\x20in\x20The\x20Furry\x20Refuge.\x0aIn\x20the\x20meantime,\x20try\x20getting\x20some\x20roles\x20<#645783730559909908>\x20and\x20saying\x20\x22Hello\x22!',_0x17f710(0x1d0),_0x17f710(0x190)],'details':'Here\x27s\x20the\x20list\x20of\x20automessages:\x0a'+autowelcomeMessages[_0x17f710(0x13b)]((_0x2aa84a,_0x4c2f08)=>_0x4c2f08+0x1+':\x20'+_0x2aa84a)[_0x17f710(0x1b4)]('\x0a\x0a')});}[_0x2794f5(0x2ae)](_0x495e1d,_0x2fe858){const _0x2e55dd=_0x2794f5;var _0x5af8b9=_0x2fe858[_0x2e55dd(0x12f)]('\x20')[0x0];let _0x1bd6de=new RegExp(/@([\S\s]{2,32})#(\d{4})/)['exec'](_0x2fe858);if(_0x1bd6de){_0x2fe858=_0x2fe858['replace'](_0x1bd6de[0x0],'')[_0x2e55dd(0x23c)]();let _0x4e4d44=ZLibrary[_0x2e55dd(0x213)][_0x2e55dd(0x15e)][_0x2e55dd(0x184)](_0x1bd6de[0x1],_0x1bd6de[0x2]);if(_0x4e4d44)_0x5af8b9=_0x4e4d44['id'];}else _0x2fe858=_0x2fe858['replace'](_0x5af8b9,'')['trim']();if(_0x5af8b9[_0x2e55dd(0x1ab)]===0x0||_0x5af8b9[_0x2e55dd(0x2a0)](/\D*/g,'')[_0x2e55dd(0x1ab)]!==_0x5af8b9[_0x2e55dd(0x1ab)])return _0x495e1d[_0x2e55dd(0x2f2)](_0x2e55dd(0x274)+(''+_0x2a3615+this[_0x2e55dd(0x176)]+'\x20'+this[_0x2e55dd(0x1e1)]));var _0x28eb86=_0x2fe858[_0x2e55dd(0x12f)]('\x20')[0x0];if(!_0x28eb86)return _0x495e1d[_0x2e55dd(0x2f2)](_0x2e55dd(0x158)+(''+_0x2a3615+this[_0x2e55dd(0x176)]+'\x20'+this['format']));let _0x893a6e=autowelcomeMessages[Number(_0x28eb86)-0x1];if(!_0x893a6e)return _0x495e1d['say']('I\x20couldn\x27t\x20find\x20that\x20autowelcome\x20message.');return _0x495e1d[_0x2e55dd(0x137)](_0x2ee32e[_0x2e55dd(0x269)][_0x2e55dd(0x2dd)][_0x2e55dd(0x16e)](),_0x893a6e['replace'](/{{user}}/g,_0x2e55dd(0x2a9)+_0x5af8b9+'>'));}}];for(var _0x326305 in _0x1c3fa5){let _0x3fada2=new _0x1c3fa5[_0x326305]();_0x5df6f4[_0x2794f5(0x20f)][_0x3fada2['id']]=_0x3fada2;};for(var _0x326305 in _0x47babe){let _0x58ed5c=new _0x47babe[_0x326305]();_0x5df6f4[_0x2794f5(0x1a7)][_0x58ed5c['name']]=_0x58ed5c;if(_0x58ed5c['aliases'])_0x58ed5c[_0x2794f5(0x1fc)][_0x2794f5(0x221)](_0x1248e4=>{_0x5df6f4['commands'][_0x1248e4]=_0x58ed5c;});};return{'registry':_0x5df6f4,'FriendlyError':_0x65823a,'CommandFormatError':_0x3eca93,'Command':_0x1043e0,'VirtualMessage':_0x42dca6,'CommandMessage':_0x45e0f0,'Argument':_0x149621,'ArgumentCollector':_0x3792ab,'ArgumentType':_0x297d4e,'ArgumentUnionType':_0x346d66,'Util':_0x12dd12,'APIRequest':_0x248c22};};var _0x48b591={},_0x2b0e83={},_0x5ca772={},_0x184e8f={'users':{},'invites':{}},_0x2a3615='.',token='';let baseURL='https://api2.paw.bot';var _0xac8a52=![];_0xac8a52&&(cmdsCId=_0x5d3816(0x287));const {registry:_0x2b228d,VirtualMessage:_0x407938,Command:_0xc969be,CommandMessage:_0x303fec,Util:_0x2954f2,APIRequest:_0x5bfa2a}=_0x5b59e7(_0x2ee32e);return class _0x2faa9e extends _0x5cdffe{[_0x5d3816(0x255)](){const _0x5f22f7=_0x5d3816;this[_0x5f22f7(0x240)]={'settings':{'hideUnknownCommands':{'value':!![],'description':'Unknown\x20commands\x20will\x20not\x20get\x20sent'},'inviteInUserPopout':{'value':!![],'description':_0x5f22f7(0x2ab),'note':_0x5f22f7(0x2bc),'disabled':!![]},'debug':{'value':![],'description':_0x5f22f7(0x2a1),'note':'Disables\x20dangerous\x20commands\x20and\x20enables\x20quick\x20eval'}},'inputs':{'prefix':{'value':'.','placeholder':'!','description':_0x5f22f7(0x1c9)},'token':{'value':'','placeholder':_0x5f22f7(0x22c),'description':'Your\x20token\x20for\x20api.paw.bot'}},'amounts':{'live':{'value':0x3c,'min':0x0,'max':0x3c,'placeholder':0x3c,'description':_0x5f22f7(0x1d7),'note':'In\x20seconds,\x200\x20=\x20doesn\x27t\x20expire.'}}},this[_0x5f22f7(0x200)]={'after':{'UserPopout':'render','AnalyticsContext':_0x5f22f7(0x1d1)}};}[_0x5d3816(0x2da)](){this['forceUpdateAll'](),this['attachHandler']();}[_0x5d3816(0x197)](){const _0x4b2426=_0x5d3816;this[_0x4b2426(0x2af)]();}[_0x5d3816(0x2d2)](_0x2cc35a={}){const _0x2ada8f=_0x5d3816;let _0x25ad41,_0x2b54f9=[];for(let _0x16fe78 in _0x2b0e83)_0x2b54f9['push'](_0x2ee32e[_0x2ada8f(0x1b8)][_0x2ada8f(0x299)](_0x2ee32e[_0x2ada8f(0x15d)][_0x2ada8f(0x140)],{'type':_0x2ada8f(0x133),'plugin':this,'disabled':this[_0x2ada8f(0x240)][_0x2ada8f(0x1bb)][_0x16fe78][_0x2ada8f(0x146)],'keys':['inputs',_0x16fe78],'label':this['defaults'][_0x2ada8f(0x1bb)][_0x16fe78][_0x2ada8f(0x147)],'note':this[_0x2ada8f(0x240)]['inputs'][_0x16fe78][_0x2ada8f(0x1b1)],'placeholder':this[_0x2ada8f(0x240)]['inputs'][_0x16fe78][_0x2ada8f(0x241)],'value':!(_0x2b0e83[_0x16fe78]==='')?_0x2b0e83[_0x16fe78]:this[_0x2ada8f(0x240)][_0x2ada8f(0x1bb)][_0x16fe78]['value']}));for(let _0x4c05c2 in _0x48b591)_0x2b54f9[_0x2ada8f(0x1c3)](_0x2ee32e[_0x2ada8f(0x1b8)]['createElement'](_0x2ee32e[_0x2ada8f(0x15d)]['SettingsSaveItem'],{'type':_0x2ada8f(0x1f1),'plugin':this,'disabled':this[_0x2ada8f(0x240)][_0x2ada8f(0x1d8)][_0x4c05c2][_0x2ada8f(0x146)],'keys':[_0x2ada8f(0x1d8),_0x4c05c2],'label':this[_0x2ada8f(0x240)][_0x2ada8f(0x1d8)][_0x4c05c2]['description'],'note':this[_0x2ada8f(0x240)]['settings'][_0x4c05c2][_0x2ada8f(0x1b1)],'placeholder':this[_0x2ada8f(0x240)][_0x2ada8f(0x1d8)][_0x4c05c2][_0x2ada8f(0x241)],'value':_0x48b591[_0x4c05c2]}));for(let _0x1a5c15 in _0x5ca772)_0x2b54f9[_0x2ada8f(0x1c3)](_0x2ee32e['ReactUtils'][_0x2ada8f(0x299)](_0x2ee32e['LibraryComponents']['SettingsSaveItem'],{'type':_0x2ada8f(0x133),'plugin':this,'disabled':this[_0x2ada8f(0x240)][_0x2ada8f(0x16f)][_0x1a5c15][_0x2ada8f(0x146)],'childProps':{'type':'number'},'keys':[_0x2ada8f(0x16f),_0x1a5c15],'label':this['defaults']['amounts'][_0x1a5c15][_0x2ada8f(0x147)],'note':this[_0x2ada8f(0x240)]['amounts'][_0x1a5c15]['note'],'min':this[_0x2ada8f(0x240)]['amounts'][_0x1a5c15][_0x2ada8f(0x275)],'max':this[_0x2ada8f(0x240)]['amounts'][_0x1a5c15][_0x2ada8f(0x28b)],'placeholder':this[_0x2ada8f(0x240)][_0x2ada8f(0x16f)][_0x1a5c15][_0x2ada8f(0x241)],'value':!(_0x5ca772[_0x1a5c15]==='')?_0x5ca772[_0x1a5c15]:this[_0x2ada8f(0x240)]['amounts'][_0x1a5c15][_0x2ada8f(0x239)]}));return _0x25ad41=_0x2ee32e[_0x2ada8f(0x268)][_0x2ada8f(0x2be)](this,_0x2b54f9);}[_0x5d3816(0x2e1)](_0x3aa577){const _0x5593fb=_0x5d3816;this['SettingsUpdated']&&(delete this[_0x5593fb(0x1f3)],this[_0x5593fb(0x2af)]());}['forceUpdateAll'](){const _0x797673=_0x5d3816;_0x48b591=_0x2ee32e[_0x797673(0x2ca)]['get'](this,'settings'),_0x2b0e83=_0x2ee32e[_0x797673(0x2ca)][_0x797673(0x2f3)](this,'inputs'),_0x5ca772=_0x2ee32e[_0x797673(0x2ca)]['get'](this,_0x797673(0x16f));if(_0x2b0e83['prefix'][_0x797673(0x1ab)]>0xa)_0x2b0e83[_0x797673(0x2d7)]=_0x2b0e83[_0x797673(0x2d7)][_0x797673(0x1d4)](0x9);if(_0x2b0e83['prefix']=='')_0x2b0e83[_0x797673(0x2d7)]=this['defaults'][_0x797673(0x1bb)][_0x797673(0x2d7)]['value'];if(_0x5ca772['live']==='')_0x5ca772['live']=this['defaults'][_0x797673(0x16f)][_0x797673(0x1db)][_0x797673(0x239)];if(_0x5ca772['live']>this[_0x797673(0x240)][_0x797673(0x16f)][_0x797673(0x1db)][_0x797673(0x28b)])_0x5ca772[_0x797673(0x1db)]=this[_0x797673(0x240)][_0x797673(0x16f)][_0x797673(0x1db)]['max'];if(_0x5ca772[_0x797673(0x1db)]<this[_0x797673(0x240)][_0x797673(0x16f)][_0x797673(0x1db)][_0x797673(0x275)])_0x5ca772['live']=this[_0x797673(0x240)]['amounts']['live']['min'];_0x2b0e83[_0x797673(0x2d7)]=_0x2b0e83[_0x797673(0x2d7)]['toLowerCase'](),_0x5ca772[_0x797673(0x1db)]=Math[_0x797673(0x189)](_0x5ca772['live']),_0x2a3615=_0x2b0e83[_0x797673(0x2d7)],token=_0x2b0e83[_0x797673(0x224)],console['log']('T:\x20',_0x2b0e83[_0x797673(0x224)]),console['log']('O:\x20',token),_0xac8a52=_0x48b591[_0x797673(0x2c2)],_0x2ee32e[_0x797673(0x145)][_0x797673(0x26b)](this);}['onSwitch'](){const _0x2320bb=_0x5d3816;this[_0x2320bb(0x14b)]();}[_0x5d3816(0x2b7)](_0x37ae1c,_0x3d3869,_0x2b96bd){const _0x131964=_0x5d3816;new _0x5bfa2a(_0x131964(0x2bd)+_0x2b96bd['id'])[_0x131964(0x262)](_0x1c7f5c=>{const _0x45cfd0=_0x131964;if(!_0x184e8f['users'][_0x2b96bd['id']])_0x184e8f[_0x45cfd0(0x243)][_0x2b96bd['id']]={};_0x184e8f[_0x45cfd0(0x243)][_0x2b96bd['id']]=_0x1c7f5c[_0x45cfd0(0x304)][_0x45cfd0(0x304)];});if(_0x184e8f[_0x131964(0x243)][_0x2b96bd['id']]&&_0x184e8f[_0x131964(0x243)][_0x2b96bd['id']][_0x131964(0x2d8)])_0x37ae1c[_0x131964(0x1a1)](_0x3d3869,0x0,_0x2ee32e[_0x131964(0x1b8)][_0x131964(0x299)](_0x2ee32e[_0x131964(0x15d)][_0x131964(0x212)],{'className':_0x2ee32e[_0x131964(0x169)][_0x131964(0x20b)]+_0x2ee32e[_0x131964(0x169)][_0x131964(0x14c)]+_0x2ee32e[_0x131964(0x1ee)]['textrow'],'children':_0x184e8f[_0x131964(0x243)][_0x2b96bd['id']][_0x131964(0x2d8)]}));}[_0x5d3816(0x14b)](){const _0x48dd98=_0x5d3816;var _0x21d39c=document[_0x48dd98(0x286)]('.'+ZLibrary[_0x48dd98(0x302)][_0x48dd98(0x1df)]('markup')['markup'][_0x48dd98(0x12f)]('\x20')[_0x48dd98(0x1b4)]('.')+('.'+ZLibrary[_0x48dd98(0x302)]['getByProps'](_0x48dd98(0x12c))[_0x48dd98(0x12c)]['split']('\x20')[_0x48dd98(0x1b4)]('.')));if(!_0x21d39c)_0x21d39c=document[_0x48dd98(0x286)](_0x48dd98(0x1ce));if(!_0x21d39c)return console[_0x48dd98(0x1c0)](_0x1ad50d[_0x48dd98(0x173)][_0x48dd98(0x176)],_0x48dd98(0x18a));if($(_0x21d39c)[_0x48dd98(0x1ab)]===0x0)return console[_0x48dd98(0x1c0)](_0x1ad50d[_0x48dd98(0x173)][_0x48dd98(0x176)],_0x48dd98(0x1fb));$(_0x21d39c)[0x0][_0x48dd98(0x2cc)](_0x48dd98(0x220),function(_0x30d880){const _0x3eca02=_0x48dd98;let _0x37ad06=_0x2ee32e[_0x3eca02(0x1b8)][_0x3eca02(0x2f4)](_0x21d39c,{'name':_0x3eca02(0x260)})||_0x2ee32e[_0x3eca02(0x1b8)][_0x3eca02(0x2f4)](_0x21d39c,{'name':_0x3eca02(0x260),'up':!![]});if(!_0x37ad06)return console[_0x3eca02(0x1c0)](_0x1ad50d[_0x3eca02(0x173)]['name'],_0x3eca02(0x257));var _0x57b119=_0x30d880[_0x3eca02(0x23e)]||_0x30d880['which'];if(_0x57b119!==0xd||$(_0x3eca02(0x139))['is'](_0x3eca02(0x2d4)))return;var _0x3aa49a=_0x37ad06[_0x3eca02(0x14f)][_0x3eca02(0x2d1)];if(_0x3aa49a[_0x3eca02(0x202)]()['startsWith'](_0x2a3615[_0x3eca02(0x202)]())){var _0x4cca3e=![];let _0x492f92=_0x2b228d[_0x3eca02(0x1a7)],_0x296703=()=>{const _0x456872=_0x3eca02;_0x4cca3e=!![],_0x30d880[_0x456872(0x273)](),$(this)[_0x456872(0x21c)]('');let _0x1fed52=_0x21d39c;if(_0x1fed52){let _0x137ffa=_0x2ee32e[_0x456872(0x1b8)][_0x456872(0x2f4)](_0x1fed52,{'name':_0x456872(0x260)})||_0x2ee32e[_0x456872(0x1b8)]['findOwner'](_0x1fed52,{'name':'ChannelTextAreaForm','up':!![]});if(_0x137ffa)_0x137ffa[_0x456872(0x28a)]({'textValue':'','richValue':_0x2ee32e['LibraryModules'][_0x456872(0x149)][_0x456872(0x2e2)]('')});}};if(_0x48b591[_0x3eca02(0x303)])_0x296703();const _0x56dc1f=_0x2a3615[_0x3eca02(0x2a0)](/[|\\{}()[\]^$+*?.]/g,'\x5c$&');let _0x3d37e5=new RegExp('^('+_0x56dc1f+_0x3eca02(0x256),'i'),_0x20afb3=new RegExp('^('+_0x56dc1f+_0x3eca02(0x19c),'i');const _0x135751=_0x20afb3[_0x3eca02(0x151)](_0x3aa49a);let _0x34cb9c,_0x2cbf9b;if(_0x135751){_0x34cb9c=_0x492f92[_0x135751[0x2]+'\x20'+_0x135751[0x3]];if(_0x34cb9c)_0x2cbf9b=_0x3aa49a['substring'](_0x135751[0x1]['length']+(_0x135751[0x2]?_0x135751[0x2]['length']:0x0)+(_0x135751[0x3]?_0x135751[0x3]['length']+0x1:0x0));}const _0x401925=_0x3d37e5[_0x3eca02(0x151)](_0x3aa49a);if(_0x401925){_0x34cb9c=_0x492f92[_0x401925[0x2]];if(_0x34cb9c)_0x2cbf9b=_0x3aa49a[_0x3eca02(0x24e)](_0x401925[0x1][_0x3eca02(0x1ab)]+(_0x401925[0x2]?_0x401925[0x2]['length']+0x1:0x0));}if(_0x34cb9c){if(!_0x4cca3e)_0x296703();try{return new _0x303fec(new _0x407938(_0x2ee32e['LibraryModules'][_0x3eca02(0x2dd)][_0x3eca02(0x16e)](),_0x3aa49a,{'author':ZLibrary[_0x3eca02(0x213)]['UserStore'][_0x3eca02(0x193)]()}),_0x34cb9c,_0x2cbf9b)['run']()[_0x3eca02(0x1c1)](_0xba062=>BdApi[_0x3eca02(0x166)]('Error',(_0xba062[_0x3eca02(0x176)]||'Unknown\x20Error')+':\x20'+(_0xba062[_0x3eca02(0x12a)]||_0x3eca02(0x1d9))));}catch(_0x28afa3){return new _0x407938(_0x2ee32e[_0x3eca02(0x269)][_0x3eca02(0x2dd)][_0x3eca02(0x16e)](),_0x3eca02(0x237)+(_0x28afa3[_0x3eca02(0x176)]||'Unknown\x20Error')+':\x20'+(_0x28afa3['message']||_0x3eca02(0x25a))+_0x3eca02(0x2e6))[_0x3eca02(0x164)](),console['error'](_0x1ad50d[_0x3eca02(0x173)][_0x3eca02(0x176)],_0x28afa3);};}return new _0x407938(_0x2ee32e[_0x3eca02(0x269)]['LastChannelStore']['getChannelId'](),_0x3eca02(0x185)+_0x2a3615+_0x3eca02(0x1e0))[_0x3eca02(0x164)]();}});}};})(window['BDFDB_Global']['PluginUtils'][_0x69ba47(0x21e)](_0x1ad50d));})();
+                                `));
+                            }
+            
+                            // Get the user's response
+                            const responses = await msg.channel.awaitMessages(msg2 => msg2.author.id === msg.author.id, {
+                                max: 1,
+                                time: wait
+                            });
+            
+                            // Make sure they actually answered
+                            if (responses && responses.size === 1) {
+                                answers.push(responses.first());
+                                value = answers[answers.length - 1].content;
+                            } else {
+                                return {
+                                    value: null,
+                                    cancelled: 'time',
+                                    prompts,
+                                    answers
+                                };
+                            }
+            
+                            // See if they want to finish or cancel
+                            const lc = value.toLowerCase();
+                            if (lc === 'finish') {
+                                return {
+                                    value: results.length > 0 ? results : null,
+                                    cancelled: results.length > 0 ? null : 'user',
+                                    prompts,
+                                    answers
+                                };
+                            }
+                            if (lc === 'cancel') {
+                                return {
+                                    value: null,
+                                    cancelled: 'user',
+                                    prompts,
+                                    answers
+                                };
+                            }
+            
+                            valid = await this.validate(value, msg);
+                        }
+            
+                        results.push(await this.parse(value, msg));
+            
+                        if (values) {
+                            currentVal++;
+                            if (currentVal === values.length) {
+                                return {
+                                    value: results,
+                                    cancelled: null,
+                                    prompts,
+                                    answers
+                                };
+                            }
+                        }
+                        /* eslint-enable no-await-in-loop */
+                    }
+                }
+            
+                /**
+                 * Checks if a value is valid for the argument
+                 * @param {string} value - Value to check
+                 * @param {CommandMessage} msg - Message that triggered the command
+                 * @return {boolean|string|Promise<boolean|string>}
+                 */
+                validate(value, msg) {
+                    const valid = this.validator ? this.validator(value, msg, this) : this.type.validate(value, msg, this);
+                    if (!valid || typeof valid === 'string') return this.error || valid;
+                    if (valid instanceof Promise) return valid.then(vld => !vld || typeof vld === 'string' ? this.error || vld : vld);
+                    return valid;
+                }
+            
+                /**
+                 * Parses a value string into a proper value for the argument
+                 * @param {string} value - Value to parse
+                 * @param {CommandMessage} msg - Message that triggered the command
+                 * @return {*|Promise<*>}
+                 */
+                parse(value, msg) {
+                    if (this.parser) return this.parser(value, msg, this);
+                    return this.type.parse(value, msg, this);
+                }
+            
+                /**
+                 * Checks whether a value for the argument is considered to be empty
+                 * @param {string} value - Value to check for emptiness
+                 * @param {CommandMessage} msg - Message that triggered the command
+                 * @return {boolean}
+                 */
+                isEmpty(value, msg) {
+                    if (this.emptyChecker) return this.emptyChecker(value, msg, this);
+                    if (this.type) return this.type.isEmpty(value, msg, this);
+                    return !value;
+                }
+            
+                /**
+                 * Validates the constructor parameters
+                 * @param {CommandoClient} client - Client to validate
+                 * @param {ArgumentInfo} info - Info to validate
+                 * @private
+                 */
+                static validateInfo(client, info) {
+                    if (!client) throw new Error('The argument client must be specified.');
+                    if (typeof info !== 'object') throw new TypeError('Argument info must be an Object.');
+                    if (typeof info.key !== 'string') throw new TypeError('Argument key must be a string.');
+                    if (info.label && typeof info.label !== 'string') throw new TypeError('Argument label must be a string.');
+                    if (typeof info.prompt !== 'string') throw new TypeError('Argument prompt must be a string.');
+                    if (info.error && typeof info.error !== 'string') throw new TypeError('Argument error must be a string.');
+                    if (info.type && typeof info.type !== 'string') throw new TypeError('Argument type must be a string.');
+                    if (info.type && !info.type.includes('|') && !client.registry.types.has(info.type)) {
+                        throw new RangeError(`Argument type "${info.type}" isn't registered.`);
+                    }
+                    if (!info.type && !info.validate) {
+                        throw new Error('Argument must have either "type" or "validate" specified.');
+                    }
+                    if (info.validate && typeof info.validate !== 'function') {
+                        throw new TypeError('Argument validate must be a function.');
+                    }
+                    if (info.parse && typeof info.parse !== 'function') {
+                        throw new TypeError('Argument parse must be a function.');
+                    }
+                    if (!info.type && (!info.validate || !info.parse)) {
+                        throw new Error('Argument must have both validate and parse since it doesn\'t have a type.');
+                    }
+                    if (typeof info.wait !== 'undefined' && (typeof info.wait !== 'number' || Number.isNaN(info.wait))) {
+                        throw new TypeError('Argument wait must be a number.');
+                    }
+                }
+            
+                /**
+                 * Gets the argument type to use from an ID
+                 * @param {string} id - ID of the type to use
+                 * @returns {?ArgumentType}
+                 * @private
+                 */
+                static determineType(client, id) {
+                    if (!id) return null;
+                    if (!id.includes('|')) return client.registry.types.get(id);
+            
+                    let type = client.registry.types.get(id);
+                    if (type) return type;
+                    type = new ArgumentUnionType(client, id);
+                    client.registry.registerType(type);
+                    return type;
+                }
+            }
+            
+            
+            
+            
+            /** Obtains, validates, and prompts for argument values */
+            class ArgumentCollector {
+                /**
+                 * @param {CommandoClient} client - Client the collector will use
+                 * @param {ArgumentInfo[]} args - Arguments for the collector
+                 * @param {number} [promptLimit=Infinity] - Maximum number of times to prompt for a single argument
+                 */
+                constructor(client, args, promptLimit = Infinity) {
+                    if(!client) throw new TypeError('Collector client must be specified.');
+                    if(!args || !Array.isArray(args)) throw new TypeError('Collector args must be an Array.');
+                    if(promptLimit === null) promptLimit = Infinity;
+            
+                    /**
+                     * Client this collector is for
+                     * @name ArgumentCollector#client
+                     * @type {CommandoClient}
+                     * @readonly
+                     */
+                    Object.defineProperty(this, 'client', { value: client });
+            
+                    /**
+                     * Arguments the collector handles
+                     * @type {Argument[]}
+                     */
+                    this.args = new Array(args.length);
+            
+                    let hasInfinite = false;
+                    let hasOptional = false;
+                    for(let i = 0; i < args.length; i++) {
+                        if(hasInfinite) throw new Error('No other argument may come after an infinite argument.');
+                        if(args[i].default !== null) hasOptional = true;
+                        else if(hasOptional) throw new Error('Required arguments may not come after optional arguments.');
+                        this.args[i] = new Argument(this.client, args[i]);
+                        if(this.args[i].infinite) hasInfinite = true;
+                    }
+            
+                    /**
+                     * Maximum number of times to prompt for a single argument
+                     * @type {number}
+                     */
+                    this.promptLimit = promptLimit;
+                }
+            
+                /**
+                 * Result object from obtaining argument values from an {@link ArgumentCollector}
+                 * @typedef {Object} ArgumentCollectorResult
+                 * @property {?Object} values - Final values for the arguments, mapped by their keys
+                 * @property {?string} cancelled - One of:
+                 * - `user` (user cancelled)
+                 * - `time` (wait time exceeded)
+                 * - `promptLimit` (prompt limit exceeded)
+                 * @property {Message[]} prompts - All messages that were sent to prompt the user
+                 * @property {Message[]} answers - All of the user's messages that answered a prompt
+                 */
+            
+                /**
+                 * Obtains values for the arguments, prompting if necessary.
+                 * @param {CommandMessage} msg - Message that the collector is being triggered by
+                 * @param {Array<*>} [provided=[]] - Values that are already available
+                 * @param {number} [promptLimit=this.promptLimit] - Maximum number of times to prompt for a single argument
+                 * @return {Promise<ArgumentCollectorResult>}
+                 */
+                async obtain(msg, provided = [], promptLimit = this.promptLimit) {
+                    this.client.dispatcher._awaiting.add(msg.message.author.id + msg.message.channel.id);
+                    const values = {};
+                    const results = [];
+            
+                    try {
+                        for(let i = 0; i < this.args.length; i++) {
+                            /* eslint-disable no-await-in-loop */
+                            const arg = this.args[i];
+                            const result = await arg.obtain(msg, arg.infinite ? provided.slice(i) : provided[i], promptLimit);
+                            results.push(result);
+            
+                            if(result.cancelled) {
+                                this.client.dispatcher._awaiting.delete(msg.message.author.id + msg.message.channel.id);
+                                return {
+                                    values: null,
+                                    cancelled: result.cancelled,
+                                    prompts: [].concat(...results.map(res => res.prompts)),
+                                    answers: [].concat(...results.map(res => res.answers))
+                                };
+                            }
+            
+                            values[arg.key] = result.value;
+                            /* eslint-enable no-await-in-loop */
+                        }
+                    } catch(err) {
+                        this.client.dispatcher._awaiting.delete(msg.message.author.id + msg.message.channel.id);
+                        throw err;
+                    }
+            
+                    this.client.dispatcher._awaiting.delete(msg.message.author.id + msg.message.channel.id);
+                    return {
+                        values,
+                        cancelled: null,
+                        prompts: [].concat(...results.map(res => res.prompts)),
+                        answers: [].concat(...results.map(res => res.answers))
+                    };
+                }
+            }
+            
+            
+            /** A command container */
+            class Command {
+                /**
+                 * @typedef {Object} CommandInfo
+                 * @property {string} name - The name of the command (must be lowercase)
+                 * @property {string[]} [aliases] - Alternative names for the command (all must be lowercase)
+                 * @property {boolean} [autoAliases=true] - Whether automatic aliases should be added
+                 * @property {string} description - A short description of the command
+                 * @property {string} [format] - The command usage format string - will be automatically generated if not specified,
+                 * and `args` is specified
+                 * @property {string[]} [examples] - Usage examples of the command
+                 * @property {boolean} [guildOnly=false] - Whether or not the command should only function in a guild channel
+                 * @property {boolean} [serverOnly=false] - Whether or not the command should only function in TFR
+                 */
+            
+                /**
+                 * @param {CommandInfo} info - The command information
+                 */
+                constructor(info) {
+                    this.constructor.validateInfo(info);
+            
+                    /**
+                     * Name of this command
+                     * @type {string}
+                     */
+                    this.name = info.name;
+            
+                    /**
+                     * Aliases for this command
+                     * @type {string[]}
+                     */
+                    this.aliases = info.aliases || [];
+                    if (typeof info.autoAliases === 'undefined' || info.autoAliases) {
+                        if (this.name.includes('-')) this.aliases.push(this.name.replace(/-/g, ''));
+                        for (const alias of this.aliases) {
+                            if (alias.includes('-')) this.aliases.push(alias.replace(/-/g, ''));
+                        }
+                    }
+            
+                    /**
+                     * Short description of the command
+                     * @type {string}
+                     */
+                    this.description = info.description;
+            
+                    /**
+                     * Usage format string of the command
+                     * @type {string}
+                     */
+                    this.format = info.format || null;
+                    
+                    /**
+                     * Long description of the command
+                     * @type {?string}
+                     */
+                    this.details = info.details || null;
+            
+                    /**
+                     * Example usage strings
+                     * @type {?string[]}
+                     */
+                    this.examples = info.examples || null;
+            
+                    /**
+                     * Whether they require at least one of these roles to run the command
+                     * @type {?string[]}
+                     */
+                    this.hasOne = info.hasOne || null;
+            
+                    /**
+                     * Whether the command should only function in a guild channel
+                     * @type {boolean}
+                     */
+                    this.guildOnly = Boolean(info.guildOnly);
+            
+                    /**
+                     * Whether the command should only function in TFR
+                     * @type {boolean}
+                     */
+                    this.serverOnly = Boolean(info.serverOnly);
+                    
+                    /**
+                     * Whether or not the command should be shown
+                     * @type {boolean}
+                     */
+                    this.hidden = Boolean(info.hidden);
+                    
+                    /**
+                     * Whether the default command handling is enabled for the command
+                     * @type {boolean}
+                     */
+                    this.defaultHandling = 'defaultHandling' in info ? info.defaultHandling : true;
+                    
+                    /**
+                     * The argument collector for the command
+                     * @type {?ArgumentCollector}
+                     */
+                    this.argsCollector = info.args ? new ArgumentCollector(client, info.args, info.argsPromptLimit) : null;
+                    if (this.argsCollector && typeof info.format === 'undefined') {
+                        this.format = this.argsCollector.args.reduce((prev, arg) => {
+                            const wrapL = arg.default !== null ? '[' : '<';
+                            const wrapR = arg.default !== null ? ']' : '>';
+                            return `${prev}${prev ? ' ' : ''}${wrapL}${arg.label}${arg.infinite ? '...' : ''}${wrapR}`;
+                        }, '');
+                    }
+                    
+                    /**
+                     * How the arguments are split when passed to the command's run method
+                     * @type {string}
+                     */
+                    this.argsType = info.argsType || 'single';
+            
+                    /**
+                     * Maximum number of arguments that will be split
+                     * @type {number}
+                     */
+                    this.argsCount = info.argsCount || 0;
+            
+                    /**
+                     * Whether single quotes are allowed to encapsulate an argument
+                     * @type {boolean}
+                     */
+                    this.argsSingleQuotes = 'argsSingleQuotes' in info ? info.argsSingleQuotes : true;
+                    
+                    /**
+                     * Regular expression triggers
+                     * @type {RegExp[]}
+                     */
+                    this.patterns = info.patterns || null;
+                }
+                
+                /**
+                 * Checks if the user has permission to use the command
+                 * @param {CommandMessage} message - The triggering command message
+                 * @return {boolean|string} Whether the user has permission, or an error message to respond with if they don't
+                 */
+                hasPermission(message) {
+                    if (this.hasOne && message.member) {
+                        var has = false;
+                        for (var i in this.hasOne) {
+                            if (message.member.roles.includes(this.hasOne[i])) {
+                                has = true;
+                                break;
+                            };
+                        };
+                        if (!has) {
+                            return `You do not have the correct permissions to use this command.`;
+                        }
+                    }
+                    return true;
+                }
+            
+                /**
+                 * Runs the command
+                 * @param {CommandMessage} message - The message the command is being run for
+                 * @param {Object|string|string[]} args - The arguments for the command, or the matches from a pattern.
+                 * If args is specified on the command, thise will be the argument values object. If argsType is single, then only
+                 * one string will be passed. If multiple, an array of strings will be passed. When fromPattern is true, this is the
+                 * matches array from the pattern match
+                 * (see [RegExp#exec](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)).
+                 * @return {Promise<?Message|?Array<Message>>}
+                 * @abstract
+                 */
+                async run(message, args) { // eslint-disable-line no-unused-vars, require-await
+                    throw new Error(`${this.constructor.name} doesn't have a run() method.`);
+                }
+                
+                /**
+                 * Checks if the command is usable for a message
+                 * @param {?Message} message - The message
+                 * @return {boolean}
+                 */
+                isUsable(message = null) {
+                    if (!message) return this._globalEnabled;
+                    if (this.guildOnly && message && !message.guild) return false;
+                    if (this.serverOnly && message && (!message.guild || (message.guild && !(message.guild.id === serverId)))) return false;
+                    let hasPermission = this.hasPermission(message);
+                    if (typeof hasPermission === 'string') hasPermission = false;
+                    return hasPermission;
+                }
+            
+                /**
+                 * Validates the constructor parameters
+                 * @param {CommandoClient} client - Client to validate
+                 * @param {CommandInfo} info - Info to validate
+                 * @private
+                 */
+                static validateInfo(info) { // eslint-disable-line complexity
+                    if (typeof info !== 'object') throw new TypeError('Command info must be an Object.');
+                    if (typeof info.name !== 'string') throw new TypeError('Command name must be a string.');
+                    if (info.name !== info.name.toLowerCase()) throw new Error('Command name must be lowercase.');
+                    if (info.aliases && (!Array.isArray(info.aliases) || info.aliases.some(ali => typeof ali !== 'string'))) {
+                        throw new TypeError('Command aliases must be an Array of strings.');
+                    }
+                    if (info.aliases && info.aliases.some(ali => ali !== ali.toLowerCase())) {
+                        throw new Error('Command aliases must be lowercase.');
+                    }
+                    if ('description' in info && typeof info.description !== 'string') throw new TypeError('Command description must be a string.');
+                    if ('format' in info && typeof info.format !== 'string') throw new TypeError('Command format must be a string.');
+                    if (info.examples && (!Array.isArray(info.examples) || info.examples.some(ex => typeof ex !== 'string'))) {
+                        throw new TypeError('Command examples must be an Array of strings.');
+                    }
+                }
+            
+                /**
+                 * Creates a usage string for the command
+                 * @param {string} [argString] - A string of arguments for the command
+                 * @param {string} [prefix=prefix] - Prefix to use for the prefixed command format
+                 * @return {string}
+                 */
+                usage(argString, prefix = prefix) {
+                    return this.constructor.usage(`${this.name}${argString ? ` ${argString}` : ''}`, prefix);
+                }
+                
+                /**
+                 * Creates a usage string for a command
+                 * @param {string} command - A command + arg string
+                 * @param {string} [prefix] - Prefix to use for the prefixed command format
+                 * @return {string}
+                 */
+                static usage(command, prefix = null) {
+                    const nbcmd = command.replace(/ /g, '\xa0');
+                    if (!prefix) return `\`${nbcmd}\``;
+            
+                    let prefixPart;
+                    if (prefix) {
+                        if (prefix.length > 1 && !prefix.endsWith(' ')) prefix += '';
+                        prefix = prefix.replace(/ /g, '\xa0');
+                        prefixPart = `\`${prefix}${nbcmd}\``;
+                    }
+                    
+                    return `${prefixPart || ''}`;
+                }
+            }
+            
+            /** A container for a message that triggers a command, that command, and methods to respond */
+            class CommandMessage {
+                /**
+                 * @param {Message} message - Message that triggers the command
+                 * @param {Command} [command] - Command the message triggers
+                 * @param {string} [argString] - Argument string for the command
+                 * @param {?Array<string>} [patternMatches] - Command pattern matches (if from a pattern trigger)
+                 */
+                constructor(message, command = null, argString = null, patternMatches = null) {
+                    /**
+                     * Message that triggers the command
+                     * @type {Message}
+                     */
+                    this.message = message;
+            
+                    /**
+                     * Command that the message triggers, if any
+                     * @type {?Command}
+                     */
+                    this.command = command;
+            
+                    /**
+                     * Argument string for the command
+                     * @type {?string}
+                     */
+                    this.argString = argString;
+            
+                    /**
+                     * Pattern matches (if from a pattern trigger)
+                     * @type {?string[]}
+                     */
+                    this.patternMatches = patternMatches;
+            
+                    /**
+                     * Response messages sent, mapped by channel ID (set by the dispatcher after running the command)
+                     * @type {?Object}
+                     */
+                    this.responses = null;
+            
+                    /**
+                     * The index of the current response that will be edited, mapped by channel ID
+                     * @type {?Object}
+                     */
+                    this.responsePositions = null;
+                }
+            
+                /**
+                 * Creates a usage string for the message's command
+                 * @param {string} [argString] - A string of arguments for the command
+                 * @param {string} [prefix=prefix] - Prefix to use for the
+                 * prefixed command format
+                 * @return {string}
+                 */
+                usage(argString, prefix = prefix) {
+                    return this.command.usage(argString, prefix);
+                }
+            
+                /**
+                 * Creates a usage string for any command
+                 * @param {string} [command] - A command + arg string
+                 * @param {string} [prefix=prefix] - Prefix to use for the
+                 * prefixed command format
+                 * @return {string}
+                 */
+                anyUsage(command, prefix=prefix) {
+                    return Command.usage(command, prefix);
+                }
+            
+                /**
+                 * Parses the argString into usable arguments, based on the argsType and argsCount of the command
+                 * @return {string|string[]}
+                 * @see {@link Command#run}
+                 */
+                parseArgs() {
+                    switch (this.command.argsType) {
+                        case 'single':
+                            return this.argString.trim().replace(
+                                this.command.argsSingleQuotes ? /^("|')([^]*)\1$/g : /^(")([^]*)"$/g, '$2'
+                            );
+                        case 'multiple':
+                            return this.constructor.parseArgs(this.argString, this.command.argsCount, this.command.argsSingleQuotes);
+                        default:
+                            throw new RangeError(`Unknown argsType "${this.argsType}".`);
+                    }
+                }
+                
+                static async clearResponses() {
+                    return null;
+                    // return await ZLibrary.DiscordModules.MessageActions.fetchMessages({channelId: BDFDB.LibraryModules.LastChannelStore.getChannelId()});
+                }
+            
+                /**
+                 * Runs the command
+                 * @return {Promise<?Message|?Array<Message>>}
+                 */
+                async run() { // eslint-disable-line complexity
+                    // Obtain the member if we don't have it (ugly-ass if statement ahead)
+                    if (this.message.channel.type === 'text' && !this.message.guild.members.cache.has(this.message.author.id) &&
+                        !this.message.webhookID) {
+                        this.message.member = await this.message.guild.members.fetch(this.message.author);
+                    }
+            
+                    // Make sure the command is usable
+                    if (this.command.guildOnly && !this.message.guild) {
+                        return this.reply(`The \`${this.command.name}\` command must be used in a server channel.`);
+                    }
+            
+                    if (this.command.serverOnly && !(this.message.guild.id === serverId)) {
+                        return this.reply(`The \`${this.command.name}\` command can only be used in the server.`);
+                    }
+            
+                    if (this.command.hasOne && this.message.member) {
+                        var has = false;
+                        for (var i in this.command.hasOne) {
+                            if (this.message.member.roles.includes(this.command.hasOne[i])) {
+                                has = true;
+                                break;
+                            };
+                        };
+                        if (!has) {
+                            return this.reply(`You do not have the required roles to use the \`${this.command.name}\` command.`);
+                        }
+                    }
+            
+                    // Figure out the command arguments
+                    let args = this.patternMatches;
+                    let result = null;
+                    if (!args && this.command.argsCollector) {
+                        const collArgs = this.command.argsCollector.args;
+                        const count = collArgs[collArgs.length - 1].infinite ? Infinity : collArgs.length;
+                        const provided = this.constructor.parseArgs(this.argString.trim(), count, this.command.argsSingleQuotes);
+            
+                        const result2 = await this.command.argsCollector.obtain(this, provided);
+                        if (result2.cancelled) {
+                            if (result2.prompts.length === 0) {
+                                const err = new CommandFormatError(this);
+                                return this.reply(err.message);
+                            }
+                            return this.reply('Cancelled command.');
+                        }
+                        args = result2.values;
+                        result = result2;
+                    }
+                    if (!args) args = this.parseArgs();
+                    const fromPattern = Boolean(this.patternMatches);
+            
+                    // Run the command
+                    try {
+                        await this.constructor.clearResponses();
+                        const promise = this.command.run(this, args, { fromPattern, result });
+                        const retVal = await promise;
+                        if (!(retVal instanceof VirtualMessage || retVal instanceof Message || retVal instanceof Array || retVal === null || retVal === undefined)) {
+                            throw new TypeError(`Command ${this.command.name}'s run() resolved with an unknown type\n(${retVal !== null ? retVal && retVal.constructor ? retVal.constructor.name : typeof retVal : null}).\nCommand run methods must return a Promise that resolve with a Message, Array of Messages, or null/undefined.`);
+                        }
+                        return retVal;
+                    } catch (err) {
+                        if (err instanceof FriendlyError) {
+                            return this.say(err.message);
+                        } else {
+                            this.say(`Whoops, I have encountered an error while running that command.\nCheck console for more information.\n\`\`\`${err.name || 'Unknown Error'}: ${err.message || 'No Message'}\`\`\``)
+                            console.error(config.info.name, err)
+                            // BdApi.alert("ATFRModerator Error", `${err.name || 'Unknown Error'}: ${err.message || 'No message'}`);
+                        }
+                    }
+                }
+            
+                /**
+                 * Responds to the command message
+                 * @param {Object} [options] - Options for the response
+                 * @return {Message|Message[]}
+                 * @private
+                 */
+                respond({ type = 'reply', content, options, lang, fromEdit = false }) {
+                    if (type === 'reply' && this.message.channel.type === 'dm') type = 'plain';
+            
+                    content = Util.resolveString(content);
+            
+                    switch (type) {
+                        case 'plain':
+                            let msg = new VirtualMessage(this.message.channel, content, options);
+                            msg.send();
+                            let q = document.querySelector("#chat-messages-" + msg.message.id)
+                            if (q && amounts.live !== 0 && (!options || !options.important)) setTimeout(() => {
+                                q.style.display = 'none';
+                                // delete ZLibrary.DiscordModules.MessageActions.deleteMessage(msg.channel_id, msg.message.id);
+                                // q.remove(); this would crash discord
+                            }, amounts.live * 1000);
+                            return msg;
+                        case 'reply':
+                            if (content === undefined || content === '') {
+                                return new VirtualMessage(this.message.channel, `<@!${this.message.author.id}>`, options).send();
+                            } else {
+                                return new VirtualMessage(this.message.channel, `<@!${this.message.author.id}>, ` + content, options).send();
+                            }
+                        case 'direct':
+                            return; // idk how to dm them via the system channel so i'll leave this out
+                        case 'code':
+                            return new VirtualMessage(this.message.channel, content, options).send();
+                        default:
+                            throw new RangeError(`Unknown response type "${type}".`);
+                    }
+                }
+            
+                /**
+                 * Edits a response to the command message
+                 * @param {Message|Message[]} response - The response message(s) to edit
+                 * @param {Object} [options] - Options for the response
+                 * @return {Promise<Message|Message[]>}
+                 * @private
+                 */
+                editResponse(response, { type, content, options }) {
+                    if (!response) return this.respond({ type, content, options, fromEdit: true });
+                    if (options && options.split) content = discord.splitMessage(content, options.split);
+            
+                    let prepend = '';
+                    if (type === 'reply') prepend = `${this.message.author}, `;
+            
+                    if (content instanceof Array) {
+                        const promises = [];
+                        if (response instanceof Array) {
+                            for (let i = 0; i < content.length; i++) {
+                                if (response.length > i) promises.push(response[i].edit(`${prepend}${content[i]}`, options));
+                                else promises.push(response[0].channel.send(`${prepend}${content[i]}`));
+                            }
+                        } else {
+                            promises.push(response.edit(`${prepend}${content[0]}`, options));
+                            for (let i = 1; i < content.length; i++) {
+                                promises.push(response.channel.send(`${prepend}${content[i]}`));
+                            }
+                        }
+                        return Promise.all(promises);
+                    } else {
+                        if (response instanceof Array) { // eslint-disable-line no-lonely-if
+                            for (let i = response.length - 1; i > 0; i--) response[i].delete();
+                            return response[0].edit(`${prepend}${content}`, options);
+                        } else {
+                            return response.edit(`${prepend}${content}`, options);
+                        }
+                    }
+                }
+            
+                /**
+                 * Edits the current response
+                 * @param {string} id - The ID of the channel the response is in ("DM" for direct messages)
+                 * @param {Object} [options] - Options for the response
+                 * @return {Promise<Message|Message[]>}
+                 * @private
+                 */
+                editCurrentResponse(id, options) {
+                    if (typeof this.responses[id] === 'undefined') this.responses[id] = [];
+                    if (typeof this.responsePositions[id] === 'undefined') this.responsePositions[id] = -1;
+                    this.responsePositions[id]++;
+                    return this.editResponse(this.responses[id][this.responsePositions[id]], options);
+                }
+
+                /**
+                 * Responds with a plain message
+                 * @param {StringResolvable} [channel=this.message.channel] - Content for the message
+                 * @param {StringResolvable} content - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                force(channel = this.message.channel, content, options) {
+                    return new Message(channel, content, options);
+                }
+            
+                /**
+                 * Responds with a plain message
+                 * @param {StringResolvable} content - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                say(content, options) {
+                    if (!options && typeof content === 'object' && !(content instanceof Array)) {
+                        options = content;
+                        content = '';
+                    }
+                    return this.respond({ type: 'plain', content, options });
+                }
+            
+                /**
+                 * Responds with a reply message
+                 * @param {StringResolvable} content - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                reply(content, options) {
+                    if (!options && typeof content === 'object' && !(content instanceof Array)) {
+                        options = content;
+                        content = '';
+                    }
+                    return this.respond({ type: 'reply', content, options });
+                }
+            
+                /**
+                 * Responds with a direct message
+                 * @param {StringResolvable} content - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                direct(content, options) {
+                    if (!options && typeof content === 'object' && !(content instanceof Array)) {
+                        options = content;
+                        content = '';
+                    }
+                    return this.respond({ type: 'direct', content, options });
+                }
+            
+                /**
+                 * Responds with a code message
+                 * @param {string} lang - Language for the code block
+                 * @param {StringResolvable} content - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                code(lang, content, options) {
+                    if (!options && typeof content === 'object' && !(content instanceof Array)) {
+                        options = content;
+                        content = '';
+                    }
+                    if (typeof options !== 'object') options = {};
+                    options.code = lang;
+                    return this.respond({ type: 'code', content, options });
+                }
+            
+                /**
+                 * Responds with an embed
+                 * @param {RichEmbed|Object} embed - Embed to send
+                 * @param {StringResolvable} [content] - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                embed(embed, content = '', options) {
+                    if (typeof options !== 'object') options = {};
+                    options.embed = embed;
+                    return this.respond({ type: 'plain', content, options });
+                }
+            
+                /**
+                 * Responds with a mention + embed
+                 * @param {RichEmbed|Object} embed - Embed to send
+                 * @param {StringResolvable} [content] - Content for the message
+                 * @param {MessageOptions} [options] - Options for the message
+                 * @return {Promise<Message|Message[]>}
+                 */
+                replyEmbed(embed, content = '', options) {
+                    if (typeof options !== 'object') options = {};
+                    options.embed = embed;
+                    return this.respond({ type: 'reply', content, options });
+                }
+            
+                /**
+                 * Finalizes the command message by setting the responses and deleting any remaining prior ones
+                 * @param {?Array<Message|Message[]>} responses - Responses to the message
+                 * @private
+                 */
+                finalize(responses) {
+                    if (this.responses) this.deleteRemainingResponses();
+                    this.responses = {};
+                    this.responsePositions = {};
+            
+                    if (responses instanceof Array) {
+                        for (const response of responses) {
+                            const channel = (response instanceof Array ? response[0] : response).channel;
+                            const id = channelIDOrDM(channel);
+                            if (!this.responses[id]) {
+                                this.responses[id] = [];
+                                this.responsePositions[id] = -1;
+                            }
+                            this.responses[id].push(response);
+                        }
+                    } else if (responses && responses.channel) {
+                        const id = channelIDOrDM(responses.channel);
+                        this.responses[id] = [responses];
+                        this.responsePositions[id] = -1;
+                    }
+                }
+            
+                /**
+                 * Deletes any prior responses that haven't been updated
+                 * @private
+                 */
+                deleteRemainingResponses() {
+                    for (const id of Object.keys(this.responses)) {
+                        const responses = this.responses[id];
+                        for (let i = this.responsePositions[id] + 1; i < responses.length; i++) {
+                            const response = responses[i];
+                            if (response instanceof Array) {
+                                for (const resp of response) resp.delete();
+                            } else {
+                                response.delete();
+                            }
+                        }
+                    }
+                }
+            
+                /**
+                 * Parses an argument string into an array of arguments
+                 * @param {string} argString - The argument string to parse
+                 * @param {number} [argCount] - The number of arguments to extract from the string
+                 * @param {boolean} [allowSingleQuote=true] - Whether or not single quotes should be allowed to wrap arguments,
+                 * in addition to double quotes
+                 * @return {string[]} The array of arguments
+                 */
+                static parseArgs(argString, argCount, allowSingleQuote = true) {
+                    const re = allowSingleQuote ? /\s*(?:("|')([^]*?)\1|(\S+))\s*/g : /\s*(?:(")([^]*?)"|(\S+))\s*/g;
+                    const result = [];
+                    let match = [];
+                    // Large enough to get all items
+                    argCount = argCount || argString.length;
+                    // Get match and push the capture group that is not null to the result
+                    while (--argCount && (match = re.exec(argString))) result.push(match[2] || match[3]);
+                    // If text remains, push it to the array as-is (except for wrapping quotes, which are removed)
+                    if (match && re.lastIndex < argString.length) {
+                        const re2 = allowSingleQuote ? /^("|')([^]*)\1$/g : /^(")([^]*)"$/g;
+                        result.push(argString.substr(re.lastIndex).replace(re2, '$2'));
+                    }
+                    return result;
+                }
+            
+            
+                /* -------------------------------------------------------------------------------------------- *\
+                |*                                          SHORTCUTS                                           *|
+                |*                          Rest not, and beware, for here be dragons.                          *|
+                |* Below these lines lie the fabled message method/getter shortcuts for ye olde lazy developer. *|
+                \* -------------------------------------------------------------------------------------------- */
+            
+                /**
+                 * Shortcut to `this.message.id`
+                 * @type {string}
+                 * @see {@link Message#id}
+                 * @readonly
+                 */
+                get id() {
+                    return this.message.id;
+                }
+            
+                /**
+                 * Shortcut to `this.message.content`
+                 * @type {string}
+                 * @see {@link Message#content}
+                 * @readonly
+                 */
+                get content() {
+                    return this.message.content;
+                }
+            
+                /**
+                 * Shortcut to `this.message.author`
+                 * @type {User}
+                 * @see {@link Message#author}
+                 * @readonly
+                 */
+                get author() {
+                    return this.message.author;
+                }
+            
+                /**
+                 * Shortcut to `this.message.channel`
+                 * @type {TextChannel|DMChannel|GroupDMChannel}
+                 * @see {@link Message#channel}
+                 * @readonly
+                 */
+                get channel() {
+                    return this.message.channel;
+                }
+            
+                /**
+                 * Shortcut to `this.message.guild`
+                 * @type {?Guild}
+                 * @see {@link Message#guild}
+                 * @readonly
+                 */
+                get guild() {
+                    return this.message.guild;
+                }
+            
+                /**
+                 * Shortcut to `this.message.member`
+                 * @type {?GuildMember}
+                 * @see {@link Message#member}
+                 * @readonly
+                 */
+                get member() {
+                    return this.message.member;
+                }
+            
+                /**
+                 * Shortcut to `this.message.pinned`
+                 * @type {boolean}
+                 * @see {@link Message#pinned}
+                 * @readonly
+                 */
+                get pinned() {
+                    return this.message.pinned;
+                }
+            
+                /**
+                 * Shortcut to `this.message.tts`
+                 * @type {boolean}
+                 * @see {@link Message#tts}
+                 * @readonly
+                 */
+                get tts() {
+                    return this.message.tts;
+                }
+            
+                /**
+                 * Shortcut to `this.message.nonce`
+                 * @type {string}
+                 * @see {@link Message#nonce}
+                 * @readonly
+                 */
+                get nonce() {
+                    return this.message.nonce;
+                }
+            
+                /**
+                 * Shortcut to `this.message.system`
+                 * @type {boolean}
+                 * @see {@link Message#system}
+                 * @readonly
+                 */
+                get system() {
+                    return this.message.system;
+                }
+            
+                /**
+                 * Shortcut to `this.message.embeds`
+                 * @type {MessageEmbed[]}
+                 * @see {@link Message#embeds}
+                 * @readonly
+                 */
+                get embeds() {
+                    return this.message.embeds;
+                }
+            
+                /**
+                 * Shortcut to `this.message.attachments`
+                 * @type {Collection<string, MessageAttachment>}
+                 * @see {@link Message#attachments}
+                 * @readonly
+                 */
+                get attachments() {
+                    return this.message.attachments;
+                }
+            
+                /**
+                 * Shortcut to `this.message.reactions`
+                 * @type {Collection<string, MessageReaction>}
+                 * @see {@link Message#reactions}
+                 * @readonly
+                 */
+                get reactions() {
+                    return this.message.reactions;
+                }
+            
+                /**
+                 * Shortcut to `this.message.createdTimestamp`
+                 * @type {number}
+                 * @see {@link Message#createdTimestamp}
+                 * @readonly
+                 */
+                get createdTimestamp() {
+                    return this.message.createdTimestamp;
+                }
+            
+                /**
+                 * Shortcut to `this.message.createdAt`
+                 * @type {Date}
+                 * @see {@link Message#createdAt}
+                 * @readonly
+                 */
+                get createdAt() {
+                    return this.message.createdAt;
+                }
+            
+                /**
+                 * Shortcut to `this.message.editedTimestamp`
+                 * @type {number}
+                 * @see {@link Message#editedTimestamp}
+                 * @readonly
+                 */
+                get editedTimestamp() {
+                    return this.message.editedTimestamp;
+                }
+            
+                /**
+                 * Shortcut to `this.message.editedAt`
+                 * @type {Date}
+                 * @see {@link Message#editedAt}
+                 * @readonly
+                 */
+                get editedAt() {
+                    return this.message.editedAt;
+                }
+            
+                /**
+                 * Shortcut to `this.message.mentions`
+                 * @type {Object}
+                 * @see {@link Message#mentions}
+                 * @readonly
+                 */
+                get mentions() {
+                    return this.message.mentions;
+                }
+            
+                /**
+                 * Shortcut to `this.message.webhookID`
+                 * @type {?string}
+                 * @see {@link Message#webhookID}
+                 * @readonly
+                 */
+                get webhookID() {
+                    return this.message.webhookID;
+                }
+            
+                /**
+                 * Shortcut to `this.message.cleanContent`
+                 * @type {string}
+                 * @see {@link Message#cleanContent}
+                 * @readonly
+                 */
+                get cleanContent() {
+                    return this.message.cleanContent;
+                }
+            
+                /**
+                 * Shortcut to `this.message.edits`
+                 * @type {Message[]}
+                 * @see {@link Message#edits}
+                 * @readonly
+                 */
+                get edits() {
+                    return this.message.edits;
+                }
+            
+                /**
+                 * Shortcut to `this.message.editable`
+                 * @type {boolean}
+                 * @see {@link Message#editable}
+                 * @readonly
+                 */
+                get editable() {
+                    return this.message.editable;
+                }
+            
+                /**
+                 * Shortcut to `this.message.deletable`
+                 * @type {boolean}
+                 * @see {@link Message#deletable}
+                 * @readonly
+                 */
+                get deletable() {
+                    return this.message.deletable;
+                }
+            
+                /**
+                 * Shortcut to `this.message.pinnable`
+                 * @type {boolean}
+                 * @see {@link Message#pinnable}
+                 * @readonly
+                 */
+                get pinnable() {
+                    return this.message.pinnable;
+                }
+            
+                /**
+                 * Shortcut to `this.message.mentions.has(data)`
+                 * @param {GuildChannel|User|Role|string} data - A guild channel, user, or a role, or the ID of any of these
+                 * @return {boolean}
+                 * @see {@link Message#isMentioned}
+                 * @readonly
+                 */
+                isMentioned(data) {
+                    return this.message.mentions.has(data);
+                }
+            
+                /**
+                 * Shortcut to `this.message.mentions.has(data)`
+                 * @param {GuildMember|User} member - Member/user to check for a mention of
+                 * @return {boolean}
+                 * @see {@link Message#isMemberMentioned}
+                 * @readonly
+                 */
+                isMemberMentioned(member) {
+                    return this.message.mentions.has(member);
+                }
+            
+                /**
+                 * Shortcut to `this.message.edit(content)`
+                 * @param {StringResolvable} content - New content for the message
+                 * @param {MessageEditOptions} options - The options to provide
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#edit}
+                 * @readonly
+                 */
+                edit(content, options) {
+                    return this.message.edit(content, options);
+                }
+            
+                /**
+                 * Shortcut to `this.message.editCode(content)`
+                 * @param {string} lang - Language for the code block
+                 * @param {StringResolvable} content - New content for the message
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#editCode}
+                 * @readonly
+                 */
+                editCode(lang, content) {
+                    return this.message.editCode(lang, content);
+                }
+            
+                /**
+                 * Shortcut to `this.message.react()`
+                 * @param {string|Emoji|ReactionEmoji} emoji - Emoji to react with
+                 * @returns {Promise<MessageReaction>}
+                 * @see {@link Message#react}
+                 * @readonly
+                 */
+                react(emoji) {
+                    return this.message.react(emoji);
+                }
+            
+                /**
+                 * Shortcut to `this.message.clearReactions()`
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#clearReactions}
+                 * @readonly
+                 */
+                clearReactions() {
+                    return this.message.clearReactions();
+                }
+            
+                /**
+                 * Shortcut to `this.message.pin()`
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#pin}
+                 * @readonly
+                 */
+                pin() {
+                    return this.message.pin();
+                }
+            
+                /**
+                 * Shortcut to `this.message.unpin()`
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#unpin}
+                 * @readonly
+                 */
+                unpin() {
+                    return this.message.unpin();
+                }
+            
+                /**
+                 * Shortcut to `this.message.delete()`
+                 * @param {number} [timeout=0] - How long to wait to delete the message in milliseconds
+                 * @returns {Promise<Message>}
+                 * @see {@link Message#delete}
+                 * @readonly
+                 */
+                delete(timeout) {
+                    return this.message.delete(timeout);
+                }
+            }
+            
+            const registry = {types:{},commands:{}};
+            let _args = [
+                class BooleanArgumentType extends ArgumentType {
+                    constructor() {
+                        super('boolean');
+                        this.truthy = new Set(['true', 't', 'yes', 'y', 'on', 'enable', 'enabled', '1', '+']);
+                        this.falsy = new Set(['false', 'f', 'no', 'n', 'off', 'disable', 'disabled', '0', '-']);
+                    }
+            
+                    validate(value) {
+                        const lc = value.toLowerCase();
+                        return this.truthy.has(lc) || this.falsy.has(lc);
+                    }
+            
+                    parse(value) {
+                        const lc = value.toLowerCase();
+                        if(this.truthy.has(lc)) return true;
+                        if(this.falsy.has(lc)) return false;
+                        throw new RangeError('Unknown boolean value.');
+                    }
+                },
+                class CommandArgumentType extends ArgumentType {
+                    constructor() {
+                        super('command');
+                    }
+                
+                    validate(value) {
+                        const commands = [];
+                        for (var i in registry.commands) {
+                            let cmd = registry.commands[i];
+                            if (cmd.name.includes(value)) commands.push(cmd);
+                        }
+                        if(commands.length === 1) return true;
+                        if(commands.length === 0) return false;
+                        return commands.length <= 15 ?
+                            `${disambiguation(commands.map(cmd => escapeMarkdown(cmd.name)), 'commands', null)}\n` :
+                            'Multiple commands found. Please be more specific.';
+                    }
+                
+                    parse(value) {
+                        return this.client.registry.findCommands(value)[0];
+                    }
+                }
+            ]
+            let _commands = [
+                class BanCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'ban',
+                            format: '<user> [duration] [reason|autoreason]',
+                            examples: ['ban @Griefs#9476 7d 6'],
+                            hasOne: [permRoles['E'],
+                                     permRoles['F'],
+                                     permRoles['*']],
+                            details: `Here's the list of autoreasons:\n${autosanctionMessages.map((v, i) => `${i + 1}: ${v}`).join('\n\n')}`,
+                        });
+                    }
+            
+                    run(msg, args) {
+                        let split = args.split(' ');
+                        var user = split[0];
+                        var duration;
+                        var reason;
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        let matchDuration = new RegExp(/(\d{1,4}[hdmy])/i).exec(args);
+                        if (matchDuration && args.slice(0, matchDuration[0].length) === matchDuration[0]) {
+                            args = args.replace(matchDuration[0], '').trim();
+                            duration = matchDuration[1];
+                        }
+                        reason = args[0] ? (Number(args).toString().length === args.length ? autosanctionMessages[Number(args) - 1] : args[0].toUpperCase() + args.slice(1)) : null;
+                        return msg.force(cmdsCId, `${testing ? '' : '-'}ban ${user}${duration ? ` -d ${duration}` : ''}${reason ? ` ${reason}` : ' No reason provided.'}`);
+                    }
+                },
+                class KickCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'kick',
+                            format: '<user> <reason>',
+                            hasOne: [permRoles['D'],
+                                     permRoles['E'],
+                                     permRoles['F'],
+                                     permRoles['*']],
+                            details: `Here's the list of autoreasons:\n${autosanctionMessages.map((v, i) => `${i + 1}: ${v}`).join('\n\n')}`,
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        var reason;
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say( "A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        reason = args[0] ? (Number(args).toString().length === args.length ? autosanctionMessages[Number(args) - 1] : args[0].toUpperCase() + args.slice(1)) : null;
+                        if (!reason) return msg.say("A reason must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        return msg.force(cmdsCId, `${testing ? '' : '-'}kick ${user}${reason ? ` ${reason}` : ' No reason provided.'}`);
+                    }
+                },
+                class MuteCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'mute',
+                            format: '<user> [duration] [reason]',
+                            details: `Here's the list of autoreasons:\n${autosanctionMessages.map((v, i) => `${i + 1}: ${v}`).join('\n\n')}`,
+                            hasOne: [permRoles['C'],
+                                     permRoles['D'],
+                                     permRoles['E'],
+                                     permRoles['F'],
+                                     permRoles['*']],
+                        });
+                    }
+            
+                    run(msg, args) {
+                        let split = args.split(' ');
+                        var user = split[0];
+                        var duration;
+                        var reason;
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        let matchDuration = new RegExp(/(\d{1,4}[hdmy])/i).exec(args);
+                        if (matchDuration && args.slice(0, matchDuration[0].length) === matchDuration[0]) {
+                            args = args.replace(matchDuration[0], '').trim();
+                            duration = matchDuration[1];
+                        }
+                        reason = args[0] ? (Number(args).toString().length === args.length ? autosanctionMessages[Number(args) - 1] : args[0].toUpperCase() + args.slice(1)) : null;
+                        return msg.force(cmdsCId, `${testing ? '' : '-'}mute ${user}${duration ? ` ${duration}` : ''}${reason ? ` ${reason}` : ' No reason provided.'}`);
+                    }
+                },
+                class UnmuteCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'unmute',
+                            format: '<user> <reason>',
+                            hasOne: [permRoles['C'],
+                                     permRoles['D'],
+                                     permRoles['E'],
+                                     permRoles['F'],
+                                     permRoles['*']],
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        var reason;
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        reason = args[0] ? args[0].toUpperCase() + args.slice(1) : null;
+                        if (!reason) return msg.say("A reason must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        return msg.force(cmdsCId, `${testing ? '' : '-'}unmute ${user}${reason ? ` ${reason}` : ' Unmute'}`);
+                    }
+                },
+                class WarnCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'warn',
+                            format: '<user> <reason>',
+                            details: `Here's the list of autoreasons:\n${autosanctionMessages.map((v, i) => `${i + 1}: ${v}`).join('\n\n')}`,
+                            hasOne: [permRoles['B'],
+                                     permRoles['C'],
+                                     permRoles['D'],
+                                     permRoles['E'],
+                                     permRoles['F'],
+                                     permRoles['*']],
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        var reason;
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        reason = args[0] ? (Number(args).toString().length === args.length ? autosanctionMessages[Number(args) - 1] : args[0].toUpperCase() + args.slice(1)) : null;
+                        if (!reason) return msg.say("A reason must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        return msg.force(cmdsCId, `${testing ? '' : '-'}warn ${user}${reason ? ` ${reason}` : ' No reason provided.'}`);
+                    }
+                },
+                class VerifyCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'verify',
+                            format: '<user>',
+                            aliases: ['v']
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        return msg.force(cmdsCId, `${testing ? '' : '!'}v ${user}`);
+                    }
+                },
+                class EvalCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'eval',
+                            format: '<script>',
+                            hidden: true,
+                        });
+                    }
+            
+                    run(msg, args) {
+                        if (!testing) return msg.say('Woah, you shouldn\'t be using this command.');
+                        let script = args;
+                        try {
+                            let result = eval(script);
+                            BdApi.alert(JSON.stringify(result));
+                        } catch(e) {
+                            BdApi.alert('Error', `${e.name}: ${e.message}`);
+                        }
+                        return null;
+                    }
+                },
+                class HelpCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'help',
+                            format: '[command]',
+                            description: 'This.',
+                        });
+                    }
+            
+                    run(msg, args) {
+                        let cmdName = args.toLowerCase();
+                        let commands = registry.commands;
+                        if (cmdName) {
+                            // Find the command
+                            let cmd = (function () {
+                                let cmds = [];
+                                for (var i in commands) {
+                                    let cmd = commands[i];
+                                    if (i === cmd.name && 0 == cmd.hidden && i.includes(cmdName)) cmds.push(cmd);
+                                };
+                                if (cmds.length === 0) return null;
+                                if (cmds.length === 1) return cmds[0];
+                                let cmd = commands[cmdName];
+                                if (cmd) return cmd;
+                                if (cmds.length > 1) return `Multiple commands found. Please be more specific.`;
+                                else return null;
+                            }())
+                            if (typeof cmd === 'string') return msg.say(cmd);
+                            if (!(cmd instanceof Command)) return msg.say('Command not found.');
+                            return msg.say(`\`${prefix}${cmd.name}${cmd.format ? ' ' + cmd.format : ''}\`${
+                                cmd.description ? '\n' + cmd.description : ''
+                            }${
+                                cmd.aliases ? `\nAliases: ${cmd.aliases.map(v => '`' + v + '`')}` : ''
+                            }${
+                                cmd.examples ? `\nExamples: ${cmd.examples.map(v => '`' + v + '`').join(', ')}` : ''
+                            }${
+                                cmd.details ? '\n```'+ cmd.details + '```' : ''
+                            }`)
+                        } else {
+                            let cmds = [];
+                            for (var i in commands) {
+                                let cmd = commands[i];
+                                // Skip over aliased commands
+                                if (i === cmd.name && 0 == cmd.hidden) cmds.push(cmd);
+                            };
+                            cmds.sort(r => r.name)
+                            return msg.say(`Use \`${prefix}help command\` for more info.\n${cmds.map(r => `\`${r.isUsable(msg) ? '' : '[x] '}${r.name}\``).join('\n')}`)
+                        };
+                    }
+                },
+                class OriginCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'origin',
+                            format: '<user>',
+                            description: 'Get origin information of a user.',
+                        });
+                    }
+            
+                    async run(msg, args) {
+                        var user = args.split(' ')[0];
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`)
+                        let userData = (await new APIRequest('user/'+user)).data.data;
+                        console.log(userData)
+                        if (!userData) return msg.say('Unable to find user data.');
+                        if (!userData.invitesUsed) return msg.say('This user has no invite history.');
+                        let invArray = [];
+                        for (var i in userData.invitesUsed) {
+                            let obj = userData.invitesUsed[i];
+                            obj.code = i;
+                            invArray.push(obj)
+                        };
+                        let originInvite = APIFunctions._getOriginInvite(invArray);
+                        let originJoin = APIFunctions._getOriginJoinDate(invArray);
+                        let msgs = [`<@!${user}> originally joined via \`${originInvite ? originInvite.code : 'unknown'}\` at ${originJoin ? new Date(originJoin) : 'unknown'}.`];
+                        return msg.say(msgs.join('\n') || 'Nothing found.')
+                    }
+                },
+                class RevokeCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'revoke',
+                            format: '<invite> [reason]',
+                            description: 'Revokes an invite.',
+                            hasOne: [permRoles['*']],
+                        });
+                    }
+            
+                    async run(msg, args) {
+                        var invite = args.split(' ')[0].replace(/[\\\/]/g, '');
+                        args = args.replace(invite, '').trim();
+                        var reason = args[0] ? args[0].toUpperCase() + args.slice(1) : null;
+                        let resp = (await new APIRequest('invite/'+invite+'/revoke', {
+                            query: {
+                                reason: reason
+                            }
+                        })).data;
+                        if (!resp.success || !resp.data) {
+                            if (resp.message) return msg.say('Request failed with message: ' + resp.message);
+                            return msg.say('Request failed of unknown origin.');
+                        };
+                        console.log(resp);
+                        return msg.say(`Successfully deleted \`${resp.data.code}\` for \`\`\`${resp.data.reason || 'No reason added'}\`\`\``);
+                    }
+                },
+                class RoleCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'role',
+                            format: '<user> <role>',
+                            hasOne: [permRoles['F'],
+                                     permRoles['*']],
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say( "A user must be supplied! " + `${prefix}${this.name} ${this.format}`);
+                        var role = args;
+                        if (role.length === 0) return msg.say( "A role must be supplied! " + `${prefix}${this.name} ${this.format}`);
+                        return msg.force(huCmdsCId, `${testing ? '' : '!'}role ${user} ${role}`);
+                    }
+                },
+                class AutoWelcomeCommand extends Command {
+                    constructor() {
+                        super({
+                            name: 'autowelcome',
+                            format: '<user> <number>',
+                            aliases: ['aw'],
+                            formats: [
+                                'Welcome to The Furry Refuge, {{user}}!',
+                                'Welcome to The Furry Refuge, we hope you have a great stay. {{user}}',
+                                'Welcome {{user}}, make sure to select some roles from <#645783730559909908> and read the <#725856136065974322> for more information.',
+                                'Thanks for popping in, {{user}}, we hope you have a great time in The Furry Refuge.\nIn the meantime, try getting some roles <#645783730559909908> and saying "Hello"!',
+                                'Who\'s there? Oh, it\'s just you, {{user}}! Get started by getting some freebie roles from <#645783730559909908>.',
+                                'Amazing of you to pop in, {{user}}. Enjoy your stay and make some best buddies! Get some roles from <#645783730559909908> to get access to the rest of the server :P'
+                            ],
+                            details: `Here's the list of automessages:\n${autowelcomeMessages.map((v, i) => `${i + 1}: ${v}`).join('\n\n')}`,
+                        });
+                    }
+            
+                    run(msg, args) {
+                        var user = args.split(' ')[0];
+                        let match = new RegExp(/@([\S\s]{2,32})#(\d{4})/).exec(args);
+                        if (match) {
+                            args = args.replace(match[0], '').trim();
+                            let find = ZLibrary.DiscordModules.UserStore.findByTag(match[1], match[2]);
+                            if (find) user = find.id;
+                        } else {
+                            args = args.replace(user, '').trim();
+                        }
+                        if (user.length === 0 || (user.replace(/\D*/g, '').length !== user.length)) return msg.say("A user must be supplied! " + `${prefix}${this.name} ${this.format}`);
+                        var number = args.split(' ')[0];
+                        if (!number) return msg.say("A number must be supplied! " + `${prefix}${this.name} ${this.format}`);
+                        let format = autowelcomeMessages[Number(number) - 1];
+                        if (!format) return msg.say('I couldn\'t find that autowelcome message.');
+                        return msg.force(BDFDB.LibraryModules.LastChannelStore.getChannelId(), format.replace(/{{user}}/g, `<@!${user}>`));
+                    }
+                },
+            ]
+            
+            // I know it's janky, but this part doesn't need to be complex
+            for (var i in _args) {
+                let type = new _args[i]();
+                registry.types[type.id] = type;
+            };
+            for (var i in _commands) {
+                let cmd = new _commands[i]();
+                registry.commands[cmd.name] = cmd;
+                if (cmd.aliases) cmd.aliases.forEach(a => {
+                    registry.commands[a] = cmd;
+                })
+            };
+            
+            return {
+                registry,
+                FriendlyError,
+                CommandFormatError,
+                Command,
+                VirtualMessage,
+                CommandMessage,
+                Argument,
+                ArgumentCollector,
+                ArgumentType,
+                ArgumentUnionType,
+                Util,
+                APIRequest
+            }
+            }
+		var settings = {};
+		var inputs = {};
+        var amounts = {};
+        var cache = {
+            users: {},
+            invites: {},
+        };
+        var prefix = '.';
+        var token = '';
+		let baseURL = 'https://api2.paw.bot';
+		
+        var testing = false;
+        if (testing) {
+            cmdsCId = '645783809492779052';
+        }
+        const {
+            registry,
+            VirtualMessage,
+            Command,
+            CommandMessage,
+            Util,
+            APIRequest
+        } = LoadClasses(BDFDB);
+        // console.log(new VirtualMessage('645783743423840277', 'har', {
+        //     author: {
+        //         id: '291656468493631488'
+        //     }
+        // }))
+		
+		return class ATFRModerator extends Plugin {
+			onLoad() {
+				// console.log(config.info.name, 'Mini load')
+				this.defaults = {
+					settings: {
+						hideUnknownCommands:	{value: true, 	description: "Unknown commands will not get sent"},
+                        inviteInUserPopout: 	{value: true, 	description: "Show invite in user popout", note: "Deprecated", disabled: true},
+                        debug: 	                {value: false, 	description: "Debug mode", note: "Disables dangerous commands and enables quick eval"},
+					},
+					inputs: {
+						prefix:			{value: '.',   placeholder: '!',          	description: "Prefix for local commands"},
+						token:			{value: '',      placeholder: 'SecretToken', 	description: "Your token for api.paw.bot"}
+					},
+					amounts: {
+						live:			{value: 60,  min: 0, max: 60, placeholder: 60,	description: "How long system messages can live for", note: "In seconds, 0 = doesn't expire."},
+					},
+				};
+				
+				this.patchedModules = {
+					after: {
+                        UserPopout: "render",
+                        AnalyticsContext: "render",
+					}
+				};
+				
+			}
+			
+			onStart() {
+				// console.log(config.info.name, 'Mini start')
+				this.forceUpdateAll();
+				this.attachHandler()
+			}
+			
+			onStop() {
+				// console.log(config.info.name, 'Mini stop')
+				this.forceUpdateAll();
+			}
+
+			getSettingsPanel (collapseStates = {}) {
+				// console.log(config.info.name, 'Getting settings panel')
+				let settingsPanel, settingsItems = [];
+				for (let key in inputs) settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsSaveItem, {
+					type: "TextInput",
+					plugin: this,
+                    disabled: this.defaults.inputs[key].disabled,
+					keys: ["inputs", key],
+                    label: this.defaults.inputs[key].description,
+                    note: this.defaults.inputs[key].note,
+					placeholder: this.defaults.inputs[key].placeholder,
+                    value: !(inputs[key] === '') ? inputs[key] : this.defaults.inputs[key].value,
+				}));
+
+				for (let key in settings) settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsSaveItem, {
+					type: "Switch",
+                    plugin: this,
+                    disabled: this.defaults.settings[key].disabled,
+					keys: ["settings", key],
+                    label: this.defaults.settings[key].description,
+                    note: this.defaults.settings[key].note,
+					placeholder: this.defaults.settings[key].placeholder,
+					value: settings[key]
+                }));
+                
+                for (let key in amounts) settingsItems.push(BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.SettingsSaveItem, {
+					type: "TextInput",
+                    plugin: this,
+                    disabled: this.defaults.amounts[key].disabled,
+                    childProps: {
+                        type: "number"
+                    },
+					keys: ["amounts", key],
+					label: this.defaults.amounts[key].description,
+					note: this.defaults.amounts[key].note,
+                    min: this.defaults.amounts[key].min,
+                    max: this.defaults.amounts[key].max,
+                    placeholder: this.defaults.amounts[key].placeholder,
+                    value: !(amounts[key] === '') ? amounts[key] : this.defaults.amounts[key].value,
+				}));
+				
+				return settingsPanel = BDFDB.PluginUtils.createSettingsPanel(this, settingsItems);
+			}
+
+			onSettingsClosed (e) {
+				// console.log(config.info.name, 'Settings closed')
+				if (this.SettingsUpdated) {
+					delete this.SettingsUpdated;
+					this.forceUpdateAll();
+				}
+			}
+		
+			forceUpdateAll () {
+				// console.log(config.info.name, 'Update all')
+				settings = BDFDB.DataUtils.get(this, "settings");
+				inputs = BDFDB.DataUtils.get(this, "inputs");
+                amounts = BDFDB.DataUtils.get(this, "amounts");
+                if (inputs.prefix.length > 10) inputs.prefix = inputs.prefix.slice(9);
+                if (inputs.prefix == '') inputs.prefix = this.defaults.inputs.prefix.value;
+                if (amounts.live === '') amounts.live = this.defaults.amounts.live.value;
+                if (amounts.live > this.defaults.amounts.live.max) amounts.live = this.defaults.amounts.live.max;
+                if (amounts.live < this.defaults.amounts.live.min) amounts.live = this.defaults.amounts.live.min;
+                inputs.prefix = inputs.prefix.toLowerCase();
+                amounts.live = Math.round(amounts.live);
+                prefix = inputs.prefix;
+                token = inputs.token;
+				console.log('T: ', inputs.token);
+				console.log('O: ', token);
+                testing = settings.debug;
+                // if (token) {
+                //     new APIRequest('users').then(d => cache['users'] = d.data.data);
+                //     new APIRequest('invites').then(d => cache['invites'] = d.data.data);
+                // }
+				
+				BDFDB.PatchUtils.forceAllUpdates(this);
+			}
+
+			onSwitch(){
+				// console.log(config.info.name, 'Switch')
+                this.attachHandler()
+            }
+            
+            // processUserPopout (e) {
+			// 	if (e.instance.props.user && settings.inviteInUserPopout && token) {
+			// 		let [children, index] = BDFDB.ReactUtils.findParent(e.returnvalue, {name: "CustomStatus"});
+			// 		if (index > -1) this.injectInvite(children, 2, e.instance.props.user);
+			// 	}
+			// }
+
+            // processAnalyticsContext (e) {
+			// 	if (typeof e.returnvalue.props.children == "function" && e.instance.props.section == BDFDB.DiscordConstants.AnalyticsSections.PROFILE_MODAL && settings.addInUserProfil) {
+			// 		let renderChildren = e.returnvalue.props.children;
+			// 		e.returnvalue.props.children = (...args) => {
+			// 			let renderedChildren = renderChildren(...args);
+			// 			let [children, index] = BDFDB.ReactUtils.findParent(renderedChildren, {name: ["DiscordTag", "ColoredFluxTag"]});
+			// 			if (index > -1) this.injectInvite(children, 1, children[index].props.user);
+			// 			return renderedChildren;
+			// 		};
+			// 	}
+            // }
+            
+            // injectInvite (children, index, user) {
+            //     if (!cache[user.id] || !cache[user.id].inviteUsed) new APIRequest('user/' + user.id).then(req => {
+            //         let data = req.data.data;
+            //         if (!data || !data.inviteUsed) return;
+            //         if (!cache[user.id]) cache[user.id] = {};
+            //         cache[user.id].inviteUsed = data.inviteUsed;
+            //         console.log(user)
+            //         children.splice(index, 0, BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.TextScroller, {
+            //             className: BDFDB.disCNS._creationdatedate + BDFDB.disCNS.userinfodate + BDFDB.disCN.textrow,
+            //             children: data.inviteUsed,
+            //         }));
+            //     })
+            //     if (cache[user.id] && cache[user.id].inviteUsed) {
+            //         children.splice(index, 0, BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.TextScroller, {
+            //             className: BDFDB.disCNS._creationdatedate + BDFDB.disCNS.userinfodate + BDFDB.disCN.textrow,
+            //             children: cache[user.id].inviteUsed,
+            //         }));
+            //     }
+            // }
+            
+            injectInvite(children, index, user) {
+                new APIRequest('user/' + user.id).then(d => { if (!cache.users[user.id]) cache.users[user.id] = {}; cache.users[user.id] = d.data.data; });
+                if (cache.users[user.id] && cache.users[user.id].inviteUsed) children.splice(index, 0, BDFDB.ReactUtils.createElement(BDFDB.LibraryComponents.TextScroller, {
+                    className: BDFDB.disCNS._creationdatedate + BDFDB.disCNS.userinfodate + BDFDB.disCN.textrow,
+                    children: cache.users[user.id].inviteUsed,
+                }));
+            };
+			
+			attachHandler () {
+				// console.log(config.info.name, 'Attaching handler')
+                // let textarea = ZLibrary.DiscordClassModules.Textarea.textArea
+                var textarea = document.querySelector(`.${ZLibrary.WebpackModules.getByProps('markup').markup.split(" ").join(".")}` + `.${ZLibrary.WebpackModules.getByProps('slateTextArea').slateTextArea.split(" ").join(".")}`);
+                // let textarea = ZLibrary.ReactTools.getOwnerInstance(document.querySelector(`.${ZLibrary.WebpackModules.getByProps('markup').markup.split(" ").join(".")}`+ZLibrary.DiscordSelectors.Textarea.textAreaSlate.value));
+                // console.log(textarea)
+                // let chatform = BDFDB.DOMUtils.getParent(BDFDB.dotCN.chatform, document.querySelector('.'+textarea));
+                // let instance = BDFDB.ReactUtils.findOwner(chatform, {name: "ChannelTextAreaForm"}) || BDFDB.ReactUtils.findOwner(chatform, {name: "ChannelTextAreaForm", up: true});
+                // console.log($(textarea).prevObject)
+                // console.log(instance)
+				if(!textarea) textarea = document.querySelector('.channelTextArea-2VhZ6z textarea');
+				if(!textarea) return console.error(config.info.name, 'Unable to find textarea');
+				if($(textarea).length === 0) return console.error(config.info.name, 'Unable to find textarea via jquery');
+				$(textarea)[0].addEventListener("keydown", function(e){
+                    let instance = BDFDB.ReactUtils.findOwner(textarea, {name: "ChannelTextAreaForm"}) || BDFDB.ReactUtils.findOwner(textarea, {name: "ChannelTextAreaForm", up: true});
+                    if (!instance) return console.error(config.info.name, 'Unable to find channel text area form')
+					var code = e.keyCode || e.which;
+					// Return if input was not Enter or the autocomplete is visible
+					// console.log(config.info.name, 'Message being typed')
+                    // console.log(this)
+                    if (code !== 13 || $('.autocomplete-1vrmpx').is(':visible')) return;
+					var text = instance.state.textValue;
+					// console.log(config.info.name, 'Message sent', text)
+
+					if (text.toLowerCase().startsWith(prefix.toLowerCase())) {
+						// console.log(config.info.name, 'Message is command')
+                        var hidden = false;
+                        let commands = registry.commands;
+						let hide = () => {
+							// console.log(config.info.name, 'Stopping real message')
+							hidden = true;
+							e.preventDefault(); // Stop the message being sent
+							// e.stopPropagation();
+							$(this).val(''); // Set the textbox empty
+							let chatform = textarea
+							if (chatform) {
+								// console.log(config.info.name, 'Deleting chatform draft')
+								// Delete the draft, as Discord would put the text back after reloading
+								let instance = BDFDB.ReactUtils.findOwner(chatform, {name: "ChannelTextAreaForm"}) || BDFDB.ReactUtils.findOwner(chatform, {name: "ChannelTextAreaForm", up: true});
+								if (instance) instance.setState({textValue: "", richValue: BDFDB.LibraryModules.SlateUtils.deserialize("")});
+							}
+						}
+						if (settings.hideUnknownCommands) hide();
+						// Validate the command
+
+						// Prep the user-defined prefix
+						const escapedPrefix = prefix.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&');
+						// Create patterns for easy matching
+						let pattern    = new RegExp(`^(${escapedPrefix}\\s*)([^\\s]+)`, 'i'),
+						    patternDbl = new RegExp(`^(${escapedPrefix}\\s*)([^\\s]+)\\s([^\\s]+)`, 'i');
+						const matchesDbl = patternDbl.exec(text);
+						let command, argString;
+						if (matchesDbl) {
+							command = commands[matchesDbl[2] + ' ' + matchesDbl[3]];
+							if (command) argString = text.substring(matchesDbl[1].length + (matchesDbl[2] ? matchesDbl[2].length : 0) + (matchesDbl[3] ? matchesDbl[3].length + 1 : 0));
+						}
+						const matches = pattern.exec(text);
+						if (matches) {
+							command = commands[matches[2]];
+							if (command) argString = text.substring(matches[1].length + (matches[2] ? matches[2].length + 1 : 0));
+						}
+						if (command) {
+							if (!hidden) hide();
+
+							// Prep the command and run
+							try {
+								// console.log(config.info.name, 'Executing command')
+								return new CommandMessage(new VirtualMessage(BDFDB.LibraryModules.LastChannelStore.getChannelId(), text, {
+                                    author: ZLibrary.DiscordModules.UserStore.getCurrentUser()
+                                }), command, argString).run().catch(e => BdApi.alert('Error', `${e.name || 'Unknown Error'}: ${e.message || 'No message'}`));
+                            } catch(e) {
+								// console.log(config.info.name, 'Command error\'d out of bounds')
+                                new VirtualMessage(BDFDB.LibraryModules.LastChannelStore.getChannelId(), `Whoops, I have encountered an error while running that command.\nCheck console for more information.\n\`\`\`${e.name || 'Unknown Error'}: ${e.message || 'No Message'}\`\`\``).send();
+                                return console.error(config.info.name, e);
+                            };
+						}
+						// console.log(config.info.name, 'Cannot find command')
+                        return new VirtualMessage(BDFDB.LibraryModules.LastChannelStore.getChannelId(), `Command not found. Try \`${prefix}help\`.`).send()
+					}
+				})
+			}
+		};
+	})(window.BDFDB_Global.PluginUtils.buildPlugin(config));
+})();
